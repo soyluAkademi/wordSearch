@@ -20,11 +20,24 @@ public class RadialLayout : MonoBehaviour
 
     public void ArrangeElements()
     {
-        rotateBtn.localScale = Vector3.zero;
-        rotateBtn.GetComponent<CanvasGroup>().alpha = 0f;
-        
-        
-        int childCount = transform.childCount;
+        if (rotateBtn != null)
+        {
+            rotateBtn.localScale = Vector3.zero;
+            CanvasGroup btnCg = rotateBtn.GetComponent<CanvasGroup>();
+            if (btnCg != null) btnCg.alpha = 0f;
+        }
+
+        List<Transform> activeChildren = new List<Transform>();
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            Transform child = transform.GetChild(i);
+            if (child != rotateBtn && child.gameObject.activeSelf)
+            {
+                activeChildren.Add(child);
+            }
+        }
+
+        int childCount = activeChildren.Count;
         if (childCount == 0) return;
 
         float angleStep = 360f / childCount;
@@ -34,8 +47,8 @@ public class RadialLayout : MonoBehaviour
         {
             float angle = (i * angleStep) * Mathf.Deg2Rad;
             Vector3 newPos = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0) * radius;
-            
-            RectTransform child = transform.GetChild(i) as RectTransform;
+
+            RectTransform child = activeChildren[i] as RectTransform;
             if (child != null)
             {
                 child.localPosition = newPos;
@@ -50,14 +63,13 @@ public class RadialLayout : MonoBehaviour
         }
 
         // Animasyonu Başlat
-        StartCoroutine(AnimateRoutine(childCount));
+        StartCoroutine(AnimateRoutine(activeChildren));
     }
 
-    private IEnumerator AnimateRoutine(int count)
+    private IEnumerator AnimateRoutine(List<Transform> targets)
     {
-        for (int i = 0; i < count; i++)
+        foreach (var child in targets)
         {
-            Transform child = transform.GetChild(i);
             if (child == null) continue;
 
             // Scale Animasyonu
@@ -72,8 +84,13 @@ public class RadialLayout : MonoBehaviour
 
             yield return new WaitForSeconds(animationDelay);
         }
-        rotateBtn.DOScale(Vector3.one, animationDuration).SetEase(Ease.OutBack);
-        rotateBtn.GetComponent<CanvasGroup>().DOFade(1f, animationDuration);
+        
+        if (rotateBtn != null)
+        {
+            rotateBtn.DOScale(Vector3.one, animationDuration).SetEase(Ease.OutBack);
+            CanvasGroup btnCg = rotateBtn.GetComponent<CanvasGroup>();
+            if (btnCg != null) btnCg.DOFade(1f, animationDuration);
+        }
     }
 
     private bool isShuffling = false;

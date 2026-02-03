@@ -21,6 +21,8 @@ public class WordManager : MonoBehaviour
     
     [SerializeField] private GameObject lineWordPrefab;
     [SerializeField] private Transform lineWordPanel;
+    
+    [SerializeField] private LetterBoxesManager letterBoxesManager;
 
     private Coroutine _creationCoroutine; // Aktif coroutine'i takip etmek için
     
@@ -105,6 +107,15 @@ public class WordManager : MonoBehaviour
         currentQuestion = GetCurrentQuestion();
         currentAnswer = GetCurrentAnswer();
        
+        if (string.IsNullOrEmpty(currentAnswer))
+        {
+             Debug.LogError("WordManager: Current Answer is EMPTY! Check Inspector for WordDatas or ensure _wordDatas is not empty.");
+        }
+        else
+        {
+             Debug.Log($"WordManager: Current Answer loaded: '{currentAnswer}' (Length: {currentAnswer.Length})");
+        }
+
         SetQuestionText(); // Soruyu ekrana yazdır
         SpawnLetters();
         
@@ -144,6 +155,11 @@ public class WordManager : MonoBehaviour
                 }
                 Destroy(child.gameObject);
             }
+        }
+        
+        if (letterBoxesManager != null)
+        {
+            letterBoxesManager.ClearBoxes();
         }
     }
 
@@ -205,6 +221,21 @@ public class WordManager : MonoBehaviour
             {
                 textComp.text = letter.ToString();
             }
+        }
+        
+        if (letterBoxesManager == null)
+        {
+            letterBoxesManager = FindAnyObjectByType<LetterBoxesManager>();
+        }
+
+        if (letterBoxesManager != null)
+        {
+            Debug.Log($"WordManager: Requesting {currentAnswer.Length} boxes from LetterBoxesManager.");
+            letterBoxesManager.CreateBoxes(currentAnswer.Length);
+        }
+        else
+        {
+            Debug.LogError("WordManager: LetterBoxesManager reference is missing and could not be found!");
         }
     }
 

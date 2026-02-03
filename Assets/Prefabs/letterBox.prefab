@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u011E"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 54cf556a6a56c824085cf4b77f5f544a, type: 2}
   m_sharedMaterial: {fileID: -8255554876050237848, guid: 54cf556a6a56c824085cf4b77f5f544a, type: 2}
@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 1562903748489239813}
   - component: {fileID: 4335768235210760871}
   - component: {fileID: 7056241128704778022}
+  - component: {fileID: 3115024929301639650}
   m_Layer: 5
   m_Name: letterBox
   m_TagString: Untagged
@@ -213,3 +214,15 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!225 &3115024929301639650
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5253944747142140954}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
