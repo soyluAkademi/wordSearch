@@ -1304,7 +1304,7 @@ GameObject:
   - component: {fileID: 1087824359}
   - component: {fileID: 1087824358}
   m_Layer: 5
-  m_Name: upLettersHolder
+  m_Name: hintLettersHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1570,8 +1570,8 @@ MonoBehaviour:
   animationDuration: 0.3
   letterPrefab: {fileID: 2241930491430538151, guid: 4cff9d22be15ac94a872cec3447b00e0, type: 3}
   letterParent: {fileID: 990256662}
-  lineWordPrefab: {fileID: 9141838401787733408, guid: fa47ec1303b24004ca87a003ffb49eb0, type: 3}
-  lineWordPanel: {fileID: 1087824357}
+  hintLetterPrefab: {fileID: 9141838401787733408, guid: fa47ec1303b24004ca87a003ffb49eb0, type: 3}
+  hintLettersHolder: {fileID: 1087824357}
   questionTxt: {fileID: 989660713}
   moveDuration: 0.2
 --- !u!4 &2081545974

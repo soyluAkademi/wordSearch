@@ -19,8 +19,8 @@ public class WordManager : MonoBehaviour
     [SerializeField] private GameObject letterPrefab;
     [SerializeField] private Transform letterParent;
     
-    [SerializeField] private GameObject lineWordPrefab;
-    [SerializeField] private Transform lineWordPanel;
+    [SerializeField] private GameObject hintLetterPrefab;
+    [SerializeField] private Transform hintLettersHolder;
     
    private LetterBoxesManager letterBoxesManager;
 
@@ -41,7 +41,7 @@ public class WordManager : MonoBehaviour
 
     private void Start()
     {
-        if (lineWordPanel != null) _initialPanelPos = lineWordPanel.localPosition;
+        if (hintLettersHolder != null) _initialPanelPos = hintLettersHolder.localPosition;
         StartCoroutine(InitLevel());
     }
 
@@ -49,14 +49,14 @@ public class WordManager : MonoBehaviour
 
     public void ShakeAndClear()
     {
-        if (lineWordPanel != null)
+        if (hintLettersHolder != null)
         {
             // Eski tween varsa durdur
-            lineWordPanel.DOKill();
-            lineWordPanel.localPosition = _initialPanelPos;
+            hintLettersHolder.DOKill();
+            hintLettersHolder.localPosition = _initialPanelPos;
 
             // Titretme
-            lineWordPanel.DOShakePosition(0.5f, 30f, 20, 90, false, true)
+            hintLettersHolder.DOShakePosition(0.5f, 30f, 20, 90, false, true)
                 .OnComplete(() =>
                 {
                     ClearLineWords();
@@ -71,10 +71,10 @@ public class WordManager : MonoBehaviour
     public void ClearLineWords()
     {
         // Panelde bir animasyon varsa durdur ve resetle
-        if (lineWordPanel != null)
+        if (hintLettersHolder != null)
         {
-            lineWordPanel.DOKill();
-            lineWordPanel.localPosition = _initialPanelPos;
+            hintLettersHolder.DOKill();
+            hintLettersHolder.localPosition = _initialPanelPos;
         }
 
         foreach (var obj in activeLineWords)
@@ -84,9 +84,9 @@ public class WordManager : MonoBehaviour
         activeLineWords.Clear();
 
         // Panelde kalan (manuel temizlik gerektiren) varsa temizle - opsiyonel
-        if (lineWordPanel != null)
+        if (hintLettersHolder != null)
         {
-            foreach (Transform child in lineWordPanel)
+            foreach (Transform child in hintLettersHolder)
             {
                 if (child.gameObject != null) Destroy(child.gameObject);
             }
@@ -144,9 +144,9 @@ public class WordManager : MonoBehaviour
         }
 
         // Line kelime kutularını temizle
-        if (lineWordPanel != null)
+        if (hintLettersHolder != null)
         {
-            foreach (Transform child in lineWordPanel)
+            foreach (Transform child in hintLettersHolder)
             {
                 // Recursive olarak tüm alt objelerdeki tweenleri öldür
                 foreach(var t in child.GetComponentsInChildren<Transform>())
@@ -263,10 +263,10 @@ public class WordManager : MonoBehaviour
 
     public void AddLetter(string letter)
     {
-        if (lineWordPrefab == null || lineWordPanel == null) return;
+        if (hintLetterPrefab == null || hintLettersHolder == null) return;
 
         // Prefab'ı oluştur
-        GameObject lineWordObj = Instantiate(lineWordPrefab, lineWordPanel);
+        GameObject lineWordObj = Instantiate(hintLetterPrefab, hintLettersHolder);
         
         // Text bileşenini bul ve yaz
         Transform txtTrans = lineWordObj.transform.Find("lineLetterTxt");

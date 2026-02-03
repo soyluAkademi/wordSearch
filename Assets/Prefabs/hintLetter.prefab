@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 7972706028770597931}
   - component: {fileID: 6593843516992360267}
   m_Layer: 5
-  m_Name: lineWord
+  m_Name: hintLetter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
