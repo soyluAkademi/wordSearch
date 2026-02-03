@@ -109,11 +109,11 @@ public class WordManager : MonoBehaviour
        
         if (string.IsNullOrEmpty(currentAnswer))
         {
-             Debug.LogError("WordManager: Current Answer is EMPTY! Check Inspector for WordDatas or ensure _wordDatas is not empty.");
+             // Cevap boş ise inspector kontrol edilmeli
         }
         else
         {
-             Debug.Log($"WordManager: Current Answer loaded: '{currentAnswer}' (Length: {currentAnswer.Length})");
+             // Cevap başarıyla yüklendi
         }
 
         SetQuestionText(); // Soruyu ekrana yazdır
@@ -230,12 +230,12 @@ public class WordManager : MonoBehaviour
 
         if (letterBoxesManager != null)
         {
-            Debug.Log($"WordManager: Requesting {currentAnswer.Length} boxes from LetterBoxesManager.");
+            // Kutuları oluştur
             letterBoxesManager.CreateBoxes(currentAnswer.Length);
         }
         else
         {
-            Debug.LogError("WordManager: LetterBoxesManager reference is missing and could not be found!");
+            // LetterBoxesManager bulunamazsa manuel atama gerektirir
         }
     }
 
@@ -303,6 +303,61 @@ public class WordManager : MonoBehaviour
             
             activeLineWords.RemoveAt(activeLineWords.Count - 1);
         }
+    }
+
+    [SerializeField] private float moveDuration = 0.5f;
+
+    public void MoveLettersToBoxes(System.Action onComplete = null)
+    {
+        if (letterBoxesManager == null || letterBoxesManager.ActiveBoxes.Count == 0)
+        {
+            return;
+        }
+
+        if (activeLineWords.Count != letterBoxesManager.ActiveBoxes.Count)
+        {
+            // Seçilen harf sayısı ile hedef kutu sayısı uyuşmuyor olabilir.
+            // Bu durumda güvenli işlem yapılır.
+        }
+
+        int count = Mathf.Min(activeLineWords.Count, letterBoxesManager.ActiveBoxes.Count);
+        
+        // DOTween Sequence oluşturuyoruz
+        Sequence seq = DOTween.Sequence();
+
+        for (int i = 0; i < count; i++)
+        {
+            // Hareket edecek harf (bizim paneldeki)
+            GameObject letterObj = activeLineWords[i];
+            
+            // Hedef kutu
+            GameObject targetBox = letterBoxesManager.ActiveBoxes[i];
+
+            // Önemli: Harfi panelden çıkarıp ana canvas veya dünya pozisyonunda serbest hareket etmesini sağlayabiliriz
+            // ya da direkt dünya pozisyonuna git diyebiliriz. DOMove dünya pozisyonu kullanır, bu güvenlidir.
+            
+            // Animasyon: Hedefe git
+            // Join ile hepsi hafif gecikmeli başlasın diye delay ekliyoruz
+            // Animasyon: Hedefe git
+            // Join ile hepsi hafif gecikmeli başlasın diye delay ekliyoruz
+            float delay = i * 0.1f;
+            
+            // 1. Hareket: Hedefe git
+            seq.Insert(delay, letterObj.transform.DOMove(targetBox.transform.position, moveDuration).SetEase(Ease.OutQuad));
+            
+            // 2. Büyüme: Giderken 1.5 katına ulaşsın
+            seq.Insert(delay, letterObj.transform.DOScale(Vector3.one * 1.5f, moveDuration).SetEase(Ease.OutQuad));
+
+            // 3. Varış: Normale (1.0) geri dön (Hızlıca)
+            float arriveTime = delay + moveDuration;
+            seq.Insert(arriveTime, letterObj.transform.DOScale(Vector3.one, 0.2f).SetEase(Ease.OutBack));
+        }
+
+        seq.OnComplete(() =>
+        {
+            // Animasyon tamamlandı
+            onComplete?.Invoke();
+        });
     }
 
 

@@ -9,10 +9,10 @@ public class LetterBoxesManager : MonoBehaviour
     [SerializeField] private Transform container; 
 
     private List<GameObject> activeBoxes = new List<GameObject>();
+    public List<GameObject> ActiveBoxes => activeBoxes;
 
     public void CreateBoxes(int count)
     {
-        Debug.Log($"LetterBoxesManager: CreateBoxes requested with count: {count}");
         ClearBoxes();
         StartCoroutine(SpawnBoxesRoutine(count));
     }
@@ -34,17 +34,16 @@ public class LetterBoxesManager : MonoBehaviour
     {
         if (container == null)
         {
-            container = transform;
-            Debug.LogWarning("LetterBoxesManager: Container was null, using transform as fallback.");
+            container = transform; // Container boşsa kendisini kullan
         }
 
         if (letterBoxPrefab == null)
         {
-            Debug.LogError("LetterBoxesManager: letterBoxPrefab is NULL! Please assign it in Inspector.");
+            // Prefab atanmamış, işlem iptal
             yield break;
         }
 
-        Debug.Log($"LetterBoxesManager: Starting spawn of {count} boxes.");
+        // Kutu oluşturma işlemini başlat
 
         // 1. Önce hepsini oluştur ve görünmez yap (Layout düzgün hesaplansın diye)
         for (int i = 0; i < count; i++)

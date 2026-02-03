@@ -366,8 +366,8 @@ RectTransform:
   m_Children:
   - {fileID: 261331908}
   - {fileID: 828211102}
-  - {fileID: 943948792}
   - {fileID: 745440734}
+  - {fileID: 943948792}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1573,6 +1573,7 @@ MonoBehaviour:
   lineWordPrefab: {fileID: 9141838401787733408, guid: fa47ec1303b24004ca87a003ffb49eb0, type: 3}
   lineWordPanel: {fileID: 1087824357}
   questionTxt: {fileID: 989660713}
+  moveDuration: 0.2
 --- !u!4 &2081545974
 Transform:
   m_ObjectHideFlags: 0

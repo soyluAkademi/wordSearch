@@ -21,24 +21,22 @@ public class ControlManager : MonoBehaviour
         // Genelde veriler büyük harf tutulur.
         if (string.Equals(createdWord, targetWord, System.StringComparison.OrdinalIgnoreCase))
         {
-            Debug.Log("DOĞRU KELİME!");
-            
             // Doğru cevap işlemler
-            // Doğru cevap işlemler
-            // 1. Seçimleri sıfırla (çizgileri sil) - ŞİMDİLİK İPTAL
-            // _wordConnectManager.ResetSelection();
             
-            // 2. Yeni Soruya Geç - ŞİMDİLİK İPTAL
-            // _wordManager.NextQuestion();
+            // 1. Çizgileri sil ama YAZILARI SİLME. Animasyonun çalışması için harflerin kalması gerekir.
+            _wordConnectManager.ResetSelection(false, false); 
 
-            // TODO: Buraya animasyon vb. eklenecek.
+            // 2. Harfleri Kutulara Taşı
+            _wordManager.MoveLettersToBoxes(() => 
+            {
+               // Animasyon bittiğinde yapılacaklar buraya eklenebilir.
+               // Örn: Yeni soruya geçiş.
+            });
         }
         else
         {
-            Debug.Log("YANLIŞ KELİME!");
-            
             // Yanlış cevap işlemleri
-            // Sadece resetle
+            // Sadece resetle (True = Shake efekti ile, Default ClearText = true ile yazıları sil)
             _wordConnectManager.ResetSelection(true);
         }
     }

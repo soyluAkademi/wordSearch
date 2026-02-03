@@ -156,8 +156,6 @@ public class WordConnectManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Kelime Adayı Tamamlandı: Uzunluk " + m_selectedButtons.Count);
-            
             // Kelimeyi birleştir
             string createdWord = "";
             foreach (var btn in m_selectedButtons)
@@ -293,7 +291,7 @@ public class WordConnectManager : MonoBehaviour
         line.sizeDelta = new Vector2(distance, line.sizeDelta.y);
     }
 
-    public void ResetSelection(bool shake = false)
+    public void ResetSelection(bool shake = false, bool clearText = true)
     {
         foreach (var btn in m_selectedButtons)
         {
@@ -318,7 +316,7 @@ public class WordConnectManager : MonoBehaviour
         {
             if (shake)
                 _wordManager.ShakeAndClear();
-            else
+            else if (clearText) // Sadece clearText true ise yazıları sil
                 _wordManager.ClearLineWords();
         }
     }
