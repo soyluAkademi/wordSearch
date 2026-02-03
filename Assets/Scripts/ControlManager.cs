@@ -24,12 +24,14 @@ public class ControlManager : MonoBehaviour
             Debug.Log("DOĞRU KELİME!");
             
             // Doğru cevap işlemler
-            // 1. Seçimleri sıfırla (çizgileri sil)
-            _wordConnectManager.ResetSelection();
+            // Doğru cevap işlemler
+            // 1. Seçimleri sıfırla (çizgileri sil) - ŞİMDİLİK İPTAL
+            // _wordConnectManager.ResetSelection();
             
-            // 2. Yeni Soruya Geç
-            // Biraz gecikme eklemek güzel olabilir ama şimdilik doğrudan geçiyoruz.
-            _wordManager.NextQuestion();
+            // 2. Yeni Soruya Geç - ŞİMDİLİK İPTAL
+            // _wordManager.NextQuestion();
+
+            // TODO: Buraya animasyon vb. eklenecek.
         }
         else
         {

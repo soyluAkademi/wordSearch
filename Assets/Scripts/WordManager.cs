@@ -22,7 +22,7 @@ public class WordManager : MonoBehaviour
     [SerializeField] private GameObject lineWordPrefab;
     [SerializeField] private Transform lineWordPanel;
     
-    [SerializeField] private LetterBoxesManager letterBoxesManager;
+   private LetterBoxesManager letterBoxesManager;
 
     private Coroutine _creationCoroutine; // Aktif coroutine'i takip etmek için
     
