@@ -1552,12 +1552,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WordManager
   _wordDatas:
+  - questionData: "Yeni \xC7a\u011F Avrupa's\u0131nda bilim, sanat ve edebiyat alan\u0131nda
+      ya\u015Fanan \"yeniden do\u011Fu\u015F\" d\xF6nemine verilen ad"
+    answerData: TEST
   - questionData: "Osmanl\u0131 Devleti'nde ordu komutanlar\u0131na ve y\xFCksek
       r\xFCtbeli devlet adamlar\u0131na verilen ad"
     answerData: "BEYLERBEY\u0130"
-  - questionData: "Yeni \xC7a\u011F Avrupa's\u0131nda bilim, sanat ve edebiyat alan\u0131nda
-      ya\u015Fanan \"yeniden do\u011Fu\u015F\" d\xF6nemine verilen ad"
-    answerData: DENEME
   - questionData: "Osmanl\u0131 Devleti'nde padi\u015Fah\u0131n mutlak vekili say\u0131lan,
       devletin en \xFCst d\xFCzey y\xF6neticisine verilen ad"
     answerData: SADRAZAM
@@ -1572,7 +1572,6 @@ MonoBehaviour:
   letterParent: {fileID: 990256662}
   lineWordPrefab: {fileID: 9141838401787733408, guid: fa47ec1303b24004ca87a003ffb49eb0, type: 3}
   lineWordPanel: {fileID: 1087824357}
-  letterBoxesManager: {fileID: 0}
   questionTxt: {fileID: 989660713}
 --- !u!4 &2081545974
 Transform:
