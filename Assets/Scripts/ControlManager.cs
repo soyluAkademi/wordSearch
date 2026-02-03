@@ -24,6 +24,7 @@ public class ControlManager : MonoBehaviour
             // Doğru cevap işlemler
             
             // 1. Çizgileri sil ama YAZILARI SİLME. Animasyonun çalışması için harflerin kalması gerekir.
+            _wordConnectManager.IsInteractable = false;
             _wordConnectManager.ResetSelection(false, false); 
 
             // 2. Harfleri Kutulara Taşı

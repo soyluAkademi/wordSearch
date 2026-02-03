@@ -11,6 +11,7 @@ public class WordConnectManager : MonoBehaviour
     private List<WordButton> m_buttons = new List<WordButton>();
     private List<WordButton> m_selectedButtons = new List<WordButton>();
     private bool isDragging = false;
+    public bool IsInteractable = true;
 
     [SerializeField] Button rotateBtn;
     
@@ -103,6 +104,8 @@ public class WordConnectManager : MonoBehaviour
 
     public void OnButtonDown(WordButton btn)
     {
+        if (!IsInteractable) return;
+
         isDragging = true;
         ResetSelection(); // Her yeni başlangıçta temizle
         AddButton(btn);
@@ -113,6 +116,8 @@ public class WordConnectManager : MonoBehaviour
 
     public void OnButtonEnter(WordButton btn)
     {
+        if (!IsInteractable) return;
+
         if (isDragging)
         {
             AddButton(btn);
@@ -121,6 +126,8 @@ public class WordConnectManager : MonoBehaviour
 
     public void OnButtonUp(PointerEventData eventData)
     {
+        if (!IsInteractable) return;
+
         isDragging = false;
 
         // Takip çizgisini hemen yok et

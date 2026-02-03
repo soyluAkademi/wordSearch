@@ -627,6 +627,7 @@ RectTransform:
   m_Children:
   - {fileID: 70093330}
   - {fileID: 1123092794}
+  - {fileID: 1596210616}
   m_Father: {fileID: 445610128}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -1209,6 +1210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cb42044aecfe8745838b678d04e25f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WordConnectManager
+  IsInteractable: 1
   rotateBtn: {fileID: 787017247}
   linePrefab: {fileID: 1696531909230980671, guid: 1d51e70a49a9c024e8043f1af26cb2bf, type: 3}
   maxRadius: 350
@@ -1522,6 +1524,94 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1596210612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1596210616}
+  - component: {fileID: 1596210615}
+  - component: {fileID: 1596210613}
+  - component: {fileID: 1596210614}
+  m_Layer: 5
+  m_Name: trueIconImg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1596210613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596210612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4071114a78a3bdd449a89b4208364014, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!225 &1596210614
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596210612}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
+--- !u!222 &1596210615
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596210612}
+  m_CullTransparentMesh: 1
+--- !u!224 &1596210616
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596210612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 745440734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -373}
+  m_SizeDelta: {x: 175, y: 134}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2081545972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,7 +1644,7 @@ MonoBehaviour:
   _wordDatas:
   - questionData: "Yeni \xC7a\u011F Avrupa's\u0131nda bilim, sanat ve edebiyat alan\u0131nda
       ya\u015Fanan \"yeniden do\u011Fu\u015F\" d\xF6nemine verilen ad"
-    answerData: TEST
+    answerData: DENEME
   - questionData: "Osmanl\u0131 Devleti'nde ordu komutanlar\u0131na ve y\xFCksek
       r\xFCtbeli devlet adamlar\u0131na verilen ad"
     answerData: "BEYLERBEY\u0130"
@@ -1574,6 +1664,8 @@ MonoBehaviour:
   hintLettersHolder: {fileID: 1087824357}
   questionTxt: {fileID: 989660713}
   moveDuration: 0.2
+  greenSprite: {fileID: 21300000, guid: e07e68760e034ec41ba49946f1be8f7a, type: 3}
+  trueIconImg: {fileID: 1596210613}
 --- !u!4 &2081545974
 Transform:
   m_ObjectHideFlags: 0

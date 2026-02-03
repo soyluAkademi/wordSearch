@@ -3,6 +3,7 @@ using TMPro;
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class WordManager : MonoBehaviour
 {
@@ -98,6 +99,9 @@ public class WordManager : MonoBehaviour
         // Eğer önceki oluşturma işlemi hala devam ediyorsa durdur
         if (_creationCoroutine != null) StopCoroutine(_creationCoroutine);
 
+        // Girişleri önce açalım ki sıkıntı olmasın (veya level yüklenince açabiliriz)
+        if (_wordConnectManager != null) _wordConnectManager.IsInteractable = true;
+
         // Temizlik işlemleri
         ClearLevel();
         
@@ -160,6 +164,12 @@ public class WordManager : MonoBehaviour
         if (letterBoxesManager != null)
         {
             letterBoxesManager.ClearBoxes();
+        }
+
+        if (trueIconImg != null)
+        {
+            trueIconImg.transform.localScale = Vector3.zero;
+            trueIconImg.GetComponent<CanvasGroup>().alpha = 0f;
         }
     }
 
@@ -306,6 +316,8 @@ public class WordManager : MonoBehaviour
     }
 
     [SerializeField] private float moveDuration = 0.5f;
+    [SerializeField] private Sprite greenSprite;
+    [SerializeField] private Image trueIconImg;
 
     public void MoveLettersToBoxes(System.Action onComplete = null)
     {
@@ -324,6 +336,13 @@ public class WordManager : MonoBehaviour
         
         // DOTween Sequence oluşturuyoruz
         Sequence seq = DOTween.Sequence();
+
+        // --- USER REQ: True Icon Animation ---
+        if (trueIconImg != null)
+        {
+            seq.Insert(0f, trueIconImg.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack));
+            seq.Insert(0f, trueIconImg.GetComponent<CanvasGroup>().DOFade(1f, 0.5f));
+        }
 
         for (int i = 0; i < count; i++)
         {
@@ -351,6 +370,53 @@ public class WordManager : MonoBehaviour
             // 3. Varış: Normale (1.0) geri dön (Hızlıca)
             float arriveTime = delay + moveDuration;
             seq.Insert(arriveTime, letterObj.transform.DOScale(Vector3.one, 0.2f).SetEase(Ease.OutBack));
+
+            // --- USER REQ: TargetBox Animation ---
+            // "tam yerleşmeden önce" -> arriveTime civarı
+            // Scale up -> back to 1
+            // Sprite change
+            // Alpha change
+            
+            float boxEffectTime = arriveTime - 0.15f; // Biraz önce baslasin
+
+            // Scale Effect (1.0 -> 1.5 -> 1.0)
+            seq.Insert(boxEffectTime, targetBox.transform.DOScale(Vector3.one * 2f, 0.15f).SetEase(Ease.OutQuad));
+            seq.Insert(boxEffectTime + 0.15f, targetBox.transform.DOScale(Vector3.one, 0.15f).SetEase(Ease.OutBack));
+
+            // Alpha & Sprite Effect
+            CanvasGroup boxCG = targetBox.GetComponent<CanvasGroup>();
+            Image boxImage = targetBox.GetComponent<Image>();
+
+            if (boxCG != null)
+            {
+                // Fade out yarım (büyürken silikleşsin)
+                seq.Insert(boxEffectTime, boxCG.DOFade(0.3f, 0.15f));
+                
+                // Sprite Swap (tam 1.5 olduğunda, geri dönerken)
+                seq.InsertCallback(boxEffectTime + 0.15f, () => 
+                {
+                    if (boxImage != null && greenSprite != null)
+                    {
+                        boxImage.sprite = greenSprite;
+                    }
+                });
+
+                // Fade back in (küçülürken netleşsin)
+                seq.Insert(boxEffectTime + 0.15f, boxCG.DOFade(1f, 0.15f));
+            }
+
+            // --- USER REQ: Text Color Animation ---
+            // Yerleşirken harf rengi beyaza dönsün
+            Transform textTrans = letterObj.transform.Find("lineLetterTxt");
+            if (textTrans != null)
+            {
+                TextMeshProUGUI txtParams = textTrans.GetComponent<TextMeshProUGUI>();
+                if (txtParams != null)
+                {
+                    // Kutu efektiyle eş zamanlı renk değişimi
+                    seq.Insert(boxEffectTime, txtParams.DOColor(Color.white, 0.3f));
+                }
+            }
         }
 
         seq.OnComplete(() =>
@@ -360,7 +426,7 @@ public class WordManager : MonoBehaviour
         });
     }
 
-
 }
+
 
 
