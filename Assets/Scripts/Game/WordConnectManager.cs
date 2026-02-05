@@ -38,6 +38,7 @@ public class WordConnectManager : MonoBehaviour
     {
         _wordLength = length;
         CreateButtons();
+        if (rotateBtn != null) rotateBtn.interactable = true;
     }
     
     // ... (CreateButtons, OnButtonDown, etc. are unchanged, assume they exist)

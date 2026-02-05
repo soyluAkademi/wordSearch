@@ -26,11 +26,34 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    private static bool isGameJustStarted = true;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // Sahne ismini al
-        currentLevel = SceneManager.GetActiveScene().name;
+        string activeSceneName = SceneManager.GetActiveScene().name;
+
+        // Oyun ilk açıldığında kontrol et
+        if (isGameJustStarted)
+        {
+            isGameJustStarted = false;
+            
+            if (PlayerPrefs.HasKey("LastPlayedLevel"))
+            {
+                string lastLevel = PlayerPrefs.GetString("LastPlayedLevel");
+                // Eğer kayıtlı level şu anki leveldan farklıysa oraya git
+                if (!string.IsNullOrEmpty(lastLevel) && lastLevel != activeSceneName)
+                {
+                    SceneManager.LoadScene(lastLevel);
+                    return; // Bu sahnede daha fazla işlem yapma
+                }
+            }
+        }
+
+        // Mevcut leveli kaydet (Her sahne açılışında güncellenir)
+        currentLevel = activeSceneName;
+        PlayerPrefs.SetString("LastPlayedLevel", currentLevel);
+        PlayerPrefs.Save();
 
         // Sahne açıldığında mevcut level bilgisini yayınla
         if (!string.IsNullOrEmpty(currentLevel))

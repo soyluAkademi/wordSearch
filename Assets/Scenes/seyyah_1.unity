@@ -3186,32 +3186,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WordManager
   _wordDatas:
-  - questionData: "Hititler ile M\u0131s\u0131r aras\u0131nda imzalanan, tarihin
-      ilk yaz\u0131l\u0131 antla\u015Fmas\u0131na verilen ad"
+  - questionData: "Osmanl\u0131 padi\u015Fahlar\u0131n\u0131n \xF6zel imzas\u0131na
+      verilen ad"
+    answerData: "TU\u011ERA"
+  - questionData: "Eski T\xFCrklerde h\xFCk\xFCmdarlara verilen genel ad"
+    answerData: HAKAN
+  - questionData: "Tarihin ilk yaz\u0131l\u0131 antla\u015Fmas\u0131na verilen ad"
     answerData: "KADE\u015E"
-  - questionData: "Yeni \xC7a\u011F Avrupa's\u0131nda bilim, sanat ve edebiyat alan\u0131nda
-      ya\u015Fanan \"yeniden do\u011Fu\u015F\" d\xF6nemine verilen ad Yeni \xC7a\u011F
-      Avrupa's\u0131nda bilim, sanat ve edebiyat alan\u0131nda ya\u015Fanan \"yeniden
-      do\u011Fu\u015F\" d\xF6nemine verilen ad "
-    answerData: dene
-  - questionData: "Osmanl\u0131 Devleti'nde ordu komutanlar\u0131na ve y\xFCksek
-      r\xFCtbeli devlet adamlar\u0131na verilen ad"
-    answerData: "BEYLERBEY\u0130"
-  - questionData: "Osmanl\u0131 Devleti'nde padi\u015Fah\u0131n mutlak vekili say\u0131lan,
-      devletin en \xFCst d\xFCzey y\xF6neticisine verilen ad"
-    answerData: SADRAZAM
-  - questionData: "Orta Asya T\xFCrk devletlerinde, devlet meselelerinin karara ba\u011Fland\u0131\u011F\u0131
-      dan\u0131\u015Fma meclisine verilen ad"
-    answerData: KURULTAY
-  - questionData: "Orta Asya T\xFCrk devletlerinde, devlet meselelerinin karara ba\u011Fland\u0131\u011F\u0131
-      dan\u0131\u015Fma meclisine verilen ad"
-    answerData: KURULTAY
-  - questionData: "Orta Asya T\xFCrk devletlerinde, devlet meselelerinin karara ba\u011Fland\u0131\u011F\u0131
-      dan\u0131\u015Fma meclisine verilen ad"
-    answerData: KURULTAY
-  - questionData: "Orta Asya T\xFCrk devletlerinde, devlet meselelerinin karara ba\u011Fland\u0131\u011F\u0131
-      dan\u0131\u015Fma meclisine verilen ad"
-    answerData: KURULTAY
+  - questionData: "Antik M\u0131s\u0131r h\xFCk\xFCmdarlar\u0131na verilen unvan"
+    answerData: "F\u0130RAVUN"
+  - questionData: "Antik Yunan \u015Fehir devletlerine verilen ad"
+    answerData: "POL\u0130S"
+  - questionData: "Osmanl\u0131 Devleti'nin kurucusu olan beyin ad\u0131"
+    answerData: OSMAN
+  - questionData: "Eski T\xFCrklerde meclis/\u015F\xF6len anlam\u0131na gelen kelime"
+    answerData: TOY
+  - questionData: "Sel\xE7uklu ve Osmanl\u0131'daki an\u0131t mezarlara verilen ad"
+    answerData: "K\xDCMBET"
+  - questionData: "Tarihte paray\u0131 ilk kez kullanan uygarl\u0131\u011Fa verilen
+      ad"
+    answerData: "L\u0130DYA"
+  - questionData: "Osmanl\u0131'da \xFCst d\xFCzey devlet adam\u0131 yeti\u015Ftiren
+      okul"
+    answerData: ENDERUN
   animationDuration: 0.3
   letterPrefab: {fileID: 2241930491430538151, guid: 4cff9d22be15ac94a872cec3447b00e0, type: 3}
   letterParent: {fileID: 990256662}

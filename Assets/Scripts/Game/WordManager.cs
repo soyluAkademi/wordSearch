@@ -43,6 +43,19 @@ public class WordManager : MonoBehaviour
     private void Start()
     {
         if (hintLettersHolder != null) _initialPanelPos = hintLettersHolder.localPosition;
+
+        // Load Question Progress
+        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        string key = sceneName + "_CurrentQuestion";
+        if (PlayerPrefs.HasKey(key))
+        {
+            _currentQuestion = PlayerPrefs.GetInt(key);
+        }
+        else
+        {
+            _currentQuestion = 0;
+        }
+
         StartCoroutine(InitLevel());
     }
 
@@ -180,6 +193,12 @@ public class WordManager : MonoBehaviour
     public void NextQuestion()
     {
         _currentQuestion++;
+        
+        // Save Progress
+        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetInt(sceneName + "_CurrentQuestion", _currentQuestion);
+        PlayerPrefs.Save();
+
         // Döngüsel reset: Eğer sorular biterse başa dön
         // GetCurrentQuestion içinde de kontrol var ama _currentQuestion arttığı için index sınır dışına çıkabilir
         // O yüzden burada kontrol ediyoruz.
