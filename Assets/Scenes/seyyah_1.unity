@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46db0f631ae7fd845966c94dba3504e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RadialLayout
-  radius: 250
+  radius: 265
   animationDelay: 0.1
   animationDuration: 0.4
   rotateBtn: {fileID: 787017246}

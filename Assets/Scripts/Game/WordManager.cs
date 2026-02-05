@@ -423,6 +423,89 @@ public class WordManager : MonoBehaviour
         });
     }
 
+    public void TriggerLevelTransition()
+    {
+        StartCoroutine(TransitionRoutine());
+    }
+
+    private IEnumerator TransitionRoutine()
+    {
+        // --- USER REQ: Önce 2 Saniye Bekle ---
+        yield return new WaitForSeconds(2.0f);
+
+        float elementDelay = 0.1f; // Her eleman arasındaki bekleme
+
+        // İndeksleri al
+        int btnIdx = (letterParent != null) ? letterParent.childCount - 1 : -1;
+        int hintIdx = (hintLettersHolder != null) ? hintLettersHolder.childCount - 1 : -1;
+        int boxIdx = (letterBoxesManager != null && letterBoxesManager.ActiveBoxes != null) ? letterBoxesManager.ActiveBoxes.Count - 1 : -1;
+
+        // Herhangi bir listede eleman kaldığı sürece devam et
+        while (btnIdx >= 0 || hintIdx >= 0 || boxIdx >= 0)
+        {
+            // 1. Buton (Sondan)
+            if (btnIdx >= 0 && letterParent != null)
+            {
+                Transform child = letterParent.GetChild(btnIdx);
+                if (child != null)
+                {
+                    CanvasGroup cg = child.GetComponent<CanvasGroup>();
+                    if (cg == null) cg = child.gameObject.AddComponent<CanvasGroup>();
+                    cg.DOFade(0f, 0.2f);
+                    child.DOScale(Vector3.zero, 0.2f);
+                }
+                btnIdx--;
+            }
+
+            // 2. Hint Letter (Sondan)
+            if (hintIdx >= 0 && hintLettersHolder != null)
+            {
+                Transform child = hintLettersHolder.GetChild(hintIdx);
+                if (child != null)
+                {
+                    CanvasGroup cg = child.GetComponent<CanvasGroup>();
+                    if (cg == null) cg = child.gameObject.AddComponent<CanvasGroup>();
+                    cg.DOFade(0f, 0.2f);
+                    child.DOScale(Vector3.zero, 0.2f);
+                }
+                hintIdx--;
+            }
+
+            // 3. Letter Box (Sondan)
+            if (boxIdx >= 0 && letterBoxesManager != null && letterBoxesManager.ActiveBoxes != null)
+            {
+                if (boxIdx < letterBoxesManager.ActiveBoxes.Count)
+                {
+                    GameObject box = letterBoxesManager.ActiveBoxes[boxIdx];
+                    if (box != null)
+                    {
+                        // Sprite Revert
+                        Image img = box.GetComponent<Image>();
+                        if (img != null && letterBoxesManager.LetterBoxPrefab != null)
+                        {
+                            Image prefabImg = letterBoxesManager.LetterBoxPrefab.GetComponent<Image>();
+                            if (prefabImg != null) img.sprite = prefabImg.sprite;
+                        }
+
+                        box.transform.DOScale(Vector3.one * 1.5f, 0.2f);
+
+                        CanvasGroup cg = box.GetComponent<CanvasGroup>();
+                        if (cg == null) cg = box.gameObject.AddComponent<CanvasGroup>();
+                        cg.DOFade(0f, 0.2f); // Büyürken kaybolsun
+                    }
+                }
+                boxIdx--;
+            }
+
+            // Hepsinden birer tane işlem yaptıktan sonra bekle
+            yield return new WaitForSeconds(elementDelay);
+        }
+        
+        // İşlemler bitince sıradaki soru (animasyonların tamamlanması için minik bir ek bekleme opsiyonel)
+        yield return new WaitForSeconds(0.2f);
+
+        NextQuestion();
+    }
 }
 
 

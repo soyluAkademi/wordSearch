@@ -35,7 +35,8 @@ public class ControlManager : MonoBehaviour
                // Animasyon bitti, partikül aç
                if (successParticle != null) successParticle.SetActive(true);
 
-               // Şimdilik burada duruyoruz, yeni soruya otomatik geçiş yok.
+               // Artık yeni soruya geçişi transition ile yapıyoruz
+               _wordManager.TriggerLevelTransition();
             });
         }
         else

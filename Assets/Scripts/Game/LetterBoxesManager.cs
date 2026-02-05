@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class LetterBoxesManager : MonoBehaviour
 {
     [SerializeField] private GameObject letterBoxPrefab;
+    public GameObject LetterBoxPrefab => letterBoxPrefab;
     [SerializeField] private Transform container; 
 
     private List<GameObject> activeBoxes = new List<GameObject>();
