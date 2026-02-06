@@ -449,8 +449,8 @@ public class WordManager : MonoBehaviour
 
     private IEnumerator TransitionRoutine()
     {
-        // --- USER REQ: Önce 2 Saniye Bekle ---
-        yield return new WaitForSeconds(2.0f);
+        // --- USER REQ: Önce 1 Saniye Bekle ---
+        yield return new WaitForSeconds(1f);
 
         float elementDelay = 0.1f; // Her eleman arasındaki bekleme
 

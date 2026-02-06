@@ -9,8 +9,7 @@ public class LevelManager : MonoBehaviour
     // UI veya diğer sistemlerin dinleyebileceği event
     public static event Action<string> OnLevelLoaded;
 
-  
-   private string currentLevel;
+    private string currentLevel;
 
     public string CurrentLevel => currentLevel;
 
@@ -19,11 +18,22 @@ public class LevelManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     private static bool isGameJustStarted = true;
@@ -36,22 +46,37 @@ public class LevelManager : MonoBehaviour
         // Oyun ilk açıldığında kontrol et
         if (isGameJustStarted)
         {
-            isGameJustStarted = false;
-            
             if (PlayerPrefs.HasKey("LastPlayedLevel"))
             {
                 string lastLevel = PlayerPrefs.GetString("LastPlayedLevel");
                 // Eğer kayıtlı level şu anki leveldan farklıysa oraya git
                 if (!string.IsNullOrEmpty(lastLevel) && lastLevel != activeSceneName)
                 {
+                    isGameJustStarted = false; // Redirecting, so flag as handled
                     SceneManager.LoadScene(lastLevel);
-                    return; // Bu sahnede daha fazla işlem yapma
+                    return; 
                 }
             }
+            
+            isGameJustStarted = false;
+            // İlk sahne için manuel kaydetme (OnSceneLoaded çalışmayabilir)
+            SaveAndNotify(activeSceneName);
         }
+        else
+        {
+            // Eğer sahneye sonradan bu script eklenirse veya instance korunmazsa
+            SaveAndNotify(activeSceneName);
+        }
+    }
 
-        // Mevcut leveli kaydet (Her sahne açılışında güncellenir)
-        currentLevel = activeSceneName;
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SaveAndNotify(scene.name);
+    }
+
+    private void SaveAndNotify(string levelName)
+    {
+        currentLevel = levelName;
         PlayerPrefs.SetString("LastPlayedLevel", currentLevel);
         PlayerPrefs.Save();
 

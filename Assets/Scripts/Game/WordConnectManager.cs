@@ -139,25 +139,31 @@ public class WordConnectManager : MonoBehaviour
         }
 
         bool releasedOnValidButton = false;
+        bool releasedOnAnyButton = false;
+
         if (eventData != null && eventData.pointerCurrentRaycast.gameObject != null)
         {
              GameObject hitObj = eventData.pointerCurrentRaycast.gameObject;
              WordButton wb = hitObj.GetComponent<WordButton>();
              if (wb == null) wb = hitObj.GetComponentInParent<WordButton>();
 
-             if (wb != null && m_selectedButtons.Count > 0)
+             if (wb != null)
              {
-                 // Bıraktığımız butonun, seçim listemizdeki son buton olup olmadığını kontrol et.
-                 if (wb == m_selectedButtons[m_selectedButtons.Count - 1])
+                 releasedOnAnyButton = true;
+                 if (m_selectedButtons.Count > 0 && wb == m_selectedButtons[m_selectedButtons.Count - 1])
                  {
                      releasedOnValidButton = true;
                  }
              }
         }
 
-        // Kelime tamamlandı mı kontrol et
-        // Uzunluk hedefe eşit değilse VEYA yanlış yerde bırakıldıysa sıfırla
-        if (m_selectedButtons.Count != _wordLength || !releasedOnValidButton)
+        // --- USER REQ FIX: Check success condition ---
+        // Kelime uzunluğu tutmalı.
+        // VE (Son butonda bıraktık VEYA Hiçbir butona (boşluğa) bırakmadık)
+        // Yani yanlış bir butona bırakmadığımız sürece sorun yok.
+        bool isSuccess = (m_selectedButtons.Count == _wordLength) && (!releasedOnAnyButton || releasedOnValidButton);
+
+        if (!isSuccess)
         {
             ResetSelection(true); // Yanlış/eksik bırakma -> Shake
             if (rotateBtn != null) rotateBtn.interactable = true;
