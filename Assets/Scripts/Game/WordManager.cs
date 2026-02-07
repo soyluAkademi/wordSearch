@@ -20,8 +20,11 @@ public class WordManager : MonoBehaviour
     [SerializeField] private GameObject letterPrefab;
     [SerializeField] private Transform letterParent;
     
-    [SerializeField] private GameObject hintLetterPrefab;
     [SerializeField] private Transform hintLettersHolder;
+    
+    // Pool List
+    private List<GameObject> _pooledHintLetters = new List<GameObject>();
+    private Color _defaultHintColor = Color.black;
     
    private LetterBoxesManager letterBoxesManager;
 
@@ -42,7 +45,31 @@ public class WordManager : MonoBehaviour
 
     private void Start()
     {
-        if (hintLettersHolder != null) _initialPanelPos = hintLettersHolder.localPosition;
+        if (hintLettersHolder != null) 
+        {
+            _initialPanelPos = hintLettersHolder.localPosition;
+            
+            // Pool Initializasyonu: Editörde eklenmiş olanları listeye al ve deaktif et
+            bool colorCaptured = false;
+            foreach(Transform child in hintLettersHolder)
+            {
+                if(child != null)
+                {
+                    if (!colorCaptured)
+                    {
+                        var txt = child.Find("lineLetterTxt")?.GetComponent<TextMeshProUGUI>();
+                        if (txt != null) 
+                        {
+                             _defaultHintColor = txt.color;
+                             colorCaptured = true;
+                        }
+                    }
+
+                    child.gameObject.SetActive(false);
+                    _pooledHintLetters.Add(child.gameObject);
+                }
+            }
+        }
 
         // Load Question Progress
         string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
@@ -93,7 +120,15 @@ public class WordManager : MonoBehaviour
 
         foreach (var obj in activeLineWords)
         {
-            if (obj != null) Destroy(obj);
+            if (obj != null) 
+            {
+                // Destroy yerine Deactivate
+                obj.transform.DOKill();
+                obj.SetActive(false);
+                obj.transform.SetParent(hintLettersHolder); // Garanti olsun
+                obj.transform.localPosition = Vector3.zero;
+                obj.transform.localScale = Vector3.one;
+            }
         }
         activeLineWords.Clear();
 
@@ -102,7 +137,11 @@ public class WordManager : MonoBehaviour
         {
             foreach (Transform child in hintLettersHolder)
             {
-                if (child.gameObject != null) Destroy(child.gameObject);
+                if (child.gameObject != null) 
+                {
+                    child.DOKill();
+                    child.gameObject.SetActive(false);
+                }
             }
         }
     }
@@ -179,7 +218,10 @@ public class WordManager : MonoBehaviour
                 {
                     t.DOKill();
                 }
-                Destroy(child.gameObject);
+                // Destroy yerine Deactive
+                child.gameObject.SetActive(false);
+                child.localPosition = Vector3.zero;
+                child.localScale = Vector3.one;
             }
         }
         
@@ -296,10 +338,32 @@ public class WordManager : MonoBehaviour
 
     public void AddLetter(string letter)
     {
-        if (hintLetterPrefab == null || hintLettersHolder == null) return;
+        if (hintLettersHolder == null) return;
 
-        // Prefab'ı oluştur
-        GameObject lineWordObj = Instantiate(hintLetterPrefab, hintLettersHolder);
+        // POOL'dan çekme mantığı
+        GameObject lineWordObj = null;
+
+        // 1. Havuzda inaktif olanı bul
+        foreach(var obj in _pooledHintLetters)
+        {
+            if(!obj.activeSelf)
+            {
+                lineWordObj = obj;
+                break;
+            }
+        }
+
+        // Önemli: Eğer havuz yetmezse (10 tane yetmedi diyelim),
+        // ya yeni üretip havuza ekleriz, ya da return deriz.
+        // Kullanıcı "10 tane ekledim" dediği için muhtemelen yetecektir ama
+        // yine de null check yapalım. Yetersizse instantiate edip havuza ekleyelim (fallback).
+        if(lineWordObj == null)
+        {
+            // Havuz doluysa veya eleman yoksa islem yapma (Prefab kaldirildi)
+            return;
+        }
+
+        lineWordObj.SetActive(true);
         
         // Text bileşenini bul ve yaz
         Transform txtTrans = lineWordObj.transform.Find("lineLetterTxt");
@@ -309,6 +373,7 @@ public class WordManager : MonoBehaviour
             if (tmPro != null)
             {
                 tmPro.text = letter.ToUpper();
+                tmPro.color = _defaultHintColor;
             }
         }
         
@@ -318,6 +383,7 @@ public class WordManager : MonoBehaviour
         
         canvasGroup.alpha = 0f;
         lineWordObj.transform.localScale = Vector3.zero;
+        lineWordObj.transform.localPosition = Vector3.zero; // Pos reset
         
         lineWordObj.transform.DOScale(Vector3.one, animationDuration).SetEase(Ease.OutBack);
         canvasGroup.DOFade(1f, animationDuration);
@@ -331,8 +397,12 @@ public class WordManager : MonoBehaviour
         {
             GameObject lastObj = activeLineWords[activeLineWords.Count - 1];
             
-            // Animasyonlu yok etme opsiyonel olabilir, şimdilik direkt siliyoruz veya scale down yapılabilir
-            lastObj.transform.DOScale(Vector3.zero, 0.2f).OnComplete(() => Destroy(lastObj));
+            // Destroy yerine deactivate animasyonu
+            lastObj.transform.DOScale(Vector3.zero, 0.2f).OnComplete(() => 
+            {
+                lastObj.SetActive(false);
+                lastObj.transform.localPosition = Vector3.zero;
+            });
             
             activeLineWords.RemoveAt(activeLineWords.Count - 1);
         }
@@ -455,8 +525,14 @@ public class WordManager : MonoBehaviour
         float elementDelay = 0.1f; // Her eleman arasındaki bekleme
 
         // İndeksleri al
+        // İndeksleri al
         int btnIdx = (letterParent != null) ? letterParent.childCount - 1 : -1;
-        int hintIdx = (hintLettersHolder != null) ? hintLettersHolder.childCount - 1 : -1;
+        
+        // DÜZELTME: hintLettersHolder.childCount yerine activeLineWords kullanıyoruz
+        // Çünkü pool sistemi var, childCount tüm pool objelerini (inaktifler dahil) içerir.
+        // activeLineWords ise sadece ekranda görünen (kutulara giden) harflerdir.
+        int hintIdx = (activeLineWords != null) ? activeLineWords.Count - 1 : -1;
+        
         int boxIdx = (letterBoxesManager != null && letterBoxesManager.ActiveBoxes != null) ? letterBoxesManager.ActiveBoxes.Count - 1 : -1;
 
         // Herhangi bir listede eleman kaldığı sürece devam et
@@ -476,16 +552,19 @@ public class WordManager : MonoBehaviour
                 btnIdx--;
             }
 
-            // 2. Hint Letter (Sondan)
-            if (hintIdx >= 0 && hintLettersHolder != null)
+            // 2. Hint Letter (Sondan) - activeLineWords üzerinden
+            if (hintIdx >= 0 && activeLineWords != null)
             {
-                Transform child = hintLettersHolder.GetChild(hintIdx);
-                if (child != null)
+                if (hintIdx < activeLineWords.Count)
                 {
-                    CanvasGroup cg = child.GetComponent<CanvasGroup>();
-                    if (cg == null) cg = child.gameObject.AddComponent<CanvasGroup>();
-                    cg.DOFade(0f, 0.2f);
-                    child.DOScale(Vector3.zero, 0.2f);
+                    GameObject childObj = activeLineWords[hintIdx];
+                    if (childObj != null && childObj.activeSelf)
+                    {
+                        CanvasGroup cg = childObj.GetComponent<CanvasGroup>();
+                        if (cg == null) cg = childObj.AddComponent<CanvasGroup>();
+                        cg.DOFade(0f, 0.2f);
+                        childObj.transform.DOScale(Vector3.zero, 0.2f);
+                    }
                 }
                 hintIdx--;
             }
@@ -500,10 +579,9 @@ public class WordManager : MonoBehaviour
                     {
                         // Sprite Revert
                         Image img = box.GetComponent<Image>();
-                        if (img != null && letterBoxesManager.LetterBoxPrefab != null)
+                        if (img != null && letterBoxesManager.DefaultBoxSprite != null)
                         {
-                            Image prefabImg = letterBoxesManager.LetterBoxPrefab.GetComponent<Image>();
-                            if (prefabImg != null) img.sprite = prefabImg.sprite;
+                            img.sprite = letterBoxesManager.DefaultBoxSprite;
                         }
 
                         box.transform.DOScale(Vector3.one * 1.5f, 0.2f);

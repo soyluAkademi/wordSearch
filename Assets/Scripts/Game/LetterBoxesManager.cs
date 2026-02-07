@@ -2,15 +2,39 @@ using UnityEngine;
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class LetterBoxesManager : MonoBehaviour
 {
-    [SerializeField] private GameObject letterBoxPrefab;
-    public GameObject LetterBoxPrefab => letterBoxPrefab;
+    // Pool
+    private List<GameObject> _pooledBoxes = new List<GameObject>();
+    private Sprite _defaultSprite;
+    public Sprite DefaultBoxSprite => _defaultSprite;
     [SerializeField] private Transform container; 
 
     private List<GameObject> activeBoxes = new List<GameObject>();
     public List<GameObject> ActiveBoxes => activeBoxes;
+
+    private void Awake()
+    {
+        if (container == null) container = transform;
+
+        foreach(Transform child in container)
+        {
+            if(child != null)
+            {
+                child.gameObject.SetActive(false);
+                _pooledBoxes.Add(child.gameObject);
+                
+                // İlk kutudan varsayılan sprite'ı al
+                if(_defaultSprite == null)
+                {
+                    var img = child.GetComponent<Image>();
+                    if(img != null) _defaultSprite = img.sprite;
+                }
+            }
+        }
+    }
 
     public void CreateBoxes(int count)
     {
@@ -25,7 +49,15 @@ public class LetterBoxesManager : MonoBehaviour
             if (box != null)
             {
                 box.transform.DOKill();
-                Destroy(box);
+                box.SetActive(false);
+                box.transform.localScale = Vector3.one; 
+                
+                // Rengi/Sprite'ı resetle (WordManager değiştirmiş olabilir)
+                var img = box.GetComponent<Image>();
+                if(img != null && _defaultSprite != null) img.sprite = _defaultSprite;
+                
+                var cg = box.GetComponent<CanvasGroup>();
+                if(cg != null) cg.alpha = 1f;
             }
         }
         activeBoxes.Clear();
@@ -38,10 +70,16 @@ public class LetterBoxesManager : MonoBehaviour
             container = transform; // Container boşsa kendisini kullan
         }
 
-        if (letterBoxPrefab == null)
+        if (_pooledBoxes.Count == 0 && container.childCount > 0)
         {
-            // Prefab atanmamış, işlem iptal
-            yield break;
+             // Awake'te toplanmamışsa (örn. kapatıp açınca) tekrar topla
+             _pooledBoxes.Clear();
+             foreach(Transform child in container) _pooledBoxes.Add(child.gameObject);
+        }
+
+        if (_pooledBoxes.Count < count)
+        {
+            // Yeterli kutu yok uyarısı verilebilir
         }
 
         // Ebat belirleme
@@ -59,10 +97,16 @@ public class LetterBoxesManager : MonoBehaviour
         // Kutu oluşturma işlemini başlat
 
         // 1. Önce hepsini oluştur ve görünmez yap (Layout düzgün hesaplansın diye)
+        // 1. Havuzdan çek ve ayarla
         for (int i = 0; i < count; i++)
         {
-            GameObject box = Instantiate(letterBoxPrefab, container);
+            // Havuzda yeterli eleman yoksa döngüyü kır (veya hata ver)
+            if (i >= _pooledBoxes.Count) break;
+
+            GameObject box = _pooledBoxes[i];
             
+            box.SetActive(true);
+
             RectTransform rt = box.GetComponent<RectTransform>();
             if (rt != null)
             {
