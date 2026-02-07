@@ -11,7 +11,7 @@ public class ControlManager : MonoBehaviour
         _wordConnectManager = FindAnyObjectByType<WordConnectManager>();
     }
 
-    [SerializeField] private GameObject successParticle;
+    // [SerializeField] private GameObject successParticle; // Moved to WordManager
     [SerializeField] private float successDelay = 2.0f;
 
     public void CheckWord(string createdWord)
@@ -32,11 +32,8 @@ public class ControlManager : MonoBehaviour
             // 2. Harfleri Kutulara Taşı
             _wordManager.MoveLettersToBoxes(() => 
             {
-               // Animasyon bitti, partikül aç
-               if (successParticle != null) successParticle.SetActive(true);
-
-               // Artık yeni soruya geçişi transition ile yapıyoruz
-               _wordManager.TriggerLevelTransition();
+               // Merkeze taşındı: Partikül + Geçiş
+               _wordManager.TriggerLevelCompletion();
             });
         }
         else

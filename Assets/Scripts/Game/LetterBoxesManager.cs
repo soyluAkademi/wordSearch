@@ -3,6 +3,7 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 
 public class LetterBoxesManager : MonoBehaviour
 {
@@ -56,6 +57,10 @@ public class LetterBoxesManager : MonoBehaviour
                 var img = box.GetComponent<Image>();
                 if(img != null && _defaultSprite != null) img.sprite = _defaultSprite;
                 
+                // Text içeriğini temizle
+                var txt = box.GetComponentInChildren<TextMeshProUGUI>();
+                if(txt != null) txt.text = "";
+
                 var cg = box.GetComponent<CanvasGroup>();
                 if(cg != null) cg.alpha = 1f;
             }

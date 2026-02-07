@@ -158,6 +158,7 @@ public class WordManager : MonoBehaviour
 
         // Temizlik işlemleri
         ClearLevel();
+        if (successParticle != null) successParticle.SetActive(false); // Reset particle on level init
         
         // Destroy işlemlerinin tamamlanması için bir frame bekle
         yield return null;
@@ -512,6 +513,18 @@ public class WordManager : MonoBehaviour
         });
     }
 
+    [SerializeField] private GameObject successParticle;
+
+    public void TriggerLevelCompletion()
+    {
+        if (successParticle != null)
+        {
+            successParticle.SetActive(false); // Force reset
+            successParticle.SetActive(true);
+        }
+        TriggerLevelTransition();
+    }
+
     public void TriggerLevelTransition()
     {
         StartCoroutine(TransitionRoutine());
@@ -602,6 +615,46 @@ public class WordManager : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         NextQuestion();
+    }
+    public void PlayWinAnimation(System.Action onComplete)
+    {
+        if (letterBoxesManager == null || letterBoxesManager.ActiveBoxes.Count == 0)
+        {
+            onComplete?.Invoke();
+            return;
+        }
+
+        Sequence seq = DOTween.Sequence();
+        
+        for (int i = 0; i < letterBoxesManager.ActiveBoxes.Count; i++)
+        {
+            GameObject box = letterBoxesManager.ActiveBoxes[i];
+            if (box == null) continue;
+
+            float delay = i * 0.1f;
+            
+            // Scale Up
+            seq.Insert(delay, box.transform.DOScale(Vector3.one * 1.5f, 0.2f).SetEase(Ease.OutBack));
+            
+            // Color/Sprite Change
+            seq.InsertCallback(delay + 0.1f, () => 
+            {
+                Image img = box.GetComponent<Image>();
+                if (img != null && greenSprite != null)
+                {
+                    img.sprite = greenSprite;
+                }
+                
+                // Optional: Text Color to white if not already
+                var txt = box.GetComponentInChildren<TextMeshProUGUI>();
+                if (txt != null) txt.color = Color.white;
+            });
+
+            // Scale Back
+            seq.Insert(delay + 0.2f, box.transform.DOScale(Vector3.one, 0.2f));
+        }
+
+        seq.OnComplete(() => onComplete?.Invoke());
     }
 }
 
