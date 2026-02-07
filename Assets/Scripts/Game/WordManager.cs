@@ -590,12 +590,14 @@ public class WordManager : MonoBehaviour
                     GameObject box = letterBoxesManager.ActiveBoxes[boxIdx];
                     if (box != null)
                     {
-                        // Sprite Revert
+                        // Sprite Revert REMOVED as per user request (keep green)
+                        /*
                         Image img = box.GetComponent<Image>();
                         if (img != null && letterBoxesManager.DefaultBoxSprite != null)
                         {
                             img.sprite = letterBoxesManager.DefaultBoxSprite;
                         }
+                        */
 
                         box.transform.DOScale(Vector3.one * 1.5f, 0.2f);
 
