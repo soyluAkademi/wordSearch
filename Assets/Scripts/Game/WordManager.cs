@@ -7,7 +7,9 @@ using UnityEngine.UI;
 
 public class WordManager : MonoBehaviour
 {
-    [SerializeField] WordData[] _wordDatas;
+    // [SerializeField] WordData[] _wordDatas; // REMOVED
+    private List<QuestionData> _questions = new List<QuestionData>();
+
     [SerializeField] private float animationDuration = 0.3f;
     
     private int _currentQuestion = 0;
@@ -37,6 +39,25 @@ public class WordManager : MonoBehaviour
     {
         _radialLayout=FindAnyObjectByType<RadialLayout>();
         _wordConnectManager=FindAnyObjectByType<WordConnectManager>();
+        
+        LoadQuestions();
+    }
+
+    private void LoadQuestions()
+    {
+        TextAsset jsonFile = Resources.Load<TextAsset>("questions");
+        if (jsonFile != null)
+        {
+            LevelData data = JsonUtility.FromJson<LevelData>(jsonFile.text);
+            if (data != null && data.questions != null)
+            {
+                _questions = data.questions;
+            }
+        }
+        else
+        {
+            Debug.LogError("questions.json could not be found in Resources folder!");
+        }
     }
 
     [SerializeField] private TextMeshProUGUI questionTxt;
@@ -177,9 +198,9 @@ public class WordManager : MonoBehaviour
 
         // UI Güncelleme Eventi - Soru değiştiğinde bildir
         // _currentQuestion 0-indexli, UI için +1 ekliyoruz
-        if (_wordDatas != null)
+        if (_questions != null)
         {
-            OnQuestionProgressUpdated?.Invoke(_currentQuestion + 1, _wordDatas.Length);
+            OnQuestionProgressUpdated?.Invoke(_currentQuestion + 1, _questions.Count);
         }
 
         SetQuestionText(); // Soruyu ekrana yazdır
@@ -190,6 +211,11 @@ public class WordManager : MonoBehaviour
         
         _radialLayout.ArrangeElements();
         
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.StartTimer();
+        }
+
         //_creationCoroutine = StartCoroutine(CreateLineWords());
     }
 
@@ -245,7 +271,7 @@ public class WordManager : MonoBehaviour
         // Döngüsel reset: Eğer sorular biterse başa dön
         // GetCurrentQuestion içinde de kontrol var ama _currentQuestion arttığı için index sınır dışına çıkabilir
         // O yüzden burada kontrol ediyoruz.
-        if (_wordDatas != null && _currentQuestion >= _wordDatas.Length)
+        if (_questions != null && _currentQuestion >= _questions.Count)
         {
             _currentQuestion = 0;
         }
@@ -317,22 +343,22 @@ public class WordManager : MonoBehaviour
 
     string GetCurrentQuestion()
     {
-        if (_wordDatas == null || _wordDatas.Length == 0) return "";
+        if (_questions == null || _questions.Count == 0) return "";
         
-        if (_currentQuestion >= _wordDatas.Length) 
+        if (_currentQuestion >= _questions.Count) 
             _currentQuestion = 0; // Veya hata fırlatılabilir/uyarı verilebilir, şimdilik güvenli olsun
             
-        return _wordDatas[_currentQuestion].Question;
+        return _questions[_currentQuestion].question;
     }
 
     string GetCurrentAnswer()
     {
-        if (_wordDatas == null || _wordDatas.Length == 0) return "";
+        if (_questions == null || _questions.Count == 0) return "";
 
-        if (_currentQuestion >= _wordDatas.Length) 
+        if (_currentQuestion >= _questions.Count) 
             _currentQuestion = 0;
 
-        return _wordDatas[_currentQuestion].Answer;
+        return _questions[_currentQuestion].answer;
     }
     
     private List<GameObject> activeLineWords = new List<GameObject>();
@@ -375,6 +401,7 @@ public class WordManager : MonoBehaviour
             {
                 tmPro.text = letter.ToUpper();
                 tmPro.color = _defaultHintColor;
+                tmPro.fontSize = 60f; // Reset to initial size
             }
         }
         
@@ -502,6 +529,12 @@ public class WordManager : MonoBehaviour
                 {
                     // Kutu efektiyle eş zamanlı renk değişimi
                     seq.Insert(boxEffectTime, txtParams.DOColor(Color.white, 0.3f));
+                    
+                    // --- USER REQ: Font Size Animation ---
+                    // 60 -> 80
+                    // seq.Insert(boxEffectTime, DOTween.To(()=> txtParams.fontSize, x=> txtParams.fontSize = x, 80f, 0.3f));
+                    // Or simpler:
+                    seq.Insert(boxEffectTime, DOTween.To(() => txtParams.fontSize, x => txtParams.fontSize = x, 80f, 0.3f));
                 }
             }
         }

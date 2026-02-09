@@ -28,6 +28,11 @@ public class ControlManager : MonoBehaviour
             _wordConnectManager.IsInteractable = false;
             _wordConnectManager.ResetSelection(false, false); 
 
+            if (GameManager.Instance != null)
+            {
+                GameManager.Instance.CalculateAndAddScore(createdWord.Length);
+            }
+
 
             // 2. Harfleri Kutulara Taşı
             _wordManager.MoveLettersToBoxes(() => 
