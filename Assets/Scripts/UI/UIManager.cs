@@ -22,7 +22,8 @@ public class UIManager : MonoBehaviour
     private void OnEnable()
     {
         // Evente abone ol
-        LevelManager.OnLevelLoaded += UpdateLevelUI;
+        // LevelManager.OnLevelLoaded += UpdateLevelUI; // Old system
+        WordManager.OnLevelInfoUpdated += UpdateLevelUI; // New system
         WordManager.OnQuestionProgressUpdated += UpdateQuestionProgressUI;
         GameManager.OnScoreUpdated += UpdateScoreUI;
         GameManager.OnScoreAnimationStart += OnScoreAnimStart;
@@ -32,7 +33,8 @@ public class UIManager : MonoBehaviour
     private void OnDisable()
     {
         // Abonelikten çık
-        LevelManager.OnLevelLoaded -= UpdateLevelUI;
+        // LevelManager.OnLevelLoaded -= UpdateLevelUI;
+        WordManager.OnLevelInfoUpdated -= UpdateLevelUI;
         WordManager.OnQuestionProgressUpdated -= UpdateQuestionProgressUI;
         GameManager.OnScoreUpdated -= UpdateScoreUI;
         GameManager.OnScoreAnimationStart -= OnScoreAnimStart;
@@ -80,54 +82,19 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private void UpdateLevelUI(string rawLevelName)
+    private void UpdateLevelUI(string chapterName, int levelNumber)
     {
-        // Gelen veri formatı: kessaf_8, oncu_2 vb.
-        string[] parts = rawLevelName.Split('_');
-        
-        if (parts.Length > 0)
+        if (LevelNameTxt != null)
         {
-            if (LevelNameTxt != null)
-            {
-                string categoryKey = parts[0]; // kessaf, oncu...
-                string turkishName = GetTurkishCategoryName(categoryKey);
-
-                // İstenen format: "KEŞŞAF BÖLÜMÜ"
-                LevelNameTxt.text = turkishName + "\nBÖLÜMÜ";
-            }
+            // İstenen format: "KEŞŞAF BÖLÜMÜ"
+            LevelNameTxt.text = chapterName + "\nBÖLÜMÜ";
         }
 
-        if (parts.Length > 1)
+        if (LevelTxt != null)
         {
-            if (LevelTxt != null)
-            {
-                // Level numarasını al: "8"
-                string levelNumber = parts[1];
-                LevelTxt.text = "SEVİYE: " + levelNumber;
-            }
+            LevelTxt.text = "SEVİYE: " + levelNumber;
         }
     }
 
-    private string GetTurkishCategoryName(string key)
-    {
-        // key küçük harf veya karışık gelebilir, garantiye alalım
-        switch (key.ToLower())
-        {
-            case "seyyah":
-                return "SEYYAH";
-            case "resam": // Kullanıcı listesinde yoktu ama örnek olsun
-                return "RESSAM";
-            case "kessaf":
-                return "KEŞŞAF";
-            case "oncu":
-                return "ÖNCÜ";
-            case "kasif":
-                return "KAŞİF";
-            case "fatih":
-                return "FATİH";
-            default:
-                // Tanımlı değilse direkt büyük harfe çevirip dönderelim
-                return key.ToUpper();
-        }
-    }
+    // Removed GetTurkishCategoryName as it is no longer needed (names come directly from WordManager)
 }

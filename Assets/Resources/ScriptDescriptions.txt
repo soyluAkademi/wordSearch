@@ -1,0 +1,42 @@
+SCRIPTS OVERVIEW
+
+1. Game Logic & Managers
+-------------------------
+WordManager.cs:
+- Oyunun ana yöneticisidir.
+- Soruları JSON'dan çeker ve yönetir.
+- Bölüm (Chapter) ve Seviye (Level) hesaplamalarını yapar.
+- Harfleri (Letter) ve kutuları (Box) oluşturur.
+- Kelimenin doğru olup olmadığını kontrol eder.
+
+GameManager.cs:
+- Oyunun genel durumunu (State) tutar.
+- Toplam puanı (Total Score) ve zamanlayıcıyı (Timer) yönetir.
+- Puan animasyonlarını tetikler.
+- Verileri kaydeder (Save/Load).
+
+LetterBoxesManager.cs:
+- Cevap kutularının (yukarıdaki boş kutular) oluşturulmasını ve yönetimini sağlar.
+- Kutuların animasyonlarını yapar.
+
+WordConnectManager.cs:
+- Harfler arası parmakla çizim (drag) işlemini yönetir.
+- Seçilen harfleri birleştirip kelime oluşturur.
+
+2. User Interface (UI)
+-------------------------
+UIManager.cs:
+- Ekrandaki tüm yazı ve görselleri günceller.
+- Bölüm adı, seviye sayısı, puan durumu gibi bilgileri WordManager'dan alıp ekrana basar.
+
+SettingsManager.cs:
+- Ayarlar menüsünü açıp kapatır.
+- Ses vb. ayarları yönetir.
+
+3. Data & Utilities
+-------------------------
+QuestionData.cs:
+- JSON dosyasındaki soru verilerini koda dönüştüren (Map eden) yardımcı sınıftır.
+
+RadialLayout.cs:
+- Harfleri çember şeklinde dizmeye yarayan görsel düzenleme scriptidir.

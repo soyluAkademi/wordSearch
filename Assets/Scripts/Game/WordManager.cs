@@ -167,6 +167,13 @@ public class WordManager : MonoBehaviour
         }
     }
 
+    // Chapter Names
+    private string[] _chapterNames = { 
+        "SEYYAH", "KEŞŞAF", "ÖNCÜ", "REHBER", "KAŞİF", 
+        "MUHAFIZ", "SEFİR", "FATİH", "ÜSTAD", "BİLGE" 
+    };
+
+    public static event System.Action<string, int> OnLevelInfoUpdated; // ChapterName, LevelNumber
     public static event System.Action<int, int> OnQuestionProgressUpdated;
 
     private IEnumerator InitLevel()
@@ -184,8 +191,54 @@ public class WordManager : MonoBehaviour
         // Destroy işlemlerinin tamamlanması için bir frame bekle
         yield return null;
 
-        currentQuestion = GetCurrentQuestion();
-        currentAnswer = GetCurrentAnswer();
+        // --- Logic: Chapter & Level Calculation ---
+        // 10 Chapters, 10 Levels/Chapter, 15 Questions/Level
+        // Total 1500 Questions
+        
+        int totalIndex = _currentQuestion; // 0-based index
+        
+        // Calculate Chapter (Every 150 questions)
+        int chapterIndex = totalIndex / 150;
+        if (chapterIndex >= _chapterNames.Length) chapterIndex = _chapterNames.Length - 1; // Clamp or loop
+        string currentChapterName = _chapterNames[chapterIndex];
+
+        // Calculate Level within Chapter (Every 15 questions, 1-10)
+        // (totalIndex % 150) gives index within current chapter (0-149)
+        // / 15 gives 0-9
+        // + 1 gives 1-10
+        int levelNumber = ((totalIndex % 150) / 15) + 1;
+
+        // Calculate Question within Level (1-15)
+        int questionNumber = (totalIndex % 15) + 1;
+
+        // Update UI Events
+        OnLevelInfoUpdated?.Invoke(currentChapterName, levelNumber);
+        
+        if (_questions != null)
+        {
+             // We pass 'questionNumber' (1-15) and '15' constant
+            OnQuestionProgressUpdated?.Invoke(questionNumber, 15);
+        }
+        
+        // Data Retrieval (Looping the actual content if we run out but index keeps going)
+        // safeIndex ensures we don't crash if JSON has fewer questions than 1500
+        int safeIndex = _currentQuestion;
+        if (_questions != null && _questions.Count > 0)
+        {
+            safeIndex = _currentQuestion % _questions.Count;
+        }
+        
+        // Use safeIndex for getting data
+        if (_questions != null && _questions.Count > safeIndex)
+        {
+             currentQuestion = _questions[safeIndex].question;
+             currentAnswer = _questions[safeIndex].answer;
+        }
+        else
+        {
+             currentQuestion = "";
+             currentAnswer = "";
+        }
        
         if (string.IsNullOrEmpty(currentAnswer))
         {
@@ -194,13 +247,6 @@ public class WordManager : MonoBehaviour
         else
         {
              // Cevap başarıyla yüklendi
-        }
-
-        // UI Güncelleme Eventi - Soru değiştiğinde bildir
-        // _currentQuestion 0-indexli, UI için +1 ekliyoruz
-        if (_questions != null)
-        {
-            OnQuestionProgressUpdated?.Invoke(_currentQuestion + 1, _questions.Count);
         }
 
         SetQuestionText(); // Soruyu ekrana yazdır
