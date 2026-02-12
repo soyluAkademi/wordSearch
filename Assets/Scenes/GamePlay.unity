@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86703eceedc3614495c22e73a9c5e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestManager
-  startQuestionIndex: 32
+  startQuestionIndex: 66
 --- !u!4 &13943720
 Transform:
   m_ObjectHideFlags: 0
@@ -3516,7 +3516,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 751125695}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac35700009044e4587152e4e0fbd53e, type: 3}
+  m_Script: {fileID: 11500000, guid: 529f12c6bdb57544dac2d656c3c224fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TarihiIlklerManager
   panel: {fileID: 1520880078485401579}
@@ -3524,6 +3524,31 @@ MonoBehaviour:
   notTxt: {fileID: 5226521773829191042}
   devamEtBtn: {fileID: 1810507980437680162}
   jsonFileName: facts
+  debugTriggerPoints:
+  - 'Level 3: Question 10'
+  - 'Level 5: Question 8'
+  - 'Level 7: Question 5'
+  - 'Level 9: Question 11'
+  - 'Level 11: Question 8'
+  - 'Level 13: Question 6'
+  - 'Level 15: Question 11'
+  - 'Level 17: Question 9'
+  - 'Level 19: Question 6'
+  - 'Level 21: Question 12'
+  - 'Level 23: Question 9'
+  - 'Level 25: Question 6'
+  - 'Level 27: Question 12'
+  - 'Level 29: Question 9'
+  - 'Level 31: Question 7'
+  - 'Level 33: Question 12'
+  - 'Level 35: Question 10'
+  - 'Level 37: Question 7'
+  - 'Level 39: Question 5'
+  - 'Level 41: Question 10'
+  - 'Level 43: Question 7'
+  - 'Level 45: Question 5'
+  - 'Level 47: Question 10'
+  - 'Level 49: Question 8'
 --- !u!224 &751342935 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1562903748489239813, guid: 8b3a2a4cd3f46b645a7948e166cb2faf, type: 3}
@@ -8598,7 +8623,7 @@ GameObject:
   - component: {fileID: 8445183563572025537}
   - component: {fileID: 6386511890188276694}
   m_Layer: 5
-  m_Name: tarihiIlkImg
+  m_Name: tarihiPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

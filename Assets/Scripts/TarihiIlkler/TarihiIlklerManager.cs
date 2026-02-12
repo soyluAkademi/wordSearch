@@ -24,6 +24,30 @@ public class TarihiIlklerManager : MonoBehaviour
 
     private System.Action _onCompleteCallback;
 
+    [Header("Debug Info (Read-Only)")]
+    [Tooltip("Shows which question in each level triggers the popup (Level: Question Index)")]
+    public List<string> debugTriggerPoints = new List<string>();
+
+    private void OnValidate()
+    {
+        CalculateDebugInfo();
+    }
+
+    [ContextMenu("Refresh Debug Info")]
+    public void CalculateDebugInfo()
+    {
+        debugTriggerPoints.Clear();
+        // Show for first 50 levels as example
+        for (int lvl = 1; lvl <= 50; lvl++)
+        {
+            if (lvl < 3) continue; // Skip first 2
+            if (lvl % 2 == 0) continue; // Skip even levels
+
+            int qIdx = GetTargetQuestionForLevel(lvl);
+            debugTriggerPoints.Add($"Level {lvl}: Question {qIdx}");
+        }
+    }
+
     private void Awake()
     {
         if (Instance == null)
