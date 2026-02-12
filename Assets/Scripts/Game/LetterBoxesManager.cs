@@ -37,10 +37,13 @@ public class LetterBoxesManager : MonoBehaviour
         }
     }
 
-    public void CreateBoxes(int count)
+    private Coroutine _spawnCoroutine;
+
+    public void CreateBoxes(int count, System.Action onComplete = null)
     {
+        if (_spawnCoroutine != null) StopCoroutine(_spawnCoroutine);
         ClearBoxes();
-        StartCoroutine(SpawnBoxesRoutine(count));
+        _spawnCoroutine = StartCoroutine(SpawnBoxesRoutine(count, onComplete));
     }
 
     public void ClearBoxes()
@@ -68,7 +71,7 @@ public class LetterBoxesManager : MonoBehaviour
         activeBoxes.Clear();
     }
 
-    private IEnumerator SpawnBoxesRoutine(int count)
+    private IEnumerator SpawnBoxesRoutine(int count, System.Action onComplete)
     {
         if (container == null)
         {
@@ -139,5 +142,8 @@ public class LetterBoxesManager : MonoBehaviour
 
             yield return new WaitForSeconds(0.1f);
         }
+
+        // Callback
+        onComplete?.Invoke();
     }
 }

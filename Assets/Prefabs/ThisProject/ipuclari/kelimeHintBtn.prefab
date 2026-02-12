@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9113241744664802227}
   - component: {fileID: 235066976014270240}
   - component: {fileID: 4386591727627382521}
+  - component: {fileID: 2034318052217337943}
   m_Layer: 5
   m_Name: kelimeHintBtn
   m_TagString: Untagged
@@ -28,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 2125571477555259712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5804147902643975306}
@@ -123,6 +124,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &2034318052217337943
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125571477555259712}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7560119188637113053
 GameObject:
   m_ObjectHideFlags: 0

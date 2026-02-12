@@ -107,6 +107,14 @@ public class WordManager : MonoBehaviour
         StartCoroutine(InitLevel());
     }
 
+    private void SyncProgressToGameManager()
+    {
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.CurrentQuestionNumber = _currentQuestion + 1;
+        }
+    }
+
     // ... (InitLevel and others unchanged)
 
     public void ShakeAndClear()
@@ -176,8 +184,26 @@ public class WordManager : MonoBehaviour
     public static event System.Action<string, int> OnLevelInfoUpdated; // ChapterName, LevelNumber
     public static event System.Action<int, int> OnQuestionProgressUpdated;
 
+    public bool IsInteractionLocked { get; private set; }
+
+    public void SetInteractionLock(bool state)
+    {
+        IsInteractionLocked = state;
+    }
+
+    private bool _areBoxesReady = false;
+
     private IEnumerator InitLevel()
     {
+        IsInteractionLocked = true;
+        _areBoxesReady = false; // Reset flag at start
+        SyncProgressToGameManager();
+
+        if (HintManager.Instance != null)
+        {
+            HintManager.Instance.InitializeHintButtons(_currentQuestion + 1);
+        }
+
         // Eğer önceki oluşturma işlemi hala devam ediyorsa durdur
         if (_creationCoroutine != null) StopCoroutine(_creationCoroutine);
 
@@ -262,6 +288,20 @@ public class WordManager : MonoBehaviour
             GameManager.Instance.StartTimer();
         }
 
+        // Wait for entry animations (Precise Callback from LetterBoxesManager)
+        if (!string.IsNullOrEmpty(currentAnswer))
+        {
+            // If LetterBoxesManager is missing, we might hang forever if we don't have a fallback.
+            // But SpawnLetters handles callback.
+            // Safety: if answer is empty, we skip.
+             yield return new WaitUntil(() => _areBoxesReady);
+        }
+        else
+        {
+            // No answer, no boxes to wait for
+        }
+
+        IsInteractionLocked = false;
         //_creationCoroutine = StartCoroutine(CreateLineWords());
     }
 
@@ -270,8 +310,9 @@ public class WordManager : MonoBehaviour
         // Harfleri temizle
         if (letterParent != null)
         {
-             foreach (Transform child in letterParent) 
+             for (int i = letterParent.childCount - 1; i >= 0; i--) 
              {
+                 Transform child = letterParent.GetChild(i);
                  // Recursive olarak tüm alt objelerdeki tweenleri öldür
                  foreach(var t in child.GetComponentsInChildren<Transform>())
                  {
@@ -379,14 +420,19 @@ public class WordManager : MonoBehaviour
         if (letterBoxesManager != null)
         {
             // Kutuları oluştur
-            letterBoxesManager.CreateBoxes(currentAnswer.Length);
+            _areBoxesReady = false;
+            letterBoxesManager.CreateBoxes(currentAnswer.Length, () => {
+                _areBoxesReady = true;
+            });
         }
         else
         {
             // LetterBoxesManager bulunamazsa manuel atama gerektirir
+            _areBoxesReady = true; // Fallback
         }
     }
-
+    
+    // Helper to get current
     string GetCurrentQuestion()
     {
         if (_questions == null || _questions.Count == 0) return "";
@@ -596,6 +642,14 @@ public class WordManager : MonoBehaviour
 
     public void TriggerLevelCompletion()
     {
+        // Add Gold for completion
+        if (GoldManager.Instance != null)
+        {
+            GoldManager.Instance.AddGold(5);
+        }
+
+        Debug.Log("Level Complete!");
+
         if (successParticle != null)
         {
             successParticle.SetActive(false); // Force reset
@@ -606,6 +660,7 @@ public class WordManager : MonoBehaviour
 
     public void TriggerLevelTransition()
     {
+        IsInteractionLocked = true;
         StartCoroutine(TransitionRoutine());
     }
 
@@ -695,7 +750,35 @@ public class WordManager : MonoBehaviour
         // İşlemler bitince sıradaki soru (animasyonların tamamlanması için minik bir ek bekleme opsiyonel)
         yield return new WaitForSeconds(0.2f);
 
-        NextQuestion();
+        // --- NEW: Tarihi Ilkler Popup Check ---
+        if (TarihiIlklerManager.Instance != null)
+        {
+            bool processed = false;
+            // Coroutine wait wrapper
+            TarihiIlklerManager.Instance.CheckAndShowFact(_currentQuestion, () => 
+            {
+                processed = true;
+            });
+            
+            // Wait until popup is closed (if it was shown)
+            yield return new WaitUntil(() => processed);
+        }
+
+        // Check for Hint Unlock before proceeding
+        if (HintManager.Instance != null)
+        {
+            // _currentQuestion is 0-based index. 
+            // So if we just finished question index 2 (which is 3rd question),
+            // currentQuestion + 1 will be 3.
+            HintManager.Instance.CheckUnlockCondition(_currentQuestion + 1, () => 
+            {
+                NextQuestion();
+            });
+        }
+        else
+        {
+            NextQuestion();
+        }
     }
     public void PlayWinAnimation(System.Action onComplete)
     {
@@ -736,6 +819,41 @@ public class WordManager : MonoBehaviour
         }
 
         seq.OnComplete(() => onComplete?.Invoke());
+    }
+
+    // --- TEST MANAGER HELPER ---
+    public void JumpToQuestion(int questionIndex)
+    {
+        // 1. Stop any ongoing initialization
+        if (_creationCoroutine != null) StopCoroutine(_creationCoroutine);
+        StopAllCoroutines(); // Safer to clear any transition/animations
+
+        // 2. Clear existing UI elements
+        if (letterParent != null)
+        {
+            // Foreach with Destroy is unsafe for transforms as it modifies the collection
+            for (int i = letterParent.childCount - 1; i >= 0; i--)
+            {
+                Destroy(letterParent.GetChild(i).gameObject);
+            }
+        }
+        
+        if (letterBoxesManager != null)
+        {
+            // Assuming letterBoxesManager has a way to clear boxes, or we just rely on InitLevel to recreate them.
+            // But InitLevel usually re-uses or clears. Let's look at InitLevel logic if needed.
+            // For now, rely on InitLevel's internal cleanup.
+        }
+
+        // 3. Set index
+        _currentQuestion = questionIndex;
+        // Save it so it persists if we restart app (optional, but good for testing loop)
+        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetInt(sceneName + "_CurrentQuestion", _currentQuestion);
+        PlayerPrefs.Save();
+
+        // 4. Restart Level
+        StartCoroutine(InitLevel());
     }
 }
 

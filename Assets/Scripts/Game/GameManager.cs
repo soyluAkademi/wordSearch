@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
     private int _totalScore;
     public int TotalScore => _totalScore;
 
+    [Header("Game Progress")]
+    [Header("Game Progress")]
+    public int CurrentQuestionNumber; // 1-based index (count)
+
     // Timer variables
     private float _startTime;
     private bool _isTimerRunning;

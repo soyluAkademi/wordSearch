@@ -33,6 +33,8 @@ public class ControlManager : MonoBehaviour
                 GameManager.Instance.CalculateAndAddScore(createdWord.Length);
             }
 
+            // GLOBAL LOCK: Lock everything immediately!
+            _wordManager.SetInteractionLock(true);
 
             // 2. Harfleri Kutulara Taşı
             _wordManager.MoveLettersToBoxes(() => 

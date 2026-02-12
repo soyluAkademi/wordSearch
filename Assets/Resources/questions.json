@@ -1,59 +1,7504 @@
 {
   "questions": [
     {
-      "id": 1,
       "question": "Osmanlı padişahlarının özel imzasına verilen ad",
-      "answer": "TUĞRA"
+      "answer": "TUĞRA",
+      "id": 1
     },
     {
-      "id": 2,
       "question": "Eski Türklerde hükümdarlara verilen genel ad",
-      "answer": "HAKAN"
+      "answer": "HAKAN",
+      "id": 2
     },
     {
-      "id": 3,
       "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
-      "answer": "KADEŞ"
+      "answer": "KADEŞ",
+      "id": 3
     },
     {
-      "id": 4,
       "question": "Antik Mısır hükümdarlarına verilen unvan",
-      "answer": "FİRAVUN"
+      "answer": "FİRAVUN",
+      "id": 4
     },
     {
-      "id": 5,
       "question": "Antik Yunan şehir devletlerine verilen ad",
-      "answer": "POLİS"
+      "answer": "POLİS",
+      "id": 5
     },
     {
-      "id": 6,
       "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
-      "answer": "OSMAN"
+      "answer": "OSMAN",
+      "id": 6
     },
     {
-      "id": 7,
       "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
-      "answer": "TOY"
+      "answer": "TOY",
+      "id": 7
     },
     {
-      "id": 8,
       "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
-      "answer": "KÜMBET"
+      "answer": "KÜMBET",
+      "id": 8
     },
     {
-      "id": 9,
       "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
-      "answer": "LİDYA"
+      "answer": "LİDYA",
+      "id": 9
     },
     {
-      "id": 10,
       "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
-      "answer": "ENDERUN"
+      "answer": "ENDERUN",
+      "id": 10
     },
     {
-      "id": 11,
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 11
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 12
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 13
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 14
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 15
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 16
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 17
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 18
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 19
+    },
+    {
       "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
-      "answer": "ENDERUN"
+      "answer": "ENDERUN",
+      "id": 20
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 21
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 22
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 23
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 24
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 25
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 26
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 27
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 28
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 29
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 30
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 31
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 32
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 33
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 34
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 35
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 36
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 37
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 38
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 39
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 40
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 41
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 42
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 43
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 44
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 45
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 46
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 47
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 48
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 49
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 50
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 51
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 52
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 53
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 54
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 55
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 56
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 57
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 58
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 59
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 60
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 61
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 62
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 63
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 64
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 65
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 66
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 67
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 68
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 69
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 70
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 71
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 72
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 73
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 74
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 75
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 76
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 77
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 78
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 79
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 80
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 81
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 82
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 83
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 84
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 85
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 86
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 87
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 88
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 89
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 90
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 91
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 92
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 93
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 94
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 95
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 96
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 97
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 98
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 99
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 100
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 101
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 102
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 103
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 104
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 105
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 106
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 107
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 108
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 109
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 110
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 111
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 112
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 113
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 114
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 115
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 116
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 117
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 118
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 119
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 120
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 121
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 122
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 123
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 124
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 125
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 126
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 127
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 128
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 129
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 130
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 131
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 132
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 133
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 134
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 135
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 136
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 137
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 138
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 139
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 140
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 141
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 142
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 143
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 144
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 145
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 146
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 147
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 148
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 149
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 150
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 151
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 152
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 153
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 154
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 155
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 156
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 157
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 158
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 159
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 160
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 161
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 162
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 163
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 164
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 165
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 166
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 167
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 168
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 169
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 170
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 171
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 172
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 173
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 174
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 175
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 176
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 177
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 178
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 179
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 180
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 181
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 182
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 183
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 184
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 185
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 186
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 187
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 188
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 189
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 190
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 191
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 192
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 193
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 194
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 195
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 196
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 197
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 198
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 199
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 200
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 201
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 202
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 203
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 204
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 205
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 206
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 207
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 208
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 209
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 210
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 211
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 212
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 213
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 214
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 215
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 216
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 217
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 218
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 219
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 220
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 221
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 222
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 223
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 224
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 225
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 226
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 227
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 228
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 229
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 230
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 231
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 232
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 233
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 234
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 235
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 236
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 237
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 238
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 239
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 240
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 241
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 242
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 243
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 244
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 245
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 246
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 247
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 248
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 249
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 250
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 251
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 252
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 253
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 254
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 255
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 256
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 257
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 258
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 259
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 260
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 261
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 262
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 263
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 264
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 265
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 266
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 267
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 268
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 269
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 270
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 271
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 272
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 273
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 274
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 275
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 276
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 277
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 278
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 279
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 280
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 281
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 282
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 283
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 284
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 285
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 286
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 287
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 288
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 289
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 290
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 291
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 292
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 293
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 294
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 295
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 296
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 297
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 298
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 299
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 300
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 301
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 302
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 303
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 304
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 305
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 306
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 307
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 308
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 309
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 310
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 311
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 312
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 313
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 314
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 315
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 316
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 317
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 318
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 319
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 320
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 321
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 322
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 323
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 324
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 325
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 326
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 327
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 328
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 329
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 330
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 331
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 332
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 333
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 334
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 335
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 336
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 337
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 338
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 339
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 340
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 341
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 342
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 343
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 344
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 345
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 346
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 347
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 348
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 349
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 350
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 351
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 352
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 353
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 354
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 355
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 356
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 357
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 358
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 359
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 360
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 361
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 362
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 363
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 364
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 365
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 366
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 367
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 368
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 369
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 370
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 371
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 372
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 373
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 374
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 375
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 376
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 377
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 378
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 379
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 380
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 381
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 382
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 383
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 384
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 385
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 386
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 387
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 388
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 389
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 390
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 391
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 392
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 393
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 394
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 395
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 396
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 397
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 398
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 399
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 400
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 401
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 402
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 403
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 404
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 405
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 406
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 407
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 408
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 409
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 410
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 411
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 412
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 413
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 414
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 415
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 416
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 417
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 418
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 419
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 420
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 421
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 422
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 423
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 424
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 425
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 426
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 427
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 428
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 429
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 430
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 431
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 432
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 433
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 434
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 435
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 436
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 437
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 438
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 439
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 440
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 441
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 442
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 443
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 444
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 445
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 446
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 447
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 448
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 449
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 450
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 451
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 452
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 453
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 454
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 455
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 456
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 457
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 458
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 459
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 460
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 461
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 462
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 463
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 464
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 465
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 466
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 467
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 468
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 469
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 470
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 471
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 472
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 473
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 474
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 475
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 476
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 477
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 478
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 479
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 480
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 481
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 482
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 483
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 484
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 485
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 486
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 487
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 488
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 489
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 490
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 491
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 492
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 493
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 494
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 495
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 496
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 497
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 498
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 499
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 500
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 501
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 502
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 503
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 504
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 505
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 506
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 507
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 508
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 509
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 510
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 511
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 512
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 513
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 514
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 515
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 516
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 517
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 518
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 519
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 520
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 521
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 522
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 523
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 524
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 525
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 526
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 527
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 528
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 529
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 530
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 531
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 532
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 533
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 534
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 535
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 536
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 537
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 538
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 539
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 540
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 541
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 542
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 543
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 544
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 545
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 546
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 547
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 548
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 549
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 550
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 551
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 552
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 553
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 554
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 555
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 556
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 557
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 558
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 559
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 560
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 561
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 562
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 563
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 564
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 565
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 566
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 567
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 568
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 569
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 570
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 571
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 572
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 573
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 574
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 575
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 576
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 577
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 578
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 579
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 580
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 581
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 582
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 583
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 584
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 585
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 586
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 587
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 588
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 589
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 590
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 591
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 592
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 593
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 594
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 595
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 596
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 597
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 598
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 599
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 600
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 601
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 602
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 603
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 604
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 605
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 606
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 607
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 608
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 609
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 610
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 611
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 612
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 613
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 614
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 615
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 616
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 617
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 618
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 619
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 620
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 621
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 622
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 623
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 624
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 625
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 626
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 627
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 628
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 629
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 630
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 631
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 632
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 633
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 634
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 635
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 636
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 637
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 638
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 639
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 640
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 641
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 642
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 643
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 644
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 645
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 646
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 647
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 648
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 649
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 650
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 651
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 652
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 653
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 654
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 655
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 656
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 657
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 658
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 659
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 660
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 661
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 662
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 663
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 664
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 665
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 666
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 667
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 668
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 669
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 670
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 671
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 672
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 673
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 674
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 675
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 676
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 677
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 678
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 679
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 680
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 681
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 682
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 683
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 684
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 685
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 686
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 687
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 688
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 689
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 690
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 691
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 692
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 693
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 694
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 695
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 696
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 697
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 698
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 699
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 700
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 701
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 702
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 703
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 704
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 705
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 706
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 707
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 708
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 709
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 710
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 711
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 712
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 713
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 714
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 715
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 716
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 717
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 718
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 719
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 720
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 721
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 722
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 723
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 724
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 725
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 726
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 727
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 728
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 729
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 730
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 731
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 732
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 733
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 734
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 735
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 736
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 737
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 738
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 739
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 740
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 741
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 742
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 743
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 744
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 745
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 746
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 747
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 748
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 749
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 750
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 751
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 752
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 753
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 754
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 755
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 756
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 757
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 758
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 759
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 760
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 761
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 762
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 763
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 764
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 765
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 766
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 767
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 768
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 769
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 770
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 771
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 772
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 773
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 774
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 775
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 776
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 777
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 778
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 779
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 780
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 781
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 782
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 783
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 784
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 785
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 786
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 787
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 788
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 789
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 790
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 791
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 792
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 793
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 794
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 795
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 796
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 797
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 798
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 799
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 800
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 801
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 802
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 803
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 804
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 805
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 806
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 807
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 808
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 809
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 810
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 811
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 812
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 813
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 814
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 815
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 816
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 817
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 818
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 819
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 820
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 821
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 822
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 823
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 824
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 825
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 826
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 827
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 828
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 829
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 830
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 831
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 832
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 833
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 834
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 835
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 836
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 837
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 838
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 839
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 840
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 841
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 842
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 843
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 844
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 845
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 846
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 847
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 848
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 849
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 850
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 851
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 852
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 853
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 854
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 855
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 856
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 857
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 858
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 859
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 860
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 861
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 862
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 863
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 864
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 865
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 866
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 867
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 868
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 869
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 870
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 871
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 872
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 873
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 874
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 875
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 876
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 877
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 878
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 879
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 880
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 881
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 882
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 883
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 884
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 885
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 886
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 887
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 888
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 889
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 890
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 891
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 892
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 893
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 894
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 895
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 896
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 897
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 898
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 899
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 900
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 901
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 902
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 903
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 904
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 905
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 906
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 907
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 908
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 909
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 910
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 911
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 912
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 913
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 914
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 915
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 916
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 917
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 918
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 919
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 920
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 921
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 922
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 923
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 924
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 925
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 926
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 927
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 928
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 929
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 930
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 931
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 932
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 933
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 934
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 935
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 936
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 937
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 938
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 939
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 940
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 941
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 942
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 943
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 944
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 945
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 946
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 947
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 948
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 949
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 950
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 951
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 952
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 953
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 954
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 955
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 956
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 957
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 958
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 959
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 960
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 961
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 962
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 963
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 964
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 965
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 966
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 967
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 968
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 969
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 970
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 971
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 972
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 973
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 974
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 975
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 976
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 977
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 978
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 979
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 980
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 981
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 982
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 983
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 984
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 985
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 986
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 987
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 988
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 989
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 990
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 991
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 992
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 993
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 994
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 995
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 996
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 997
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 998
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 999
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1000
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1001
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1002
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1003
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1004
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1005
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1006
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1007
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1008
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1009
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1010
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1011
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1012
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1013
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1014
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1015
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1016
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1017
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1018
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1019
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1020
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1021
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1022
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1023
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1024
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1025
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1026
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1027
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1028
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1029
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1030
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1031
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1032
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1033
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1034
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1035
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1036
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1037
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1038
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1039
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1040
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1041
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1042
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1043
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1044
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1045
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1046
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1047
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1048
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1049
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1050
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1051
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1052
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1053
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1054
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1055
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1056
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1057
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1058
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1059
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1060
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1061
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1062
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1063
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1064
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1065
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1066
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1067
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1068
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1069
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1070
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1071
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1072
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1073
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1074
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1075
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1076
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1077
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1078
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1079
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1080
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1081
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1082
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1083
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1084
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1085
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1086
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1087
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1088
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1089
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1090
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1091
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1092
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1093
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1094
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1095
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1096
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1097
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1098
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1099
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1100
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1101
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1102
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1103
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1104
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1105
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1106
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1107
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1108
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1109
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1110
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1111
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1112
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1113
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1114
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1115
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1116
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1117
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1118
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1119
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1120
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1121
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1122
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1123
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1124
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1125
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1126
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1127
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1128
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1129
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1130
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1131
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1132
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1133
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1134
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1135
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1136
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1137
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1138
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1139
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1140
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1141
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1142
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1143
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1144
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1145
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1146
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1147
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1148
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1149
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1150
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1151
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1152
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1153
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1154
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1155
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1156
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1157
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1158
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1159
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1160
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1161
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1162
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1163
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1164
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1165
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1166
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1167
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1168
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1169
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1170
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1171
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1172
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1173
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1174
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1175
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1176
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1177
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1178
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1179
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1180
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1181
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1182
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1183
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1184
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1185
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1186
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1187
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1188
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1189
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1190
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1191
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1192
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1193
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1194
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1195
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1196
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1197
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1198
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1199
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1200
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1201
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1202
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1203
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1204
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1205
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1206
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1207
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1208
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1209
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1210
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1211
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1212
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1213
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1214
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1215
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1216
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1217
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1218
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1219
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1220
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1221
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1222
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1223
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1224
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1225
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1226
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1227
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1228
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1229
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1230
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1231
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1232
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1233
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1234
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1235
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1236
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1237
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1238
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1239
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1240
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1241
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1242
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1243
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1244
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1245
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1246
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1247
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1248
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1249
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1250
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1251
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1252
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1253
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1254
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1255
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1256
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1257
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1258
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1259
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1260
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1261
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1262
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1263
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1264
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1265
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1266
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1267
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1268
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1269
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1270
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1271
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1272
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1273
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1274
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1275
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1276
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1277
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1278
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1279
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1280
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1281
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1282
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1283
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1284
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1285
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1286
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1287
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1288
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1289
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1290
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1291
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1292
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1293
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1294
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1295
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1296
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1297
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1298
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1299
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1300
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1301
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1302
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1303
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1304
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1305
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1306
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1307
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1308
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1309
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1310
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1311
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1312
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1313
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1314
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1315
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1316
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1317
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1318
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1319
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1320
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1321
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1322
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1323
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1324
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1325
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1326
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1327
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1328
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1329
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1330
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1331
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1332
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1333
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1334
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1335
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1336
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1337
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1338
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1339
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1340
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1341
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1342
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1343
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1344
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1345
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1346
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1347
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1348
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1349
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1350
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1351
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1352
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1353
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1354
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1355
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1356
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1357
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1358
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1359
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1360
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1361
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1362
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1363
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1364
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1365
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1366
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1367
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1368
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1369
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1370
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1371
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1372
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1373
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1374
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1375
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1376
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1377
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1378
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1379
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1380
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1381
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1382
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1383
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1384
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1385
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1386
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1387
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1388
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1389
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1390
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1391
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1392
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1393
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1394
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1395
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1396
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1397
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1398
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1399
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1400
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1401
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1402
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1403
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1404
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1405
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1406
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1407
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1408
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1409
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1410
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1411
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1412
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1413
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1414
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1415
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1416
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1417
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1418
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1419
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1420
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1421
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1422
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1423
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1424
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1425
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1426
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1427
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1428
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1429
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1430
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1431
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1432
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1433
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1434
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1435
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1436
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1437
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1438
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1439
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1440
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1441
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1442
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1443
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1444
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1445
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1446
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1447
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1448
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1449
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1450
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1451
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1452
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1453
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1454
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1455
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1456
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1457
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1458
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1459
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1460
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1461
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1462
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1463
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1464
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1465
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1466
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1467
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1468
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1469
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1470
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1471
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1472
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1473
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1474
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1475
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1476
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1477
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1478
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1479
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1480
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1481
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1482
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1483
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1484
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1485
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1486
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1487
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1488
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1489
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1490
+    },
+    {
+      "question": "Osmanlı padişahlarının özel imzasına verilen ad",
+      "answer": "TUĞRA",
+      "id": 1491
+    },
+    {
+      "question": "Eski Türklerde hükümdarlara verilen genel ad",
+      "answer": "HAKAN",
+      "id": 1492
+    },
+    {
+      "question": "Tarihin ilk yazılı antlaşmasına verilen ad",
+      "answer": "KADEŞ",
+      "id": 1493
+    },
+    {
+      "question": "Antik Mısır hükümdarlarına verilen unvan",
+      "answer": "FİRAVUN",
+      "id": 1494
+    },
+    {
+      "question": "Antik Yunan şehir devletlerine verilen ad",
+      "answer": "POLİS",
+      "id": 1495
+    },
+    {
+      "question": "Osmanlı Devleti'nin kurucusu olan beyin adı",
+      "answer": "OSMAN",
+      "id": 1496
+    },
+    {
+      "question": "Eski Türklerde meclis/şölen anlamına gelen kelime",
+      "answer": "TOY",
+      "id": 1497
+    },
+    {
+      "question": "Selçuklu ve Osmanlı'daki anıt mezarlara verilen ad",
+      "answer": "KÜMBET",
+      "id": 1498
+    },
+    {
+      "question": "Tarihte parayı ilk kez kullanan uygarlığa verilen ad",
+      "answer": "LİDYA",
+      "id": 1499
+    },
+    {
+      "question": "Osmanlı'da üst düzey devlet adamı yetiştiren okul",
+      "answer": "ENDERUN",
+      "id": 1500
     }
   ]
 }

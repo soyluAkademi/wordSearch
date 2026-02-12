@@ -8,7 +8,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI LevelTxt;
     [SerializeField] private TextMeshProUGUI BolumIcıLevelTxt;
     [SerializeField] private TextMeshProUGUI toplamPuanTxt;
-    [SerializeField] private GameObject scoreEffectObject; // Inner prefab
+    [SerializeField] private GameObject scoreEffectObject; 
+    [SerializeField] private GameObject goldChestImg; // NEW
+
     private Vector3 _initialEffectPos;
 
     private void Awake()
@@ -16,6 +18,21 @@ public class UIManager : MonoBehaviour
         if (scoreEffectObject != null)
         {
             _initialEffectPos = scoreEffectObject.transform.localPosition;
+        }
+    }
+
+    private void Start()
+    {
+        if (goldChestImg != null)
+        {
+            var cg = goldChestImg.GetComponent<CanvasGroup>();
+            if (cg == null) cg = goldChestImg.AddComponent<CanvasGroup>();
+            
+            goldChestImg.transform.localScale = Vector3.zero;
+            cg.alpha = 0f;
+            
+            goldChestImg.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+            cg.DOFade(1f, 0.5f);
         }
     }
 
@@ -28,6 +45,7 @@ public class UIManager : MonoBehaviour
         GameManager.OnScoreUpdated += UpdateScoreUI;
         GameManager.OnScoreAnimationStart += OnScoreAnimStart;
         GameManager.OnScoreAnimationEnd += OnScoreAnimEnd;
+        GoldManager.OnGoldChanged += UpdateGoldUI; // NEW
     }
 
     private void OnDisable()
@@ -39,6 +57,7 @@ public class UIManager : MonoBehaviour
         GameManager.OnScoreUpdated -= UpdateScoreUI;
         GameManager.OnScoreAnimationStart -= OnScoreAnimStart;
         GameManager.OnScoreAnimationEnd -= OnScoreAnimEnd;
+        GoldManager.OnGoldChanged -= UpdateGoldUI; // NEW
     }
 
     private void OnScoreAnimStart()
@@ -71,6 +90,16 @@ public class UIManager : MonoBehaviour
         if (toplamPuanTxt != null)
         {
             toplamPuanTxt.text = score.ToString();
+        }
+    }
+    
+    [SerializeField] private TextMeshProUGUI altinAdetTxt; // NEW
+
+    private void UpdateGoldUI(int amount)
+    {
+        if (altinAdetTxt != null)
+        {
+            altinAdetTxt.text = amount.ToString();
         }
     }
 

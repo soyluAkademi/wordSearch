@@ -1,0 +1,204 @@
+{
+  "historical_facts": [
+    {
+      "id": 1,
+      "fact": "Tarihte bilinen ilk yazılı barış antlaşması, MÖ 1285 yılında Mısır Firavunu II. Ramses ile Hitit Kralı III. Hattuşili arasında imzalanan Kadeş Antlaşması'dır."
+    },
+    {
+      "id": 2,
+      "fact": "Yazıyı ilk bulan uygarlık Sümerlerdir; MÖ 3200 civarında çivi yazısını geliştirerek insanlık tarihinin kayıt altına alınmasını sağlamışlardır."
+    },
+    {
+      "id": 3,
+      "fact": "Tarihteki ilk madeni para, MÖ 7. yüzyılda Anadolu'da yaşayan Lidyalılar tarafından icat edilmiş ve ticaretin seyrini tamamen değiştirmiştir."
+    },
+    {
+      "id": 4,
+      "fact": "Dünyanın bilinen ilk tapınağı olan Göbeklitepe, Şanlıurfa'da yer alır ve tarihi MÖ 9600 yılına kadar uzanarak yerleşik hayattan bile eskidir."
+    },
+    {
+      "id": 5,
+      "fact": "Tarihteki ilk kapsamlı yazılı hukuk kuralları, Babil Kralı Hammurabi tarafından hazırlanan ve 'göze göz, dişe diş' ilkesine dayanan Hammurabi Kanunları'dır."
+    },
+    {
+      "id": 6,
+      "fact": "Dünyanın hala eğitim veren en eski üniversitesi, 859 yılında Fas'ın Fes şehrinde Fatima el-Fihri tarafından kurulan Al-Qarawiyyin Üniversitesi'dir."
+    },
+    {
+      "id": 7,
+      "fact": "İlk kağıt, MS 105 yılında Çinli bir saray görevlisi olan Cai Lun tarafından ağaç kabuğu, kenevir ve kumaş parçaları kullanılarak üretilmiştir."
+    },
+    {
+      "id": 8,
+      "fact": "Barutun ilk kullanımı, 9. yüzyılda Çin'de gerçekleşmiş; simyacılar ölümsüzlük iksiri ararken tesadüfen bu patlayıcı karışımı keşfetmişlerdir."
+    },
+    {
+      "id": 9,
+      "fact": "Matbaanın modern hali, 1440 yılında Johannes Gutenberg tarafından hareketli metal harflerin kullanılmasıyla geliştirilmiş ve bilgi devrimini başlatmıştır."
+    },
+    {
+      "id": 10,
+      "fact": "Tarihteki ilk buharlı makine tasarımı, MS 1. yüzyılda İskenderiyeli Heron tarafından 'Aeolipile' adıyla yapılmış, ancak o dönemde sadece oyuncak olarak görülmüştür."
+    },
+    {
+      "id": 11,
+      "fact": "Tıpta kullanılan ilk aşı, 1796 yılında İngiliz doktor Edward Jenner tarafından çiçek hastalığına karşı geliştirilmiş ve bağışıklık biliminin temelini atmıştır."
+    },
+    {
+      "id": 12,
+      "fact": "İlk başarılı telefon görüşmesi, 1876 yılında Alexander Graham Bell'in asistanına 'Bay Watson, buraya gelin, sizi görmek istiyorum' demesiyle gerçekleşmiştir."
+    },
+    {
+      "id": 13,
+      "fact": "Dünyanın ilk kalıcı fotoğrafı, 1826 yılında Fransız mucit Joseph Nicéphore Niépce tarafından yaklaşık 8 saatlik bir pozlama süresiyle çekilmiştir."
+    },
+    {
+      "id": 14,
+      "fact": "İlk modern otomobil, 1886 yılında Karl Benz tarafından patentlenen ve 'Motorwagen' adı verilen benzinli araç olarak kabul edilmektedir."
+    },
+    {
+      "id": 15,
+      "fact": "Tarihteki ilk motorlu uçak uçuşu, 17 Aralık 1903 tarihinde Orville ve Wilbur Wright kardeşler tarafından 12 saniye sürerek gerçekleştirilmiştir."
+    },
+    {
+      "id": 16,
+      "fact": "Röntgen ışınları, 1895 yılında Alman fizikçi Wilhelm Conrad Röntgen tarafından tesadüfen keşfedilmiş ve tıbbi görüntülemenin önünü açmıştır."
+    },
+    {
+      "id": 17,
+      "fact": "İlk antibiyotik olan penisilin, 1928 yılında Alexander Fleming tarafından laboratuvarındaki küflü bir mantarın bakterileri öldürdüğünü fark etmesiyle bulunmuştur."
+    },
+    {
+      "id": 18,
+      "fact": "Uzaya gönderilen ilk yapay uydu, 4 Ekim 1957 tarihinde Sovyetler Birliği tarafından fırlatılan Sputnik 1'dir ve uzay çağını resmen başlatmıştır."
+    },
+    {
+      "id": 19,
+      "fact": "Uzaya çıkan ilk insan, 12 Nisan 1961'de Vostok 1 kapsülüyle Dünya yörüngesinde tur atan Sovyet kozmonot Yuri Gagarin'dir."
+    },
+    {
+      "id": 20,
+      "fact": "Ay yüzeyine ayak basan ilk insan, 1969 yılında Apollo 11 göreviyle Ay'a inen Amerikalı astronot Neil Armstrong olmuştur."
+    },
+    {
+      "id": 21,
+      "fact": "İlk kalp nakli, 1967 yılında Güney Afrikalı cerrah Christiaan Barnard tarafından gerçekleştirilmiş ve tıp tarihinde büyük bir dönüm noktası olmuştur."
+    },
+    {
+      "id": 22,
+      "fact": "İnternetin atası sayılan ARPANET üzerinden ilk mesaj, 1969 yılında bir üniversiteden diğerine 'LO' (LOGIN yazılmaya çalışılırken) olarak gönderilmiştir."
+    },
+    {
+      "id": 23,
+      "fact": "İlk cep telefonu görüşmesi, 1973 yılında Martin Cooper tarafından New York sokaklarında rakip firma Bell Labs aranarak yapılmıştır."
+    },
+    {
+      "id": 24,
+      "fact": "Dünyanın ilk programlanabilir robotu, 12. yüzyılda yaşamış olan Cizreli dahi mühendis El-Cezeri tarafından tasarlanmış ve yapılmıştır."
+    },
+    {
+      "id": 25,
+      "fact": "Tarihteki ilk roman örneği, 11. yüzyılın başlarında Japon yazar Murasaki Shikibu tarafından kaleme alınan 'Genji'nin Hikayesi' (Tale of Genji) kabul edilir."
+    },
+    {
+      "id": 26,
+      "fact": "Sinema tarihinin ilk halka açık film gösterimi, 1895 yılında Lumière Kardeşler tarafından Paris'te gerçekleştirilmiş ve izleyiciler gelen trenden korkup kaçmışlardır."
+    },
+    {
+      "id": 27,
+      "fact": "Dünyanın ilk metrosu, 1863 yılında Londra'da hizmete giren ve buharlı lokomotiflerle çalışan Londra Metrosu'dur."
+    },
+    {
+      "id": 28,
+      "fact": "İlk bilgisayar programcısı, 19. yüzyılda Charles Babbage'ın Analitik Motoru için algoritmalar yazan Ada Lovelace olarak kabul edilmektedir."
+    },
+    {
+      "id": 29,
+      "fact": "Tarihteki ilk elektronik genel amaçlı bilgisayar ENIAC, 1946 yılında tamamlanmış ve yaklaşık 27 ton ağırlığında olup bir odayı kaplıyordu."
+    },
+    {
+      "id": 30,
+      "fact": "DNA'nın sarmal yapısı, 1953 yılında James Watson ve Francis Crick tarafından Rosalind Franklin'in çalışmaları ışığında keşfedilmiştir."
+    },
+    {
+      "id": 31,
+      "fact": "İlk başarılı klonlama, 1996 yılında İskoçya'da yetişkin bir koyunun genetik kopyası olarak dünyaya gelen 'Dolly' ile gerçekleştirilmiştir."
+    },
+    {
+      "id": 32,
+      "fact": "Dünyanın bilinen ilk haritası, MÖ 600 civarında Babilliler tarafından kil tablet üzerine çizilmiş ve dünyayı düz bir disk olarak göstermiştir."
+    },
+    {
+      "id": 33,
+      "fact": "İlk modern olimpiyat oyunları, antik gelenekleri canlandırmak amacıyla 1896 yılında Yunanistan'ın başkenti Atina'da düzenlenmiştir."
+    },
+    {
+      "id": 34,
+      "fact": "Tarihte bilinen ilk kütüphane, MÖ 7. yüzyılda Asur Kralı Asurbanipal tarafından Ninova'da kurulmuş ve 30.000'den fazla kil tablete ev sahipliği yapmıştır."
+    },
+    {
+      "id": 35,
+      "fact": "İlk ampul, Thomas Edison tarafından ticari hale getirilmeden önce birçok mucit tarafından denenmiş, ancak 1879'da Edison uzun ömürlü olanı patentlemiştir."
+    },
+    {
+      "id": 36,
+      "fact": "Tarihteki ilk web sitesi, 1991 yılında Tim Berners-Lee tarafından CERN'de kurulmuş ve World Wide Web projesini tanıtmıştır."
+    },
+    {
+      "id": 37,
+      "fact": "İlk video oyunu, 1958 yılında fizikçi William Higinbotham tarafından osiloskop ekranında oynanan 'Tennis for Two' adlı basit bir tenis oyunudur."
+    },
+    {
+      "id": 38,
+      "fact": "Dünyanın çevresini gemiyle dolaşmayı başaran ilk sefer, 1519'da Ferdinan Magellan tarafından başlatılmış ve 1522'de Juan Sebastián Elcano tarafından tamamlanmıştır."
+    },
+    {
+      "id": 39,
+      "fact": "İlk radyo yayını, 1890'ların sonunda Guglielmo Marconi ve Nikola Tesla'nın çalışmaları sonucunda kablosuz telgraf sistemiyle mümkün olmuştur."
+    },
+    {
+      "id": 40,
+      "fact": "Tarihteki ilk demokrasi uygulaması, MÖ 508 yılında Antik Yunan şehri Atina'da Cleisthenes reformlarıyla hayata geçirilmiştir."
+    },
+    {
+      "id": 41,
+      "fact": "Sıfır rakamı, ilk kez MS 7. yüzyılda Hintli matematikçi Brahmagupta tarafından bir sayı olarak tanımlanmış ve matematiğin gelişimini hızlandırmıştır."
+    },
+    {
+      "id": 42,
+      "fact": "İlk anestezi kullanımı, 1846 yılında diş hekimi William Morton tarafından eter kullanılarak bir tümör ameliyatında gerçekleştirilmiştir."
+    },
+    {
+      "id": 43,
+      "fact": "Periyodik tablo, 1869 yılında Rus kimyager Dmitri Mendeleev tarafından elementlerin atom ağırlıklarına göre sıralanmasıyla oluşturulmuştur."
+    },
+    {
+      "id": 44,
+      "fact": "İlk e-posta, 1971 yılında Ray Tomlinson tarafından ARPANET üzerinde, kendi kendine deneme amaçlı rastgele harfler gönderilmesiyle atılmıştır."
+    },
+    {
+      "id": 45,
+      "fact": "Tarihteki ilk tank, I. Dünya Savaşı sırasında İngilizler tarafından geliştirilmiş ve 1916 yılında Somme Muharebesi'nde kullanılmıştır."
+    },
+    {
+      "id": 46,
+      "fact": "İlk pil, 1800 yılında İtalyan fizikçi Alessandro Volta tarafından çinko ve bakır disklerin üst üste dizilmesiyle icat edilmiştir."
+    },
+    {
+      "id": 47,
+      "fact": "Tarihteki ilk nüfus sayımı, MÖ 3800 yıllarında Babil İmparatorluğu'nda vergi mükelleflerini belirlemek amacıyla yapılmıştır."
+    },
+    {
+      "id": 48,
+      "fact": "İlk gözlük, 13. yüzyılın sonlarında İtalya'da icat edilmiş, ancak mucidinin adı kesin olarak bilinmemekle birlikte Salvino D'Armate ile ilişkilendirilir."
+    },
+    {
+      "id": 49,
+      "fact": "Modern anlamda ilk ansiklopedi, 18. yüzyılda Denis Diderot ve Jean le Rond d'Alembert öncülüğünde Fransa'da yayımlanmıştır."
+    },
+    {
+      "id": 50,
+      "fact": "Tarihteki ilk takvim, MÖ 4000 civarında Mısırlılar tarafından Nil Nehri'nin taşkın zamanlarını hesaplamak amacıyla güneş yılı esas alınarak yapılmıştır."
+    }
+  ]
+}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2070876710749049659}
   - component: {fileID: 4935008948350205710}
   - component: {fileID: 1466720207450002874}
+  - component: {fileID: 1023595745848979709}
   m_Layer: 5
   m_Name: tekHintBtn
   m_TagString: Untagged
@@ -28,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 575464414504602733}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7348227760595795551}
@@ -122,6 +123,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1023595745848979709
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575464414504602733}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7187897936143368835
 GameObject:
   m_ObjectHideFlags: 0

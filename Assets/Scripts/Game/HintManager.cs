@@ -1,211 +1,208 @@
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
-using TMPro;
 using DG.Tweening;
-using System.Collections; // Added for IEnumerator
+using System;
 
 public class HintManager : MonoBehaviour
 {
-    [SerializeField] private Button harfHintBtn;
-    [SerializeField] private Button harflerHintBtn;
-    [SerializeField] private Button kelimeHintBtn; 
-    [SerializeField] private Sprite redSprite;
-    [SerializeField] private float completionDelay = 1.0f; // New
+    public static HintManager Instance;
+
+    [Header("Unlock Settings")]
+    [SerializeField] private GameObject tekliIpucuInfo;
+    [SerializeField] private GameObject cokluIpucuInfo;
+    [SerializeField] private GameObject kelimeIpucuInfo;
+
+    [Header("Unlock Question Numbers")]
+    [SerializeField] private int unlockQuestionTekli = 3;
+    [SerializeField] private int unlockQuestionCoklu = 7;
+    [SerializeField] private int unlockQuestionKelime = 12;
+
+    [Header("Hint Buttons (To Unlock)")]
+    [SerializeField] private GameObject tekliHintBtnObj;
+    [SerializeField] private GameObject cokluHintBtnObj;
+    [SerializeField] private GameObject kelimeHintBtnObj;
     
-    private WordManager wordManager;
-    private LetterBoxesManager letterBoxesManager;
+    [SerializeField] float animationDuration = 0.5f;
 
-    private List<int> _revealedIndices = new List<int>();
+  
 
-    void Start()
+    private void Awake()
     {
-        if (harfHintBtn != null)
+        if (Instance == null)
         {
-            harfHintBtn.onClick.AddListener(OnHintClicked);
-        }
-
-        if (harflerHintBtn != null)
-        {
-            harflerHintBtn.onClick.AddListener(OnMultiHintClicked);
-        }
-
-        if (kelimeHintBtn != null)
-        {
-            kelimeHintBtn.onClick.AddListener(OnWordHintClicked);
-        }
-
-        if (wordManager == null) wordManager = FindAnyObjectByType<WordManager>();
-        if (letterBoxesManager == null) letterBoxesManager = FindAnyObjectByType<LetterBoxesManager>();
-
-        WordManager.OnQuestionProgressUpdated += OnQuestionProgressUpdated;
-    }
-
-    private void OnDestroy()
-    {
-        WordManager.OnQuestionProgressUpdated -= OnQuestionProgressUpdated;
-    }
-
-    private void OnQuestionProgressUpdated(int current, int total)
-    {
-        _revealedIndices.Clear();
-        SetButtonsInteractable(true);
-    }
-
-    private void SetButtonsInteractable(bool state)
-    {
-        if (harfHintBtn != null) harfHintBtn.interactable = state;
-        if (harflerHintBtn != null) harflerHintBtn.interactable = state;
-        if (kelimeHintBtn != null) kelimeHintBtn.interactable = state;
-    }
-
-    private void OnHintClicked()
-    {
-        RevealRandomLetters(1);
-    }
-
-    private void OnMultiHintClicked()
-    {
-        if (wordManager == null) return;
-        string answer = wordManager.CurrentAnswer;
-        if (string.IsNullOrEmpty(answer)) return;
-
-        int countToReveal = 2;
-        if (answer.Length > 3)
-        {
-            countToReveal = Random.Range(2, 4); // 2 or 3
-        }
-        else if (answer.Length == 3)
-        {
-             countToReveal = 2;
-        }
-        
-        RevealRandomLetters(countToReveal);
-    }
-
-    private void OnWordHintClicked()
-    {
-        // Reveal all remaining
-        if (wordManager == null) return;
-        string answer = wordManager.CurrentAnswer;
-        if (string.IsNullOrEmpty(answer)) return;
-        
-        RevealRandomLetters(answer.Length); 
-    }
-
-    private void RevealRandomLetters(int count)
-    {
-        if (wordManager == null || letterBoxesManager == null) return;
-        
-        string answer = wordManager.CurrentAnswer;
-        if (string.IsNullOrEmpty(answer)) return;
-
-        // Lock buttons during process
-        SetButtonsInteractable(false);
-
-        // Find unrevealed indices
-        List<int> availableIndices = new List<int>();
-        for (int i = 0; i < answer.Length; i++)
-        {
-            // Only add if not already revealed
-            if (!_revealedIndices.Contains(i))
-            {
-                availableIndices.Add(i);
-            }
-        }
-
-        if (availableIndices.Count == 0) 
-        {
-            // Already full? Should trigger win but just in case
-            return;
-        }
-
-        int revealCount = Mathf.Min(count, availableIndices.Count);
-
-        for (int i = 0; i < revealCount; i++)
-        {
-            if (availableIndices.Count == 0) break;
-
-            int randIndexInList = Random.Range(0, availableIndices.Count);
-            int targetIndex = availableIndices[randIndexInList];
-            
-            RevealLetter(targetIndex, answer[targetIndex]);
-            
-            availableIndices.RemoveAt(randIndexInList);
-        }
-
-        // If NOT complete, re-enable buttons after a short delay (optional, or immediate)
-        // Check if actually completed
-        if (_revealedIndices.Count < answer.Length)
-        {
-            // Opsiyonel: Animasyon süresi kadar bekleyip açabiliriz ama şimdilik direkt açalım
-            // Kullanıcı seri basamasın diye Invoke ile açmak daha iyi olabilir
-            Invoke(nameof(EnableButtons), 0.5f);
+            Instance = this;
         }
         else
         {
-            // Completed. Keep buttons disabled. 
-            // Level transition will happen after delay.
+            Destroy(gameObject);
         }
     }
 
-    private void EnableButtons()
+    public void CheckUnlockCondition(int completedQuestionNumber, Action onComplete)
     {
-        SetButtonsInteractable(true);
-    }
+        // completedQuestionNumber: The question just finished (1-based)
+        // So if we finished Q3, we show unlock for Q3 completion.
 
-    private void RevealLetter(int index, char letter)
-    {
-        // Add to revealed list
-        if (!_revealedIndices.Contains(index))
+        GameObject targetInfo = null;
+        GameObject targetButton = null;
+
+        if (completedQuestionNumber == unlockQuestionTekli)
         {
-            _revealedIndices.Add(index);
+            targetInfo = tekliIpucuInfo;
+            targetButton = tekliHintBtnObj;
+        }
+        else if (completedQuestionNumber == unlockQuestionCoklu)
+        {
+            targetInfo = cokluIpucuInfo;
+            targetButton = cokluHintBtnObj;
+        }
+        else if (completedQuestionNumber == unlockQuestionKelime)
+        {
+            targetInfo = kelimeIpucuInfo;
+            targetButton = kelimeHintBtnObj;
         }
 
-        if (letterBoxesManager.ActiveBoxes != null && index < letterBoxesManager.ActiveBoxes.Count)
+        if (targetInfo != null)
         {
-            GameObject box = letterBoxesManager.ActiveBoxes[index];
-            if (box != null)
+            ShowInfo(targetInfo, targetButton, onComplete);
+        }
+        else
+        {
+            onComplete?.Invoke();
+        }
+    }
+
+    private void ShowInfo(GameObject infoObj, GameObject buttonToUnlock, Action onClosed)
+    {
+        if (infoObj == null)
+        {
+            onClosed?.Invoke();
+            return;
+        }
+
+        infoObj.SetActive(true);
+
+        // Child 0 animation (Scale & Alpha)
+        Transform child = infoObj.transform.GetChild(0);
+        CanvasGroup cg = child.GetComponent<CanvasGroup>();
+        if (cg == null) cg = child.gameObject.AddComponent<CanvasGroup>();
+
+        // Init State
+        child.localScale = Vector3.zero;
+        cg.alpha = 0f;
+
+        // Animate In
+        child.DOScale(Vector3.one, animationDuration).SetEase(Ease.OutBack);
+        cg.DOFade(1f, animationDuration);
+
+        // Button Listener Setup
+        Button closeBtn = infoObj.GetComponentInChildren<Button>(); 
+        
+        // Try to find specific button if generic fails or to be sure
+        Transform btnTrans = infoObj.transform.Find("DevamEtBtn"); 
+        if (btnTrans == null) btnTrans = infoObj.transform.Find("tekliDevamEtBtn");
+        if (btnTrans != null) closeBtn = btnTrans.GetComponent<Button>();
+
+        if (closeBtn != null)
+        {
+            closeBtn.onClick.RemoveAllListeners();
+            closeBtn.onClick.AddListener(() => 
             {
-                // Set Sprite
-                Image img = box.GetComponent<Image>();
-                if (img != null && redSprite != null)
-                {
-                    img.sprite = redSprite;
-                }
-
-                // Set Text
-                TextMeshProUGUI txt = box.GetComponentInChildren<TextMeshProUGUI>();
-                if (txt != null)
-                {
-                    txt.text = letter.ToString().ToUpper();
-                    txt.color = Color.white; 
-                }
-
-                // Animation
-                box.transform.DOKill(true);
-                box.transform.DOShakeScale(0.5f, 0.3f, 10, 90, true);
-            }
+                // Remove listener to avoid multi-call?
+                closeBtn.onClick.RemoveAllListeners(); 
+                HideInfo(infoObj, buttonToUnlock, onClosed);
+            });
         }
-
-        // Check Completion
-        if (_revealedIndices.Count >= wordManager.CurrentAnswer.Length)
+        else
         {
-            CancelInvoke(nameof(EnableButtons));
-            SetButtonsInteractable(false);
-
-            StartCoroutine(DelayedWinAnimation());
+            Debug.LogWarning("No close button found in " + infoObj.name);
+            // Fallback
         }
     }
 
-    private System.Collections.IEnumerator DelayedWinAnimation()
+    private void HideInfo(GameObject infoObj, GameObject buttonToUnlock, Action onClosed)
     {
-        yield return new WaitForSeconds(completionDelay);
+        if (infoObj == null) return;
 
-        // "Sanki doğru bilmiş gibi" - Trigger level complete with animation
-        wordManager.PlayWinAnimation(() => 
+        Transform child = infoObj.transform.GetChild(0);
+        CanvasGroup cg = child.GetComponent<CanvasGroup>();
+
+        // Animate Out
+        child.DOScale(Vector3.zero, animationDuration).SetEase(Ease.InBack);
+        if(cg != null) cg.DOFade(0f, animationDuration);
+        
+        // Wait for animation then deactivate
+        DOVirtual.DelayedCall(animationDuration, () => 
         {
-            wordManager.TriggerLevelCompletion();
+            infoObj.SetActive(false);
+            
+            // Unlock the corresponding button if one was targeted
+            if (buttonToUnlock != null)
+            {
+                AnimateButtonUnlock(buttonToUnlock);
+            }
+            
+            onClosed?.Invoke();
         });
+    }
+
+    // Overload or modify existing flow to pass button
+    // Refactored ShowInfo below to pass buttonToUnlock to HideInfo
+    
+    private void AnimateButtonUnlock(GameObject btnObj)
+    {
+        if(btnObj == null) return;
+        
+        btnObj.SetActive(true);
+        CanvasGroup cg = btnObj.GetComponent<CanvasGroup>();
+        if (cg == null) cg = btnObj.AddComponent<CanvasGroup>();
+        
+        btnObj.transform.localScale = Vector3.zero;
+        cg.alpha = 0f;
+        
+        btnObj.transform.DOScale(Vector3.one, animationDuration).SetEase(Ease.OutBack);
+        cg.DOFade(1f, animationDuration);
+    }
+
+    public void InitializeHintButtons(int currentQuestionNumber)
+    {
+        // Set initial state based on progress
+        // If currentQuestionNumber is > unlockQuestionX, it means we passed it.
+        // Example: Unlock at 3. If we are at 4, button should be active.
+        
+        InitializeButton(tekliHintBtnObj, currentQuestionNumber > unlockQuestionTekli);
+        InitializeButton(cokluHintBtnObj, currentQuestionNumber > unlockQuestionCoklu);
+        InitializeButton(kelimeHintBtnObj, currentQuestionNumber > unlockQuestionKelime);
+    }
+
+    private void InitializeButton(GameObject btn, bool isUnlocked)
+    {
+        if (btn == null) return;
+
+        // Ensure object is active to be manipulated/seen
+        btn.SetActive(true);
+
+        CanvasGroup cg = btn.GetComponent<CanvasGroup>();
+        if (cg == null) cg = btn.AddComponent<CanvasGroup>();
+
+        if (isUnlocked)
+        {
+            // If already fully visible (scale ~1), do not re-animate 
+            // to avoid annoying pop-in on every level load if persistence is used.
+            if (btn.transform.localScale.x > 0.9f && cg.alpha > 0.9f) return;
+
+            // Unlocked: Animate In (Tween)
+            btn.transform.localScale = Vector3.zero;
+            cg.alpha = 0f;
+            
+            btn.transform.DOScale(Vector3.one, animationDuration).SetEase(Ease.OutBack);
+            cg.DOFade(1f, animationDuration);
+        }
+        else
+        {
+            // Locked: Hidden (Instant)
+            btn.transform.localScale = Vector3.zero;
+            cg.alpha = 0f;
+        }
     }
 }
