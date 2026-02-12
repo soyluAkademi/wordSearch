@@ -764,6 +764,18 @@ public class WordManager : MonoBehaviour
             yield return new WaitUntil(() => processed);
         }
 
+        // --- NEW: Reklam Goster Popup Check ---
+        if (ReklamGosterManager.Instance != null)
+        {
+            bool offerProcessed = false;
+            ReklamGosterManager.Instance.CheckAndShowOffer(_currentQuestion, () => 
+            {
+                offerProcessed = true;
+            });
+            
+            yield return new WaitUntil(() => offerProcessed);
+        }
+
         // Check for Hint Unlock before proceeding
         if (HintManager.Instance != null)
         {
