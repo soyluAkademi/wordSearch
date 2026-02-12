@@ -13,6 +13,7 @@ public class ReklamGosterManager : MonoBehaviour
     [SerializeField] private GameObject contentContainer; // The popup content
     [SerializeField] private Button exitBtn;
     [SerializeField] private Button chestBtn;
+    [SerializeField] private RectTransform scrollContent; // NEW: To reset scroll position
 
     private System.Action _onCompleteCallback;
 
@@ -29,8 +30,8 @@ public class ReklamGosterManager : MonoBehaviour
     public void CalculateDebugInfo()
     {
         debugTriggerPoints.Clear();
-        // Show for first 50 levels as example
-        for (int lvl = 1; lvl <= 50; lvl++)
+        // Show for first 100 levels (50 ads)
+        for (int lvl = 1; lvl <= 100; lvl++)
         {
             if (lvl < 2) continue; // Skip level 1 (if desired, or start from 1 if 1 is even? 1 is odd so it skips anyway)
             if (lvl % 2 != 0) continue; // Skip ODD levels (Process EVEN only)
@@ -118,16 +119,23 @@ public class ReklamGosterManager : MonoBehaviour
             return;
         }
 
+        // Reset Scroll Position
+        if (scrollContent != null)
+        {
+            scrollContent.anchoredPosition = new Vector2(scrollContent.anchoredPosition.x, 0f);
+        }
+
         // Animations
         panel.SetActive(true);
 
         // Prep container
-        contentContainer.transform.localScale = Vector3.one; // Ensure scale is 1
+        contentContainer.transform.localScale = Vector3.zero; // Start from 0
         CanvasGroup cg = contentContainer.GetComponent<CanvasGroup>();
         if (cg == null) cg = contentContainer.AddComponent<CanvasGroup>();
         cg.alpha = 0f;
 
-        // Animate In - Fade Only
+        // Animate In: Scale + Fade
+        contentContainer.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
         cg.DOFade(1f, 0.5f);
     }
 
@@ -135,8 +143,9 @@ public class ReklamGosterManager : MonoBehaviour
     {
         if (contentContainer != null)
         {
-            // Animate Out - Fade Only
+            // Animate Out: Scale + Fade
             CanvasGroup cg = contentContainer.GetComponent<CanvasGroup>();
+            contentContainer.transform.DOScale(Vector3.zero, 0.3f).SetEase(Ease.InBack);
             if(cg != null) cg.DOFade(0f, 0.3f);
         }
 

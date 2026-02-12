@@ -1,6 +1,7 @@
 using UnityEngine;
 using DG.Tweening;
 using TMPro;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI toplamPuanTxt;
     [SerializeField] private GameObject scoreEffectObject; 
     [SerializeField] private GameObject goldChestImg; // NEW
+    
+    [Header("Ad Watch Panel")]
+    [SerializeField] private Button reklamIzleBtn;
+    [SerializeField] private GameObject reklamIzlePanel;
 
     private Vector3 _initialEffectPos;
 
@@ -18,6 +23,29 @@ public class UIManager : MonoBehaviour
         if (scoreEffectObject != null)
         {
             _initialEffectPos = scoreEffectObject.transform.localPosition;
+        }
+
+        if (reklamIzlePanel != null)
+        {
+            reklamIzlePanel.SetActive(false);
+            
+            // Find exit button in panel if not manually assigned
+            Button exitBtn = reklamIzlePanel.transform.Find("ExitBtn")?.GetComponent<Button>(); 
+            // Also try to find it recursively or by common names if structure varies, 
+            // but simple Find is usually enough for flat hierarchy.
+            if (exitBtn == null) exitBtn = reklamIzlePanel.GetComponentInChildren<Button>(); // Fallback to first button
+
+            if (exitBtn != null)
+            {
+                exitBtn.onClick.RemoveAllListeners();
+                exitBtn.onClick.AddListener(CloseReklamIzlePanel);
+            }
+        }
+
+        if (reklamIzleBtn != null)
+        {
+            reklamIzleBtn.onClick.RemoveAllListeners();
+            reklamIzleBtn.onClick.AddListener(OpenReklamIzlePanel);
         }
     }
 
@@ -34,6 +62,63 @@ public class UIManager : MonoBehaviour
             goldChestImg.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
             cg.DOFade(1f, 0.5f);
         }
+
+        if (reklamIzleBtn != null)
+        {
+            var cg = reklamIzleBtn.GetComponent<CanvasGroup>();
+            if (cg == null) cg = reklamIzleBtn.gameObject.AddComponent<CanvasGroup>();
+            
+            reklamIzleBtn.transform.localScale = Vector3.zero;
+            cg.alpha = 0f;
+            
+            // Slight delay or different duration if desired, but same as chest for now
+            reklamIzleBtn.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+            cg.DOFade(1f, 0.5f);
+        }
+    }
+
+    public void OpenReklamIzlePanel()
+    {
+        if (reklamIzlePanel == null) return;
+
+        reklamIzlePanel.SetActive(true);
+
+        // Get 0th child for animation
+        if (reklamIzlePanel.transform.childCount > 0)
+        {
+            Transform content = reklamIzlePanel.transform.GetChild(0);
+            
+            CanvasGroup cg = content.GetComponent<CanvasGroup>();
+            if (cg == null) cg = content.gameObject.AddComponent<CanvasGroup>();
+
+            // Reset State
+            content.localScale = Vector3.zero;
+            cg.alpha = 0f;
+
+            // Animate
+            content.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+            cg.DOFade(1f, 0.5f);
+        }
+    }
+
+    public void CloseReklamIzlePanel()
+    {
+        if (reklamIzlePanel == null) return;
+
+        if (reklamIzlePanel.transform.childCount > 0)
+        {
+            Transform content = reklamIzlePanel.transform.GetChild(0);
+            CanvasGroup cg = content.GetComponent<CanvasGroup>();
+
+            // Animate Out
+            content.DOScale(Vector3.zero, 0.3f).SetEase(Ease.InBack);
+            if(cg != null) cg.DOFade(0f, 0.3f);
+        }
+
+        DOVirtual.DelayedCall(0.3f, () => 
+        {
+            reklamIzlePanel.SetActive(false);
+        });
     }
 
     private void OnEnable()

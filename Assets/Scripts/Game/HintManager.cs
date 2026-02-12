@@ -35,6 +35,25 @@ public class HintManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
+        }
+
+        // --- NEW: Force hidden at start so they animate in if unlocked ---
+        PrepareButtonForStartAnim(tekliHintBtnObj);
+        PrepareButtonForStartAnim(cokluHintBtnObj);
+        PrepareButtonForStartAnim(kelimeHintBtnObj);
+    }
+
+    private void PrepareButtonForStartAnim(GameObject btn)
+    {
+        if (btn != null)
+        {
+            btn.transform.localScale = Vector3.zero;
+            CanvasGroup cg = btn.GetComponent<CanvasGroup>();
+            if (cg == null) cg = btn.AddComponent<CanvasGroup>();
+            cg.alpha = 0f;
+            // Optionally set active true/false? InitializeButton handles it.
+            // But if we set active false here, InitializeButton sets it true.
         }
     }
 

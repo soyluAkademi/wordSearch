@@ -37,10 +37,9 @@ public class TarihiIlklerManager : MonoBehaviour
     public void CalculateDebugInfo()
     {
         debugTriggerPoints.Clear();
-        // Show for first 50 levels as example
-        for (int lvl = 1; lvl <= 50; lvl++)
+        // Show for first 100 levels (50 facts)
+        for (int lvl = 1; lvl <= 100; lvl++)
         {
-            if (lvl < 3) continue; // Skip first 2
             if (lvl % 2 == 0) continue; // Skip even levels
 
             int qIdx = GetTargetQuestionForLevel(lvl);
@@ -105,17 +104,12 @@ public class TarihiIlklerManager : MonoBehaviour
         int questionInLevel = (currentQuestionIndex % 15) + 1;
 
         // Logic Requirements:
-        // 1. Skip first few levels (e.g. start at level 3, since user said "after first 15 questions" and "ask at odd levels").
-        //    Level 1 (Questions 1-15) -> Skip.
-        //    Level 2 (Questions 16-30) -> Even, Skip.
-        //    Level 3 -> First ODD level to show.
-        // 2. Only ODD levels (3, 5, 7...).
-        // 3. Random question between 5 and 12 in that level.
+        // 1. Only ODD levels (1, 3, 5...).
+        // 2. Random question between 5 and 12 in that level.
 
         bool isOddLevel = (absoluteLevel % 2 != 0);
-        bool isLevelHighEnough = (absoluteLevel >= 3); 
 
-        if (isOddLevel && isLevelHighEnough)
+        if (isOddLevel)
         {
             // Determine the target question index for this specific level.
             // We use a deterministic random based on level number so it doesn't change if the user restarts the app mid-level.
