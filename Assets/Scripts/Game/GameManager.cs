@@ -39,14 +39,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private int _highScore;
+    public int HighScore => _highScore;
+
     private void LoadScore()
     {
         _totalScore = PlayerPrefs.GetInt("TotalScore", 0);
         _currentLevelScore = PlayerPrefs.GetInt("CurrentLevelScore", 0);
+        _highScore = PlayerPrefs.GetInt("HighScore", 0);
     }
 
     private void SaveScore()
     {
+        if (_totalScore > _highScore)
+        {
+            _highScore = _totalScore;
+            PlayerPrefs.SetInt("HighScore", _highScore);
+        }
+
         PlayerPrefs.SetInt("TotalScore", _totalScore);
         PlayerPrefs.SetInt("CurrentLevelScore", _currentLevelScore);
         PlayerPrefs.Save();
@@ -133,5 +143,35 @@ public class GameManager : MonoBehaviour
                 OnScoreUpdated?.Invoke(_totalScore); // Ensure final value is set
                 OnScoreAnimationEnd?.Invoke();
             });
+    }
+
+    public void ResetGame()
+    {
+        // 1. Reset Gold
+        if (GoldManager.Instance != null)
+        {
+            GoldManager.Instance.ResetGold();
+        }
+
+        // 2. Reset Scores
+        _totalScore = 0;
+        _currentLevelScore = 0;
+        // HighScore remains untouched
+
+        // 3. Clear Persistence
+        PlayerPrefs.SetInt("TotalScore", 0);
+        PlayerPrefs.SetInt("CurrentLevelScore", 0);
+        
+        // Reset Question Index
+        string sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetInt(sceneName + "_CurrentQuestion", 0);
+        
+        // Flag to tell TestManager NOT to jump
+        PlayerPrefs.SetInt("JustReset", 1);
+
+        PlayerPrefs.Save();
+
+        // 4. Reload Scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 }

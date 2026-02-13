@@ -7,6 +7,13 @@ public class TestManager : MonoBehaviour
 
     private void Start()
     {
+        // Check if we just reset the game
+        if (PlayerPrefs.HasKey("JustReset"))
+        {
+            PlayerPrefs.DeleteKey("JustReset");
+            return; // Do NOT jump, let the game start at 0
+        }
+
         // Wait a frame or two? Usually Start runs after Awake.
         // WordManager Awake loads questions. WordManager Start loads progress.
         // We want to override progress.

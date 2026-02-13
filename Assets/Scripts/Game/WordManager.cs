@@ -655,7 +655,7 @@ public class WordManager : MonoBehaviour
             GoldManager.Instance.AddGold(5);
         }
 
-        Debug.Log("Level Complete!");
+        Debug.Log("Question Complete!");
 
         if (successParticle != null)
         {
@@ -789,11 +789,30 @@ public class WordManager : MonoBehaviour
             // Level / Chapter Transition Check
             // _currentQuestion (0-based) is the one just finished.
             // So we are about to go to (_currentQuestion + 1).
-            // Check if we just finished a multiple of 15.
+
+            // 1. Check End Game (1500 Questions)
+            if (_currentQuestion + 1 >= 1500)
+            {
+                if (GecisVeBitisManager.Instance != null)
+                {
+                    int totalScore = 0;
+                    int highScore = 0;
+                    if (GameManager.Instance != null)
+                    {
+                        totalScore = GameManager.Instance.TotalScore;
+                        highScore = GameManager.Instance.HighScore;
+                    }
+
+                    GecisVeBitisManager.Instance.ShowEndGame(totalScore, highScore);
+                }
+                return; // Stop progression
+            }
+
+            // 2. Check Level Transition (Every 15)
             if ((_currentQuestion + 1) % 15 == 0)
             {
                 // Show Transition Panel
-                if (GecisManager.Instance != null && _chapterNames != null && _chapterNames.Length > 0)
+                if (GecisVeBitisManager.Instance != null && _chapterNames != null && _chapterNames.Length > 0)
                 {
                     // Calculate Next Level Info
                     int nextIndex = _currentQuestion + 1;
@@ -815,7 +834,7 @@ public class WordManager : MonoBehaviour
                     // Level (1-10)
                     int level = ((nextIndex % 150) / 15) + 1;
                     
-                    GecisManager.Instance.ShowTransition(nextChapterName, level, levelScore, totalScore, () => 
+                    GecisVeBitisManager.Instance.ShowTransition(nextChapterName, level, levelScore, totalScore, () => 
                     {
                         NextQuestion();
                     });

@@ -558,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86703eceedc3614495c22e73a9c5e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestManager
-  startQuestionIndex: 148
+  startQuestionIndex: 1498
 --- !u!4 &13943720
 Transform:
   m_ObjectHideFlags: 0
@@ -13793,6 +13793,11 @@ MonoBehaviour:
   sonrakiLevelTxt: {fileID: 1971799190}
   bolumPuaniTxt: {fileID: 755271884}
   toplamPuanTxt: {fileID: 460691692}
+  bitisBackPanel: {fileID: 1256670164}
+  bitisToplamPuanTxt: {fileID: 1769285378}
+  enYuksekSkorTxt: {fileID: 1445064969}
+  bitisMainBtn: {fileID: 1989072257}
+  bitisTekrarOynaBtn: {fileID: 1628033187}
 --- !u!1 &1201829748
 GameObject:
   m_ObjectHideFlags: 0

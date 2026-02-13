@@ -62,6 +62,13 @@ public class GoldManager : MonoBehaviour
         return _currentGold >= amount;
     }
 
+    public void ResetGold()
+    {
+        _currentGold = 150; // Default start amount
+        SaveGold();
+        OnGoldChanged?.Invoke(_currentGold);
+    }
+
     private void SaveGold()
     {
         PlayerPrefs.SetInt(PREF_GOLD, _currentGold);
