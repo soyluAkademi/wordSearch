@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     [Header("Game Progress")]
     public int CurrentQuestionNumber; // 1-based index (count)
 
+    private int _currentLevelScore;
+    public int CurrentLevelScore => _currentLevelScore;
+
     // Timer variables
     private float _startTime;
     private bool _isTimerRunning;
@@ -39,11 +42,20 @@ public class GameManager : MonoBehaviour
     private void LoadScore()
     {
         _totalScore = PlayerPrefs.GetInt("TotalScore", 0);
+        _currentLevelScore = PlayerPrefs.GetInt("CurrentLevelScore", 0);
     }
 
     private void SaveScore()
     {
         PlayerPrefs.SetInt("TotalScore", _totalScore);
+        PlayerPrefs.SetInt("CurrentLevelScore", _currentLevelScore);
+        PlayerPrefs.Save();
+    }
+
+    public void ResetLevelScore()
+    {
+        _currentLevelScore = 0;
+        PlayerPrefs.SetInt("CurrentLevelScore", 0);
         PlayerPrefs.Save();
     }
 
@@ -101,6 +113,7 @@ public class GameManager : MonoBehaviour
     {
         int oldScore = _totalScore;
         _totalScore += amount;
+        _currentLevelScore += amount;
         SaveScore();
 
         // Animate the score

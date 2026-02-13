@@ -238,6 +238,12 @@ public class WordManager : MonoBehaviour
         // Calculate Question within Level (1-15)
         int questionNumber = (totalIndex % 15) + 1;
 
+        // Reset Level Score if start of new level
+        if (questionNumber == 1 && GameManager.Instance != null)
+        {
+            GameManager.Instance.ResetLevelScore();
+        }
+
         // Update UI Events
         OnLevelInfoUpdated?.Invoke(currentChapterName, levelNumber);
         
@@ -797,10 +803,19 @@ public class WordManager : MonoBehaviour
                     if (chapterIndex >= _chapterNames.Length) chapterIndex = _chapterNames.Length - 1;
                     string nextChapterName = _chapterNames[chapterIndex];
 
-                    // Level (1-10)
-                    int nextLevelNum = ((nextIndex % 150) / 15) + 1;
+                    // Calculate Scores
+                    int levelScore = 0;
+                    int totalScore = 0;
+                    if (GameManager.Instance != null)
+                    {
+                        levelScore = GameManager.Instance.CurrentLevelScore;
+                        totalScore = GameManager.Instance.TotalScore;
+                    }
 
-                    GecisManager.Instance.ShowTransition(nextChapterName, nextLevelNum, () => 
+                    // Level (1-10)
+                    int level = ((nextIndex % 150) / 15) + 1;
+                    
+                    GecisManager.Instance.ShowTransition(nextChapterName, level, levelScore, totalScore, () => 
                     {
                         NextQuestion();
                     });

@@ -18,6 +18,8 @@ public class GecisManager : MonoBehaviour
     
     [SerializeField] private TextMeshProUGUI sonrakiBolumTxt;
     [SerializeField] private TextMeshProUGUI sonrakiLevelTxt;
+    [SerializeField] private TextMeshProUGUI bolumPuaniTxt;
+    [SerializeField] private TextMeshProUGUI toplamPuanTxt;
 
     private Action _onContinueCallback;
     private CanvasGroup _panelCanvasGroup;
@@ -63,7 +65,7 @@ public class GecisManager : MonoBehaviour
         }
     }
 
-    public void ShowTransition(string nextChapterName, int nextLevelNum, Action onContinue)
+    public void ShowTransition(string nextChapterName, int nextLevelNum, int levelScore, int totalScore, Action onContinue)
     {
         _onContinueCallback = onContinue;
 
@@ -97,6 +99,25 @@ public class GecisManager : MonoBehaviour
         
         if (_panelCanvasGroup != null)
             _panelCanvasGroup.DOFade(1f, 0.5f);
+
+        // Score Animations
+        if (bolumPuaniTxt != null)
+        {
+            int currentLevelScore = 0;
+            DOTween.To(() => currentLevelScore, x => currentLevelScore = x, levelScore, 2f)
+                .OnUpdate(() => bolumPuaniTxt.text = currentLevelScore.ToString())
+                .SetEase(Ease.OutQuad);
+        }
+
+        if (toplamPuanTxt != null)
+        {
+            int currentTotalScore = 0; // Start from 0 as requested ("sayac gibi akacak")
+            // Alternatively start from (totalScore - levelScore) if preferred, but user said "0 dan 300 e" for level
+            // and "benzer mantik" for total. Let's do 0 to Total for dramatic effect.
+            DOTween.To(() => currentTotalScore, x => currentTotalScore = x, totalScore, 2f)
+                .OnUpdate(() => toplamPuanTxt.text = currentTotalScore.ToString())
+                .SetEase(Ease.OutQuad);
+        }
     }
 
     private IEnumerator PlayParticles()
