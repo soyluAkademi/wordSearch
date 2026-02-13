@@ -22,12 +22,12 @@ public class TestManager : MonoBehaviour
         WordManager wm = FindObjectOfType<WordManager>();
         if (wm != null)
         {
-            Debug.Log($"[TestManager] Jumping to Question Index: {startQuestionIndex}");
+           
             wm.JumpToQuestion(startQuestionIndex);
         }
         else
         {
-            Debug.LogError("[TestManager] WordManager not found!");
+           
         }
     }
 }

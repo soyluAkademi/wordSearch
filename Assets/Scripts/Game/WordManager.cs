@@ -4,6 +4,7 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System;
 
 public class WordManager : MonoBehaviour
 {
@@ -777,19 +778,54 @@ public class WordManager : MonoBehaviour
         }
 
         // Check for Hint Unlock before proceeding
+        Action onCompleteLevel = () => 
+        {
+            // Level / Chapter Transition Check
+            // _currentQuestion (0-based) is the one just finished.
+            // So we are about to go to (_currentQuestion + 1).
+            // Check if we just finished a multiple of 15.
+            if ((_currentQuestion + 1) % 15 == 0)
+            {
+                // Show Transition Panel
+                if (GecisManager.Instance != null && _chapterNames != null && _chapterNames.Length > 0)
+                {
+                    // Calculate Next Level Info
+                    int nextIndex = _currentQuestion + 1;
+                    
+                    // Chapter
+                    int chapterIndex = nextIndex / 150;
+                    if (chapterIndex >= _chapterNames.Length) chapterIndex = _chapterNames.Length - 1;
+                    string nextChapterName = _chapterNames[chapterIndex];
+
+                    // Level (1-10)
+                    int nextLevelNum = ((nextIndex % 150) / 15) + 1;
+
+                    GecisManager.Instance.ShowTransition(nextChapterName, nextLevelNum, () => 
+                    {
+                        NextQuestion();
+                    });
+                }
+                else
+                {
+                    NextQuestion();
+                }
+            }
+            else
+            {
+                NextQuestion();
+            }
+        };
+
         if (HintManager.Instance != null)
         {
             // _currentQuestion is 0-based index. 
             // So if we just finished question index 2 (which is 3rd question),
             // currentQuestion + 1 will be 3.
-            HintManager.Instance.CheckUnlockCondition(_currentQuestion + 1, () => 
-            {
-                NextQuestion();
-            });
+            HintManager.Instance.CheckUnlockCondition(_currentQuestion + 1, onCompleteLevel);
         }
         else
         {
-            NextQuestion();
+            onCompleteLevel.Invoke();
         }
     }
     public void PlayWinAnimation(System.Action onComplete)

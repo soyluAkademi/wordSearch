@@ -16,6 +16,12 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Button reklamIzleBtn;
     [SerializeField] private GameObject reklamIzlePanel;
 
+    [Header("Cark Panel")]
+    [SerializeField] private Button carkOpenBtn;
+    [SerializeField] private GameObject carkObjePanel; // SetActive olacak ana obje
+    [SerializeField] private Transform carkPanel; // Scale animasyonu yapılacak
+    [SerializeField] private CanvasGroup carkPanelCanvasGroup; // Fade animasyonu yapılacak
+
     private Vector3 _initialEffectPos;
 
     private void Awake()
@@ -47,6 +53,12 @@ public class UIManager : MonoBehaviour
             reklamIzleBtn.onClick.RemoveAllListeners();
             reklamIzleBtn.onClick.AddListener(OpenReklamIzlePanel);
         }
+
+        if (carkOpenBtn != null)
+        {
+            carkOpenBtn.onClick.RemoveAllListeners();
+            carkOpenBtn.onClick.AddListener(OpenCarkPanel);
+        }
     }
 
     private void Start()
@@ -75,8 +87,38 @@ public class UIManager : MonoBehaviour
             reklamIzleBtn.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
             cg.DOFade(1f, 0.5f);
         }
+
+        if (carkOpenBtn != null)
+        {
+            var cg = carkOpenBtn.GetComponent<CanvasGroup>();
+            if (cg == null) cg = carkOpenBtn.gameObject.AddComponent<CanvasGroup>();
+
+            carkOpenBtn.transform.localScale = Vector3.zero;
+            cg.alpha = 0f;
+
+            // Chest ve Reklam butonu ile benzer açılış
+            carkOpenBtn.transform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+            cg.DOFade(1f, 0.5f);
+        }
     }
 
+    public void OpenCarkPanel()
+    {
+        if (carkObjePanel == null) return;
+
+        carkObjePanel.SetActive(true);
+
+        // Animasyon için varsayılan değerleri sıfırla
+        if (carkPanel != null) carkPanel.localScale = Vector3.zero;
+        if (carkPanelCanvasGroup != null) carkPanelCanvasGroup.alpha = 0f;
+
+        // Açılış Animasyonu
+        if (carkPanel != null)
+            carkPanel.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+        
+        if (carkPanelCanvasGroup != null)
+            carkPanelCanvasGroup.DOFade(1f, 0.5f);
+    }
     public void OpenReklamIzlePanel()
     {
         if (reklamIzlePanel == null) return;
