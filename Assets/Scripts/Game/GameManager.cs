@@ -79,7 +79,6 @@ public class GameManager : MonoBehaviour
     {
         _startTime = Time.time;
         _isTimerRunning = true;
-        // Debug.Log("Timer Started: " + _startTime);
     }
 
     public void StopTimer()
@@ -98,7 +97,6 @@ public class GameManager : MonoBehaviour
 
         StopTimer();
         float duration = Time.time - _startTime;
-        // Debug.Log("Duration: " + duration);
 
         int multiplier = 5; // Default (Tier 4)
 

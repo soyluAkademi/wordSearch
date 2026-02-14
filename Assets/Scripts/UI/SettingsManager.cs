@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class SettingsManager : MonoBehaviour
 {
     [Header("UI Elements")]
     [SerializeField] private Button settingsBtn;
+    [SerializeField] private Button anaMenuBtn;
     [SerializeField] private Transform buttonsContainer;
     [SerializeField] private GameObject settingsPanel;
     [SerializeField] private CanvasGroup settingsPanelCanvasGroup;
@@ -43,9 +45,14 @@ public class SettingsManager : MonoBehaviour
     {
         InitializeButtons();
         settingsBtn.onClick.AddListener(ToggleMenu);
+        if (anaMenuBtn != null) anaMenuBtn.onClick.AddListener(ReturnToMainMenu);
 
         if (soundBtn != null) soundBtn.onClick.AddListener(ToggleSound);
         if (musicBtn != null) musicBtn.onClick.AddListener(ToggleMusic);
+
+        // Load Settings
+        isSoundOn = PlayerPrefs.GetInt("SoundOn", 1) == 1;
+        isMusicOn = PlayerPrefs.GetInt("MusicOn", 1) == 1;
 
         UpdateSoundUI();
         UpdateMusicUI();
@@ -55,7 +62,8 @@ public class SettingsManager : MonoBehaviour
     private void ToggleSound()
     {
         isSoundOn = !isSoundOn;
-        
+        PlayerPrefs.SetInt("SoundOn", isSoundOn ? 1 : 0);
+        PlayerPrefs.Save();
         UpdateSoundUI();
     }
 
@@ -70,6 +78,8 @@ public class SettingsManager : MonoBehaviour
     private void ToggleMusic()
     {
         isMusicOn = !isMusicOn;
+        PlayerPrefs.SetInt("MusicOn", isMusicOn ? 1 : 0);
+        PlayerPrefs.Save();
         UpdateMusicUI();
     }
 
@@ -222,9 +232,17 @@ public class SettingsManager : MonoBehaviour
         isAnimating = false;
     }
 
+    private void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     private void OnDestroy()
     {
         if (settingsBtn != null)
             settingsBtn.onClick.RemoveListener(ToggleMenu);
+            
+        if (anaMenuBtn != null)
+            anaMenuBtn.onClick.RemoveListener(ReturnToMainMenu);
     }
 }

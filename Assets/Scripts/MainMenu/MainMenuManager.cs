@@ -97,7 +97,7 @@ public class MainMenuManager : MonoBehaviour
         string todayMonth = System.DateTime.Now.ToString("MMMM", trCulture);
         string todayString = todayDay + " " + todayMonth; // "14 Şubat"
 
-        Debug.Log("Aranan Tarih: " + todayString); // Debug için
+
 
         // Eşleşen tarihi bul (Büyük/küçük harf duyarsız yapalım)
         HistoryEvent todayEvent = historyList.history_events.Find(x => 

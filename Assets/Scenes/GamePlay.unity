@@ -22260,6 +22260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SettingsManager
   settingsBtn: {fileID: 1888558468}
+  anaMenuBtn: {fileID: 776077325}
   buttonsContainer: {fileID: 509648073}
   settingsPanel: {fileID: 720077127}
   settingsPanelCanvasGroup: {fileID: 720077132}
@@ -29203,6 +29204,6 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 445610128}
   - {fileID: 994821530}
-  - {fileID: 949050782}
   - {fileID: 258634702}
+  - {fileID: 949050782}
   - {fileID: 13943720}

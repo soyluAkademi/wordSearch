@@ -138,7 +138,7 @@ public class HintButtonManager : MonoBehaviour
             {
                 // Not enough gold
                 // TODO: Maybe show "Not Enough Gold" popup?
-                Debug.Log("Not enough gold!");
+
                 isProcessing = false;
                 return;
             }

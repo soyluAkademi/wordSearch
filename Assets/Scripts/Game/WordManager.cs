@@ -247,6 +247,17 @@ public class WordManager : MonoBehaviour
         // Update UI Events
         OnLevelInfoUpdated?.Invoke(currentChapterName, levelNumber);
         
+        // --- NEW: Save Progress for Main Menu ---
+        // MainMenuManager uses: "ChapterName", "Level", "QuestionIndex"
+        PlayerPrefs.SetString("ChapterName", currentChapterName + " BÖLÜMÜ");
+        PlayerPrefs.SetInt("Level", levelNumber);
+        // Note: MainMenuManager displays (QuestionIndex + 1), so saving 0-based index is correct.
+        // It says "5. kelime" -> index 4 -> Menu shows 5/15.
+        // questionNumber is 1-15. So index is questionNumber - 1.
+        PlayerPrefs.SetInt("QuestionIndex", questionNumber - 1);
+        PlayerPrefs.Save();
+        // ----------------------------------------
+
         if (_questions != null)
         {
              // We pass 'questionNumber' (1-15) and '15' constant
@@ -655,7 +666,7 @@ public class WordManager : MonoBehaviour
             GoldManager.Instance.AddGold(5);
         }
 
-        Debug.Log("Question Complete!");
+
 
         if (successParticle != null)
         {
