@@ -1,0 +1,2752 @@
+{
+  "history_events": [
+    {
+      "date": "01 Ocak",
+      "year": 630,
+      "event_title": "Mekke'nin Fethi",
+      "description": "Hz. Muhammed komutasındaki İslam ordusu, kan dökülmeden Mekke'ye girdi ve şehri fethetti. Bu olay, İslam tarihinin en önemli dönüm noktalarından biri olarak kabul edildi ve genel af ilan edildi."
+    },
+    {
+      "date": "02 Ocak",
+      "year": 1492,
+      "event_title": "Gırnata'nın Düşüşü",
+      "description": "İspanya'daki son Müslüman kalesi olan Gırnata (Granada), Katolik Krallar'a teslim oldu. Bu olayla birlikte İber Yarımadası'ndaki yaklaşık 800 yıllık Endülüs Emevi hakimiyeti resmen sona erdi."
+    },
+    {
+      "date": "03 Ocak",
+      "year": 1521,
+      "event_title": "Martin Luther'in Aforozu",
+      "description": "Reform hareketinin öncüsü Alman teolog Martin Luther, kilise öğretilerine karşı geldiği gerekçesiyle Papa X. Leo tarafından aforoz edildi. Bu olay, Avrupa'da Protestanlık mezhebinin yükselişini hızlandırdı."
+    },
+    {
+      "date": "04 Ocak",
+      "year": 1643,
+      "event_title": "Isaac Newton'un Doğumu",
+      "description": "Tarihin en büyük fizikçilerinden Isaac Newton dünyaya geldi. Kütle çekim yasası ve hareketin üç yasasını ortaya koyarak modern bilimin temellerini atan Newton, 'Principia' eseriyle bilim dünyasını değiştirdi."
+    },
+    {
+      "date": "05 Ocak",
+      "year": 1968,
+      "event_title": "Prag Baharı",
+      "description": "Çekoslovakya'da Alexander Dubček'in iktidara gelmesiyle 'Prag Baharı' adı verilen siyasi liberalleşme dönemi başladı. Bu reform hareketi, daha sonra Sovyetler Birliği'nin müdahalesiyle sert bir şekilde bastırıldı."
+    },
+    {
+      "date": "06 Ocak",
+      "year": 1838,
+      "event_title": "Mors Alfabesi Denemesi",
+      "description": "Samuel Morse, geliştirdiği telgraf sistemini ve Mors alfabesini ilk kez kamuoyuna tanıttı. Bu icat, haberleşme hızını inanılmaz boyutlara taşıyarak küresel iletişimin ilk adımlarını oluşturdu."
+    },
+    {
+      "date": "07 Ocak",
+      "year": 1610,
+      "event_title": "Galileo ve Jüpiter'in Uyduları",
+      "description": "İtalyan astronom Galileo Galilei, kendi yaptığı teleskopla Jüpiter'in dört büyük uydusunu (Io, Europa, Ganymede, Callisto) keşfetti. Bu keşif, Dünya merkezli evren anlayışını yıkan en büyük kanıtlardan biri oldu."
+    },
+    {
+      "date": "08 Ocak",
+      "year": 1916,
+      "event_title": "Gelibolu'dan Tahliye",
+      "description": "Çanakkale Savaşı'nda başarısız olan Müttefik Kuvvetleri, Gelibolu Yarımadası'ndan tamamen çekildi. Türk ordusunun bu zaferi, I. Dünya Savaşı'nın seyrini değiştiren en kritik olaylardan biri olarak tarihe geçti."
+    },
+    {
+      "date": "09 Ocak",
+      "year": 1905,
+      "event_title": "Kanlı Pazar",
+      "description": "Rusya'da Kışlık Saray'a yürüyen işçilerin üzerine Çarlık askerleri tarafından ateş açıldı. 'Kanlı Pazar' olarak bilinen bu olay, 1905 Devrimi'nin fitilini ateşledi ve Çarlık rejiminin sonunu hazırlayan süreci başlattı."
+    },
+    {
+      "date": "10 Ocak",
+      "year": 49,
+      "event_title": "Sezar'ın Rubicon'u Geçişi",
+      "description": "Jül Sezar, ordusuyla birlikte Rubicon Nehri'ni geçerek Roma Senatosu'na karşı iç savaşı başlattı. 'Zarlar atıldı' sözüyle özdeşleşen bu hamle, Roma Cumhuriyeti'nin sonunu getirip İmparatorluk dönemini başlattı."
+    },
+    {
+      "date": "11 Ocak",
+      "year": 630,
+      "event_title": "Mekke'de İlk Cuma",
+      "description": "Mekke'nin fethinden sonra Hz. Muhammed ve Müslümanlar, Kabe çevresinde ilk Cuma namazını kıldılar. Bu olay, İslamiyet'in Arap Yarımadası'ndaki hakimiyetinin manevi bir sembolü oldu."
+    },
+    {
+      "date": "12 Ocak",
+      "year": 1920,
+      "event_title": "Son Osmanlı Mebusan Meclisi",
+      "description": "İstanbul'da toplanan son Osmanlı Mebusan Meclisi çalışmalarına başladı. Bu meclis, Misak-ı Milli kararlarını kabul ederek Kurtuluş Savaşı'nın hukuki temelini oluşturacak tarihi bir adım attı."
+    },
+    {
+      "date": "13 Ocak",
+      "year": 1910,
+      "event_title": "Radyo Yayını Başlangıcı",
+      "description": "Lee de Forest, New York'taki Metropolitan Operası'ndan dünyanın ilk halka açık radyo yayınını gerçekleştirdi. Bu teknolojik atılım, kitle iletişim araçlarının geleceğini şekillendiren bir milat oldu."
+    },
+    {
+      "date": "14 Ocak",
+      "year": 1923,
+      "event_title": "Zübeyde Hanım'ın Vefatı",
+      "description": "Mustafa Kemal Atatürk'ün annesi Zübeyde Hanım, İzmir'de hayata gözlerini yumdu. Onun vefatı, Kurtuluş Savaşı'nın önderi Atatürk için büyük bir kişisel kayıp olsa da milli mücadele azmini etkilemedi."
+    },
+    {
+      "date": "15 Ocak",
+      "year": 2001,
+      "event_title": "Wikipedia'nın Kuruluşu",
+      "description": "Jimmy Wales ve Larry Sanger, internet tabanlı özgür ansiklopedi Wikipedia'yı yayına başlattı. Bilgiye erişimi demokratikleştiren bu platform, kısa sürede dünyanın en büyük başvuru kaynağı haline geldi."
+    },
+    {
+      "date": "16 Ocak",
+      "year": 1547,
+      "event_title": "Korkunç İvan'ın Taç Giymesi",
+      "description": "IV. İvan, Rusya tarihinde 'Çar' unvanını kullanan ilk hükümdar olarak taç giydi. Sert yönetimi ve reformlarıyla tanınan İvan, Rusya'yı dağınık bir prenslikten merkezi bir imparatorluğa dönüştürdü."
+    },
+    {
+      "date": "17 Ocak",
+      "year": 1991,
+      "event_title": "Çöl Fırtınası Harekatı",
+      "description": "ABD öncülüğündeki koalisyon güçleri, Irak'ın Kuveyt'i işgaline karşı 'Çöl Fırtınası' harekatını başlattı. Televizyonlardan canlı yayınlanan ilk savaş olarak tarihe geçen bu operasyon, Orta Doğu dengelerini değiştirdi."
+    },
+    {
+      "date": "18 Ocak",
+      "year": 1919,
+      "event_title": "Paris Barış Konferansı",
+      "description": "I. Dünya Savaşı'nı resmen sona erdiren antlaşmaların hazırlandığı Paris Barış Konferansı başladı. İtilaf Devletleri, Osmanlı İmparatorluğu da dahil olmak üzere yenilen devletlerin topraklarını bu konferansta paylaştı."
+    },
+    {
+      "date": "19 Ocak",
+      "year": 1809,
+      "event_title": "Edgar Allan Poe'nun Doğumu",
+      "description": "Amerikan edebiyatının, özellikle korku ve polisiye türünün öncüsü Edgar Allan Poe doğdu. 'Kuzgun' ve 'Morgue Sokağı Cinayetleri' gibi eserleri, modern edebiyatı derinden etkiledi."
+    },
+    {
+      "date": "20 Ocak",
+      "year": 1921,
+      "event_title": "İlk Anayasa: Teşkilat-ı Esasiye",
+      "description": "TBMM, Türkiye Devleti'nin ilk anayasası olan Teşkilat-ı Esasiye Kanunu'nu kabul etti. 'Egemenlik kayıtsız şartsız milletindir' ilkesiyle temellendirilen bu anayasa, cumhuriyete giden yolun en önemli hukuki belgesidir."
+    },
+    {
+      "date": "21 Ocak",
+      "year": 1793,
+      "event_title": "Louis XVI'nın İdamı",
+      "description": "Fransız Devrimi sürecinde, Fransa Kralı XVI. Louis vatana ihanet suçlamasıyla giyotinle idam edildi. Bu olay, Avrupa monarşileri arasında büyük bir korku yarattı ve devrimin radikalleşmesine neden oldu."
+    },
+    {
+      "date": "22 Ocak",
+      "year": 1517,
+      "event_title": "Ridaniye Savaşı",
+      "description": "Yavuz Sultan Selim komutasındaki Osmanlı ordusu, Memlük ordusunu Ridaniye'de mağlup etti. Bu zaferle Mısır fethedildi, Halifelik Osmanlılara geçti ve Baharat Yolu'nun kontrolü tamamen Osmanlı'nın eline geçti."
+    },
+    {
+      "date": "23 Ocak",
+      "year": 1913,
+      "event_title": "Bab-ı Ali Baskını",
+      "description": "Enver Paşa önderliğindeki İttihatçılar, Osmanlı hükümet binasını basarak darbe gerçekleştirdi. Kamil Paşa hükümetinin devrildiği bu olay, İttihat ve Terakki Cemiyeti'nin iktidarı tam olarak ele geçirmesini sağladı."
+    },
+    {
+      "date": "24 Ocak",
+      "year": 1984,
+      "event_title": "Macintosh'un Tanıtımı",
+      "description": "Steve Jobs, Apple'ın grafik arayüze sahip ilk kişisel bilgisayarı Macintosh'u tanıttı. Kullanıcı dostu faresi ve ikonlarıyla bu bilgisayar, teknoloji dünyasında bir devrim yaratarak ev tipi bilgisayar çağını başlattı."
+    },
+    {
+      "date": "25 Ocak",
+      "year": 1924,
+      "event_title": "Kış Olimpiyatları'nın Başlangıcı",
+      "description": "I. Kış Olimpiyat Oyunları, Fransa'nın Chamonix kasabasında başladı. Spor dünyasında yeni bir sayfa açan bu organizasyon, kış sporlarının uluslararası alanda tanınmasını ve gelişmesini sağladı."
+    },
+    {
+      "date": "26 Ocak",
+      "year": 1699,
+      "event_title": "Karlofça Antlaşması",
+      "description": "Osmanlı İmparatorluğu ile Kutsal İttifak devletleri arasında Karlofça Antlaşması imzalandı. Osmanlı'nın batıda büyük toprak kaybettiği ilk antlaşma olan bu olay, Gerileme Dönemi'nin başlangıcı kabul edilir."
+    },
+    {
+      "date": "27 Ocak",
+      "year": 1756,
+      "event_title": "Mozart'ın Doğumu",
+      "description": "Klasik Batı Müziği'nin dahi bestecisi Wolfgang Amadeus Mozart, Avusturya'nın Salzburg kentinde doğdu. Kısa ömrüne sığdırdığı 600'den fazla eserle müzik tarihinin en etkili figürlerinden biri oldu."
+    },
+    {
+      "date": "28 Ocak",
+      "year": 1986,
+      "event_title": "Challenger Faciası",
+      "description": "Amerikan uzay mekiği Challenger, fırlatıldıktan 73 saniye sonra havada infilak etti. 7 mürettebatın hayatını kaybettiği bu trajedi, uzay araştırmaları tarihinin en üzücü kazalarından biri olarak hafızalara kazındı."
+    },
+    {
+      "date": "29 Ocak",
+      "year": 1886,
+      "event_title": "İlk Otomobil Patenti",
+      "description": "Karl Benz, benzinle çalışan ilk otomobilin patentini aldı. Modern otomotiv endüstrisinin doğum belgesi sayılan bu olay, ulaşım alışkanlıklarını kökten değiştirecek bir sürecin başlangıcıydı."
+    },
+    {
+      "date": "30 Ocak",
+      "year": 1948,
+      "event_title": "Gandhi Suikastı",
+      "description": "Hindistan'ın bağımsızlık lideri Mahatma Gandhi, Yeni Delhi'de bir suikast sonucu hayatını kaybetti. Şiddet karşıtı direniş felsefesiyle (Satyagraha) dünyaya ilham veren Gandhi'nin ölümü küresel bir yas yarattı."
+    },
+    {
+      "date": "31 Ocak",
+      "year": 1928,
+      "event_title": "Türk Eğitim Derneği",
+      "description": "Atatürk'ün talimatıyla, Cumhuriyetin eğitim seferberliğini desteklemek amacıyla Türk Eğitim Derneği (TED) kuruldu. Dernek, maddi imkanları kısıtlı ancak başarılı öğrencilere burs sağlaMayısı hedefledi."
+    },
+    {
+      "date": "01 Şubat",
+      "year": 1935,
+      "event_title": "Ayasofya Müzesi",
+      "description": "Yüzyıllarca kilise ve cami olarak kullanılan Ayasofya, Bakanlar Kurulu kararıyla müze olarak ziyarete açıldı. Bu karar, genç Türkiye Cumhuriyeti'nin evrensel kültürel mirasa verdiği önemin bir göstergesiydi."
+    },
+    {
+      "date": "02 Şubat",
+      "year": 1922,
+      "event_title": "Ulysses Romanı",
+      "description": "James Joyce'un modern edebiyatın başyapıtlarından biri sayılan 'Ulysses' adlı romanı yayımlandı. Bilinç akışı tekniğiyle yazılan eser, anlatım biçimiyle 20. yüzyıl roman anlayışını derinden etkiledi."
+    },
+    {
+      "date": "03 Şubat",
+      "year": 1451,
+      "event_title": "Fatih Sultan Mehmet'in Tahta Çıkışı",
+      "description": "II. Murat'ın ölümü üzerine oğlu II. Mehmet (Fatih) ikinci kez Osmanlı tahtına çıktı. Bu dönemde İstanbul'u fethederek bir çağı kapatıp yeni bir çağ açacak olan genç padişah, imparatorluğun kaderini değiştirdi."
+    },
+    {
+      "date": "04 Şubat",
+      "year": 2004,
+      "event_title": "Facebook'un Kuruluşu",
+      "description": "Mark Zuckerberg, Harvard Üniversitesi'ndeki yurt odasında 'The Facebook' adlı sosyal ağ sitesini kurdu. Site, kısa sürede üniversite sınırlarını aşarak dünyayı birbirine bağlayan devasa bir platforma dönüştü."
+    },
+    {
+      "date": "05 Şubat",
+      "year": 1924,
+      "event_title": "Greenwich Zaman Dilimi",
+      "description": "Kraliyet Gözlemevi'nden geçen meridyen, saat başı sinyalleriyle zaman ölçümünde uluslararası standart haline gelmeye başladı. GMT (Greenwich Mean Time), küresel zamanın belirlenmesinde merkez kabul edildi."
+    },
+    {
+      "date": "06 Şubat",
+      "year": 1952,
+      "event_title": "II. Elizabeth'in Tahta Çıkışı",
+      "description": "Kral VI. George'un ölümü üzerine kızı II. Elizabeth, İngiltere Kraliçesi oldu. 70 yıl süren saltanatıyla İngiliz monarşisinin en uzun süre tahtta kalan hükümdarı olarak tarihe geçti."
+    },
+    {
+      "date": "07 Şubat",
+      "year": 1992,
+      "event_title": "Maastricht Antlaşması",
+      "description": "Avrupa Topluluğu üyeleri tarafından imzalanan Maastricht Antlaşması ile Avrupa Birliği (AB) resmen kuruldu. Bu antlaşma, ekonomik ve parasal birliğin yanı sıra ortak dış politika temellerini attı."
+    },
+    {
+      "date": "08 Şubat",
+      "year": 1921,
+      "event_title": "Antep'e 'Gazi' Unvanı",
+      "description": "Kurtuluş Savaşı'nda gösterdiği destansı direniş nedeniyle TBMM tarafından Antep şehrine 'Gazi' unvanı verildi. Şehir halkının Fransız işgaline karşı mücadelesi, milli direnişin sembollerinden biri oldu."
+    },
+    {
+      "date": "09 Şubat",
+      "year": 1895,
+      "event_title": "Voleybolun İcadı",
+      "description": "William G. Morgan, basketbolun sertliğine alternatif olarak 'Mintonette' adını verdiği, bugünkü voleybolun temelini oluşturan oyunu tasarladı. Oyun kısa sürede tüm dünyada popüler bir spor dalı haline geldi."
+    },
+    {
+      "date": "10 Şubat",
+      "year": 1947,
+      "event_title": "Paris Barış Antlaşmaları",
+      "description": "II. Dünya Savaşı'nın mağlup devletleri ile Müttefikler arasında Paris Barış Antlaşmaları imzalandı. Bu antlaşmalarla Avrupa'nın sınırları yeniden çizildi ve savaş tazminatları belirlendi."
+    },
+    {
+      "date": "11 Şubat",
+      "year": 1929,
+      "event_title": "Lateran Antlaşması",
+      "description": "İtalya ile Kilise arasında imzalanan Lateran Antlaşması ile Vatikan Şehir Devleti resmen kuruldu. Böylece Papalık, bağımsız bir devlet statüsü kazanarak uluslararası diplomaside yerini aldı."
+    },
+    {
+      "date": "12 Şubat",
+      "year": 1809,
+      "event_title": "Charles Darwin'in Doğumu",
+      "description": "Evrim teorisinin babası İngiliz doğa bilimci Charles Darwin doğdu. 'Türlerin Kökeni' adlı eseriyle canlıların evrimi ve doğal seçilim konularında bilim dünyasında çığır açan tezler ortaya koydu."
+    },
+    {
+      "date": "13 Şubat",
+      "year": 1633,
+      "event_title": "Galileo'nun Yargılanması",
+      "description": "Gökbilimci Galileo Galilei, Dünya'nın döndüğünü savunan fikirleri nedeniyle Engizisyon mahkemesine ifade vermek üzere Roma'ya geldi. Bilim ile dogmanın çatıştığı bu olay tarihsel bir simgeye dönüştü."
+    },
+    {
+      "date": "14 Şubat",
+      "year": 1876,
+      "event_title": "Telefonun Patenti",
+      "description": "Alexander Graham Bell, sesin teller üzerinden iletilmesini sağlayan telefon için patent başvurusunda bulundu. Bu icat, insanlık tarihindeki iletişim engellerini yıkan en önemli teknolojik gelişme oldu."
+    },
+    {
+      "date": "15 Şubat",
+      "year": 399,
+      "event_title": "Sokrates'in Ölüm Cezası",
+      "description": "Atinalı filozof Sokrates, gençlerin ahlakını bozduğu ve tanrıları reddettiği gerekçesiyle ölüme mahkum edildi. Baldıran zehri içerek hayatına son veren filozof, düşünce özgürlüğünün sembolü oldu."
+    },
+    {
+      "date": "16 Şubat",
+      "year": 1925,
+      "event_title": "Türk Hava Kurumu",
+      "description": "Atatürk'ün 'İstikbal göklerdedir' vizyonuyla Türk Tayyare Cemiyeti (bugünkü Türk Hava Kurumu) kuruldu. Kurum, Türkiye'de havacılık sanayisini ve kültürünü geliştirmeyi amaçladı."
+    },
+    {
+      "date": "17 Şubat",
+      "year": 1926,
+      "event_title": "Medeni Kanun'un Kabulü",
+      "description": "TBMM, İsviçre Medeni Kanunu'nu örnek alarak Türk Medeni Kanunu'nu kabul etti. Bu devrimle kadın-erkek eşitliği, resmi nikah ve miras hakları gibi konularda modern hukuk sistemine geçildi."
+    },
+    {
+      "date": "18 Şubat",
+      "year": 1451,
+      "event_title": "Fatih'in İkinci Cülusu",
+      "description": "II. Mehmet (Fatih), babasının vefatı üzerine Edirne'de kesin olarak tahta geçti. Genç padişahın ilk hedefi, henüz fethedilememiş olan İstanbul'u alarak Bizans İmparatorluğu'na son vermekti."
+    },
+    {
+      "date": "19 Şubat",
+      "year": 1915,
+      "event_title": "Çanakkale Savaşı Başlıyor",
+      "description": "İtilaf Devletleri donanması, Çanakkale Boğazı'ndaki Osmanlı tabyalarını bombalayarak deniz harekatını başlattı. Bu saldırı, tarihin en kanlı ve destansı savunma savaşlarından birinin başlangıcı oldu."
+    },
+    {
+      "date": "20 Şubat",
+      "year": 1962,
+      "event_title": "İlk Amerikalı Yörüngede",
+      "description": "Astronot John Glenn, Friendship 7 kapsülüyle Dünya yörüngesinde 3 tur atarak bunu başaran ilk Amerikalı oldu. Bu uçuş, Uzay Yarışı'nda ABD'nin Sovyetler Birliği'ne karşı önemli bir hamlesiydi."
+    },
+    {
+      "date": "21 Şubat",
+      "year": 1848,
+      "event_title": "Komünist Manifesto",
+      "description": "Karl Marx ve Friedrich Engels, 'Komünist Manifesto'yu Londra'da yayımladı. İşçi sınıfı hareketinin temel metni sayılan eser, dünya siyasi tarihini ve ekonomik sistem tartışmalarını derinden etkiledi."
+    },
+    {
+      "date": "22 Şubat",
+      "year": 1732,
+      "event_title": "George Washington'ın Doğumu",
+      "description": "ABD'nin kurucu babalarından ve ilk başkanı George Washington doğdu. Amerikan Bağımsızlık Savaşı'ndaki liderliği ve demokratik ilkeleri, modern Amerikan devletinin temellerini oluşturdu."
+    },
+    {
+      "date": "23 Şubat",
+      "year": 1455,
+      "event_title": "Gutenberg İncili",
+      "description": "Johannes Gutenberg, hareketli metal harflerle basılan ilk büyük kitap olan Gutenberg İncili'nin basımını tamamladı. Matbaanın bu başarısı, bilgi devrimini başlatarak Rönesans'ın yayılmasını sağladı."
+    },
+    {
+      "date": "24 Şubat",
+      "year": 1955,
+      "event_title": "Bağdat Paktı",
+      "description": "Türkiye ve Irak arasında imzalanan, daha sonra İngiltere, Pakistan ve İran'ın katıldığı Bağdat Paktı (CENTO) kuruldu. Soğuk Savaş döneminde Ortadoğu'da Sovyet etkisini sınırlaMayısı amaçlayan bir güvenlik örgütüydü."
+    },
+    {
+      "date": "25 Şubat",
+      "year": 1954,
+      "event_title": "Nasır'ın Yükselişi",
+      "description": "Mısır'da Cemal Abdünnasır devlet başkanı oldu. Arap milliyetçiliğinin lideri haline gelen Nasır, Süveyş Kanalı'nı millileştirerek bölgedeki emperyalist politikalara meydan okudu."
+    },
+    {
+      "date": "26 Şubat",
+      "year": 1815,
+      "event_title": "Napolyon'un Kaçışı",
+      "description": "Sürgüne gönderildiği Elba Adası'ndan kaçan Napolyon Bonapart, Fransa'ya geri döndü. 'Yüz Gün' olarak bilinen ikinci iktidar dönemi, Waterloo Savaşı'ndaki nihai yenilgisine kadar sürdü."
+    },
+    {
+      "date": "27 Şubat",
+      "year": 2010,
+      "event_title": "Şili Depremi",
+      "description": "Şili'de meydana gelen 8.8 büyüklüğündeki deprem, ülke tarihinin en büyük felaketlerinden biri oldu. Deprem, Dünya'nın eksenini kaydıracak kadar güçlü bir enerji açığa çıkardı."
+    },
+    {
+      "date": "28 Şubat",
+      "year": 1856,
+      "event_title": "Islahat Fermanı",
+      "description": "Osmanlı İmparatorluğu'nda gayrimüslimlere geniş haklar tanıyan Islahat Fermanı ilan edildi. Batılı devletlerin baskısıyla hazırlanan ferman, imparatorluğun dağılmasını önlemeyi amaçlayan reformlardan biriydi."
+    },
+    {
+      "date": "29 Şubat",
+      "year": 1940,
+      "event_title": "Hattie McDaniel'ın Zaferi",
+      "description": "Rüzgar Gibi Geçti filmindeki rolüyle Hattie McDaniel, En İyi Yardımcı Kadın Oyuncu Oscar'ını kazandı. Bu ödül, ırk ayrımcılığının yoğun olduğu bir dönemde Akademi Ödülü kazanan ilk Afrikalı Amerikalı olmasıyla tarihe geçti."
+    },
+    {
+      "date": "01 Mart",
+      "year": 1921,
+      "event_title": "Türk-Afgan Dostluk Antlaşması",
+      "description": "TBMM Hükümeti ile Afganistan arasında dostluk antlaşması imzalandı. Afganistan, Ankara Hükümeti'ni tanıyan ilk devlet olarak diplomatik tarihimizde özel bir yere sahip oldu."
+    },
+    {
+      "date": "02 Mart",
+      "year": 1956,
+      "event_title": "Fas'ın Bağımsızlığı",
+      "description": "Fas, Fransa ile imzaladığı ortak bildiri sonucunda bağımsızlığını kazandı. Kuzey Afrika'daki sömürgecilik döneminin sona ermesinde önemli bir adım olan bu olay, Arap dünyasında sevinçle karşılandı."
+    },
+    {
+      "date": "03 Mart",
+      "year": 1924,
+      "event_title": "Halifeliğin Kaldırılması",
+      "description": "TBMM'de kabul edilen kanunla Halifelik makamı kaldırıldı ve Osmanlı Hanedanı mensuplarının yurt dışına çıkarılması kararlaştırıldı. Bu devrim, laik cumhuriyetin inşasında en radikal adımlardan biriydi."
+    },
+    {
+      "date": "04 Mart",
+      "year": 1193,
+      "event_title": "Selahaddin Eyyubi'nin Vefatı",
+      "description": "Kudüs Fatihi ve Eyyubi Hanedanı'nın kurucusu Selahaddin Eyyubi Şam'da vefat etti. Haçlılara karşı gösterdiği adaletli ve kahramanca duruşuyla hem Doğu'da hem Batı'da efsaneleşmiş bir liderdi."
+    },
+    {
+      "date": "05 Mart",
+      "year": 1946,
+      "event_title": "Demir Perde Konuşması",
+      "description": "Winston Churchill, ABD'de yaptığı ünlü konuşmada 'Baltık'tan Adriyatik'e kadar kıtaya bir demir perde indi' diyerek Soğuk Savaş kavramını dünya literatürüne ilk kez sokmuş oldu."
+    },
+    {
+      "date": "06 Mart",
+      "year": 1521,
+      "event_title": "Macellan Guam'da",
+      "description": "Dünya turuna çıkan Ferdinand Macellan, Büyük Okyanus'u geçerek Guam Adası'na ulaştı. Bu zorlu yolculuk, Dünya'nın yuvarlak olduğunun fiili olarak kanıtlanması yolunda kritik bir duraktı."
+    },
+    {
+      "date": "07 Mart",
+      "year": 1954,
+      "event_title": "Türkiye'de Petrol Kanunu",
+      "description": "Yabancı şirketlere Türkiye'de petrol arama ve işletme izni veren Petrol Kanunu kabul edildi. Bu yasa, enerji politikaları ve yabancı serMayıse tartışmalarını uzun yıllar gündemde tuttu."
+    },
+    {
+      "date": "08 Mart",
+      "year": 1857,
+      "event_title": "Dünya Kadınlar Günü'nün Kökleri",
+      "description": "New York'ta 40 bin dokuma işçisi kadın, daha iyi çalışma koşulları için greve başladı. Polisin müdahalesi ve çıkan yangın sonucu ölen işçilerin anısı, 8 Mart'ın Dünya Emekçi Kadınlar Günü olmasını sağladı."
+    },
+    {
+      "date": "09 Mart",
+      "year": 1956,
+      "event_title": "Makarios'un Sürgünü",
+      "description": "Kıbrıs Rumlarının lideri Başpiskopos Makarios, adadaki İngiliz yönetimine karşı faaliyetleri nedeniyle Seyşeller'e sürgüne gönderildi. Bu olay, Kıbrıs meselesinin uluslararası boyut kazanmasını hızlandırdı."
+    },
+    {
+      "date": "10 Mart",
+      "year": 1876,
+      "event_title": "İlk Telefon Görüşmesi",
+      "description": "Alexander Graham Bell, yardımcısı Watson'a 'Bay Watson, buraya gelin, sizi görmek istiyorum' diyerek tarihin ilk telefon görüşmesini gerçekleştirdi. Sesin tellerle yolculuğu resmen başlamış oldu."
+    },
+    {
+      "date": "11 Mart",
+      "year": 2011,
+      "event_title": "Fukuşima Nükleer Felaketi",
+      "description": "Japonya'da meydana gelen 9.0 büyüklüğündeki deprem ve tsunami, Fukuşima Nükleer Santrali'nde sızıntıya yol açtı. Çernobil'den sonraki en büyük nükleer felaket olarak tarihe geçti."
+    },
+    {
+      "date": "12 Mart",
+      "year": 1921,
+      "event_title": "İstiklal Marşı'nın Kabulü",
+      "description": "Mehmet Akif Ersoy'un yazdığı şiir, TBMM'de coşkulu alkışlarla Milli Marş olarak kabul edildi. 'Korkma!' diye başlayan bu eser, Türk milletinin bağımsızlık mücadelesinin en güçlü manifestosu oldu."
+    },
+    {
+      "date": "13 Mart",
+      "year": 1781,
+      "event_title": "Uranüs'ün Keşfi",
+      "description": "William Herschel, kendi yaptığı teleskopla Uranüs gezegenini keşfetti. Antik çağlardan beri bilinen gezegenlerin ötesinde keşfedilen bu ilk gezegen, Güneş Sistemi'nin sınırlarını genişletti."
+    },
+    {
+      "date": "14 Mart",
+      "year": 1827,
+      "event_title": "Tıphane-i Amire ve Tıp Bayramı",
+      "description": "II. Mahmut döneminde, modern tıp eğitiminin başlangıcı sayılan Tıphane-i Amire ve Cerrahhane-i Amire kuruldu. Bu tarih, günümüzde Türkiye'de Tıp Bayramı olarak kutlanmaktadır."
+    },
+    {
+      "date": "15 Mart",
+      "year": -44,
+      "event_title": "Jül Sezar Suikastı",
+      "description": "Roma Diktatörü Jül Sezar, senato binasında Brütüs ve Cassius'un başını çektiği bir grup tarafından bıçaklanarak öldürüldü. Bu olay Roma Cumhuriyeti'nin sonunu getiren iç savaşları tetikledi."
+    },
+    {
+      "date": "16 Mart",
+      "year": 1920,
+      "event_title": "İstanbul'un İşgali",
+      "description": "İtilaf Devletleri, İstanbul'u resmen işgal ederek Şehzadebaşı Karakolu'nu bastı. Meclis-i Mebusan'ın dağıtılmasına yol açan bu olay, Ankara'da yeni bir meclisin açılmasını zorunlu kıldı."
+    },
+    {
+      "date": "17 Mart",
+      "year": 1915,
+      "event_title": "Çanakkale'de Nusret'in Hamlesi",
+      "description": "Nusret Mayısın Gemisi, Yüzbaşı Tophaneli Hakkı Bey komutasında Karanlık Liman'a gizlice Mayısın döşedi. Ertesi gün yaşanacak büyük deniz zaferinin kaderini belirleyen en kritik hamle buydu."
+    },
+    {
+      "date": "18 Mart",
+      "year": 1915,
+      "event_title": "Çanakkale Deniz Zaferi",
+      "description": "Müttefik donanması Çanakkale Boğazı'nı geçmeye çalıştı ancak Türk topçusu ve Mayısınları karşısında ağır kayıplar vererek geri çekildi. 'Çanakkale Geçilmez' sözü tarihe altın harflerle yazıldı."
+    },
+    {
+      "date": "19 Mart",
+      "year": 1945,
+      "event_title": "Sovyetler Berlin Yolunda",
+      "description": "II. Dünya Savaşı'nın sonuna yaklaşılırken Sovyet orduları Almanya sınırlarını geçerek Berlin'e doğru büyük taarruza devam etti. Nazi Almanyası'nın çöküşü artık kaçınılmaz hale gelmişti."
+    },
+    {
+      "date": "20 Mart",
+      "year": 2003,
+      "event_title": "Irak Savaşı'nın Başlaması",
+      "description": "ABD ve koalisyon güçleri, kitle imha silahları iddiasıyla Irak'a askeri harekat başlattı. Saddam Hüseyin rejiminin devrilmesiyle sonuçlanan savaş, bölgede uzun yıllar sürecek bir kaosun fitilini ateşledi."
+    },
+    {
+      "date": "21 Mart",
+      "year": 1973,
+      "event_title": "Aşık Veysel'in Vefatı",
+      "description": "Halk ozanı Aşık Veysel Şatıroğlu hayata veda etti. 'Uzun ince bir yoldayım' gibi ölümsüz eserleriyle Türk halk şiirinin en büyük temsilcilerinden biri olarak gönüllerde yer etti."
+    },
+    {
+      "date": "22 Mart",
+      "year": 1945,
+      "event_title": "Arap Birliği'nin Kuruluşu",
+      "description": "Mısır, Suriye, Lübnan, Ürdün, Suudi Arabistan, Irak ve Yemen'in katılımıyla Kahire'de Arap Birliği kuruldu. Örgüt, Arap ülkeleri arasında ekonomik ve kültürel iş birliğini sağlaMayısı amaçlıyordu."
+    },
+    {
+      "date": "23 Mart",
+      "year": 1919,
+      "event_title": "Mussolini ve Faşizm",
+      "description": "Benito Mussolini, İtalya'da 'Fasci di Combattimento' adlı hareketi kurarak faşizmin temellerini attı. Bu siyasi akım, kısa sürede Avrupa'yı etkisi altına alacak ve II. Dünya Savaşı'na giden yolu döşeyecekti."
+    },
+    {
+      "date": "24 Mart",
+      "year": 1882,
+      "event_title": "Tüberküloz Basilinin Keşfi",
+      "description": "Robert Koch, tüberküloza neden olan bakteriyi (Mycobacterium tuberculosis) keşfettiğini duyurdu. Bu buluş, o dönemde ölümcül olan verem hastalığının teşhis ve tedavisinde devrim yarattı."
+    },
+    {
+      "date": "25 Mart",
+      "year": 1957,
+      "event_title": "Avrupa Ekonomik Topluluğu",
+      "description": "Fransa, Batı Almanya, İtalya, Belçika, Hollanda ve Lüksemburg arasında Roma Antlaşması imzalandı. Bu antlaşma, bugünkü Avrupa Birliği'nin (AB) temelini oluşturan en önemli adımdır."
+    },
+    {
+      "date": "26 Mart",
+      "year": 1971,
+      "event_title": "Bangladeş'in Bağımsızlığı",
+      "description": "Doğu Pakistan, Bangladeş adıyla Pakistan'dan bağımsızlığını ilan etti. Şeyh Muciburrahman önderliğindeki bu hareket, kanlı bir iç savaşın ardından yeni bir devletin doğuşunu sağladı."
+    },
+    {
+      "date": "27 Mart",
+      "year": 1854,
+      "event_title": "Kırım Savaşı",
+      "description": "İngiltere ve Fransa, Osmanlı İmparatorluğu'nu desteklemek amacıyla Rusya'ya savaş ilan etti. Bu savaş, modern hemşireliğin kurucusu Florence Nightingale'in sahneye çıktığı tarihsel bir dönüm noktasıydı."
+    },
+    {
+      "date": "28 Mart",
+      "year": 1930,
+      "event_title": "Şehir İsimlerinin Türkçeleşmesi",
+      "description": "Türkiye Cumhuriyeti, yabancı ülkelerden gelen mektuplarda 'Constantinople' yerine 'İstanbul', 'Angora' yerine 'Ankara' yazılmasını zorunlu kıldı. Posta idaresi eski isimli mektupları iade etmeye başladı."
+    },
+    {
+      "date": "29 Mart",
+      "year": 1432,
+      "event_title": "Fatih Sultan Mehmet'in Doğumu",
+      "description": "Osmanlı'nın 7. padişahı II. Mehmet, Edirne'de dünyaya geldi. Çağ açıp çağ kapatan, İstanbul'un Fatihi olarak tarihe geçen bu büyük lider, askeri dehası ve entelektüel kişiliğiyle tanındı."
+    },
+    {
+      "date": "30 Mart",
+      "year": 1867,
+      "event_title": "Alaska'nın Satışı",
+      "description": "ABD, Alaska'yı Rusya İmparatorluğu'ndan 7.2 milyon dolar karşılığında satın aldı. O dönemde 'buz kutusu' denilerek eleştirilen bu yatırım, zengin petrol ve altın yataklarıyla ABD'nin en karlı işlerinden biri oldu."
+    },
+    {
+      "date": "31 Mart",
+      "year": 1889,
+      "event_title": "Eyfel Kulesi'nin Açılışı",
+      "description": "Fransız Devrimi'nin 100. yılı kutlamaları için inşa edilen Eyfel Kulesi'nin açılışı yapıldı. Gustave Eiffel'in tasarımı, başlangıçta estetik bulunmasa da zamanla Paris'in ve Fransa'nın sembolü haline geldi."
+    },
+    {
+      "date": "01 Nisan",
+      "year": 1921,
+      "event_title": "II. İnönü Zaferi",
+      "description": "Yunan ordusuna karşı kazanılan II. İnönü Savaşı sonucunda, Mustafa Kemal Paşa İsmet İnönü'ye o meşhur telgrafı çekti: 'Siz orada yalnız düşmanı değil, milletin makus talihini de yendiniz.'"
+    },
+    {
+      "date": "02 Nisan",
+      "year": 1453,
+      "event_title": "İstanbul Kuşatması Başladı",
+      "description": "Fatih Sultan Mehmet komutasındaki Osmanlı ordusu, İstanbul önlerine gelerek şehri kuşattı. 53 gün sürecek ve tarihin seyrini değiştirecek olan büyük fetih harekatının ilk günüydü."
+    },
+    {
+      "date": "03 Nisan",
+      "year": 1930,
+      "event_title": "Kadınlara Seçme Hakkı",
+      "description": "Türkiye'de kadınlara belediye seçimlerinde seçme ve seçilme hakkı tanıyan kanun kabul edildi. Bu, Türk kadınının siyasi hayatta varlık göstermesi adına atılan ilk büyük ve devrimci adımdı."
+    },
+    {
+      "date": "04 Nisan",
+      "year": 1949,
+      "event_title": "NATO'nun Kuruluşu",
+      "description": "Washington'da imzalanan antlaşMayısla Kuzey Atlantik Paktı Örgütü (NATO) kuruldu. Sovyet tehdidine karşı Batılı devletlerin oluşturduğu bu askeri ittifak, Soğuk Savaş döneminin en önemli aktörü oldu."
+    },
+    {
+      "date": "05 Nisan",
+      "year": 1994,
+      "event_title": "5 Nisan Kararları",
+      "description": "Türkiye ekonomisindeki büyük kriz nedeniyle hükümet '5 Nisan Kararları'nı açıkladı. Yüksek devalüasyon ve kemer sıkma politikalarını içeren bu paket, ekonomi tarihinde derin izler bıraktı."
+    },
+    {
+      "date": "06 Nisan",
+      "year": 1326,
+      "event_title": "Bursa'nın Fethi",
+      "description": "Orhan Gazi komutasındaki Osmanlı kuvvetleri, uzun bir kuşatmanın ardından Bursa'yı fethetti. Şehir, Osmanlı Devleti'nin ilk büyük başkenti yapılarak devletleşme sürecinde kritik bir rol oynadı."
+    },
+    {
+      "date": "07 Nisan",
+      "year": 1948,
+      "event_title": "Dünya Sağlık Örgütü",
+      "description": "Birleşmiş Milletler'e bağlı olarak Dünya Sağlık Örgütü (WHO) kuruldu. Küresel halk sağlığını koruMayısı amaçlayan örgütün kuruluş günü, her yıl 'Dünya Sağlık Günü' olarak kutlanmaktadır."
+    },
+    {
+      "date": "08 Nisan",
+      "year": 1924,
+      "event_title": "Şeriye Mahkemelerinin Kaldırılması",
+      "description": "Hukuk birliğini sağlamak amacıyla Şeriye mahkemeleri kaldırılarak yargı yetkisi tamamen modern mahkemelere devredildi. Bu adım, laik hukuk sisteminin yerleşmesinde önemli bir kilometre taşıdır."
+    },
+    {
+      "date": "09 Nisan",
+      "year": 1588,
+      "event_title": "Mimar Sinan'ın Vefatı",
+      "description": "Osmanlı mimarisinin en büyük dehası 'Koca Sinan' İstanbul'da vefat etti. Selimiye ve Süleymaniye gibi şaheserleriyle imparatorluğun siluetini sonsuza dek değiştiren Sinan, eşsiz bir miras bıraktı."
+    },
+    {
+      "date": "10 Nisan",
+      "year": 1919,
+      "event_title": "Emiliano Zapata'nın Ölümü",
+      "description": "Meksika Devrimi'nin liderlerinden Emiliano Zapata, bir pusuya düşürülerek öldürüldü. 'Ayakta ölmek, diz üstü yaşamaktan iyidir' sözüyle hatırlanan Zapata, köylü hakları mücadelesinin simgesi oldu."
+    },
+    {
+      "date": "11 Nisan",
+      "year": 1919,
+      "event_title": "Uluslararası Çalışma Örgütü",
+      "description": "Versay Barış Antlaşması kapsamında Uluslararası Çalışma Örgütü (ILO) kuruldu. İşçi haklarını, sosyal adaleti ve çalışma standartlarını iyileştirmeyi hedefleyen örgüt, BM'nin ilk uzmanlık kuruluşudur."
+    },
+    {
+      "date": "12 Nisan",
+      "year": 1961,
+      "event_title": "İnsan Uzayda",
+      "description": "Sovyet kozmonot Yuri Gagarin, Vostok 1 aracıyla uzaya çıkan ilk insan oldu. 'Dünya maviymiş' sözleriyle hafızalara kazınan bu uçuş, uzay çağının en büyük atılımı olarak tarihe geçti."
+    },
+    {
+      "date": "13 Nisan",
+      "year": 1204,
+      "event_title": "4. Haçlı Seferi ve Yağma",
+      "description": "4. Haçlı Seferi orduları, asıl hedefleri olan Kudüs yerine Konstantinopolis'i (İstanbul) işgal etti. Şehirde büyük bir yağma ve yıkım gerçekleştiren Latinler, Bizans İmparatorluğu'nu geçici olarak yıktı."
+    },
+    {
+      "date": "14 Nisan",
+      "year": 1912,
+      "event_title": "Titanik Buzdağına Çarptı",
+      "description": "Döneminin en büyük yolcu gemisi Titanik, ilk seferinde Kuzey Atlantik'te gece saatlerinde bir buzdağına çarptı. 'Batmaz' denilen geminin bu kazası, ertesi sabah büyük bir trajediyle sonuçlanacaktı."
+    },
+    {
+      "date": "15 Nisan",
+      "year": 1931,
+      "event_title": "Türk Tarih Kurumu",
+      "description": "Atatürk'ün direktifiyle Türk Tarihi Tetkik Cemiyeti (bugünkü Türk Tarih Kurumu) kuruldu. Kurum, Türk tarihini bilimsel yöntemlerle araştırMayısı ve milli tarih bilincini geliştirmeyi amaçladı."
+    },
+    {
+      "date": "16 Nisan",
+      "year": 1917,
+      "event_title": "Lenin Rusya'ya Döndü",
+      "description": "Sürgündeki Bolşevik lider Vladimir Lenin, ünlü 'mühürlü tren' ile Petrograd'a geri döndü. Onun dönüşü, Ekim Devrimi'ne giden süreci hızlandırdı ve Rusya'da komünist rejimin kurulmasının yolunu açtı."
+    },
+    {
+      "date": "17 Nisan",
+      "year": 1940,
+      "event_title": "Köy Enstitüleri",
+      "description": "Türkiye'de kırsal kalkınMayısı ve eğitimi sağlamak amacıyla Köy Enstitüleri Kanunu kabul edildi. 'İş içinde eğitim' prensibiyle kurulan bu okullar, Cumhuriyet aydınlanmasının en özgün modellerinden biriydi."
+    },
+    {
+      "date": "18 Nisan",
+      "year": 1955,
+      "event_title": "Einstein'ın Vefatı",
+      "description": "Modern fiziğin babası Albert Einstein, 76 yaşında ABD'de hayatını kaybetti. İzafiyet Teorisi ile evren anlayışımızı kökten değiştiren Einstein, 20. yüzyılın en büyük dehası kabul ediliyordu."
+    },
+    {
+      "date": "19 Nisan",
+      "year": 1775,
+      "event_title": "Amerikan Bağımsızlık Savaşı",
+      "description": "Lexington ve Concord çatışmalarıyla Amerikan Bağımsızlık Savaşı resmen başladı. 13 Koloni'nin Büyük Britanya'ya karşı başlattığı bu silahlı mücadele, modern demokrasilerin doğuşuna öncülük etti."
+    },
+    {
+      "date": "20 Nisan",
+      "year": 1924,
+      "event_title": "1924 Anayasası",
+      "description": "Türkiye Cumhuriyeti'nin ikinci anayasası olan 1924 Anayasası kabul edildi. Güçlü bir meclis yapısını öngören bu anayasa, 1961 yılına kadar yürürlükte kalarak devrimlerin hukuki zeminini oluşturdu."
+    },
+    {
+      "date": "21 Nisan",
+      "year": -753,
+      "event_title": "Roma'nın Kuruluşu",
+      "description": "Efsaneye göre Romulus ve Remus kardeşler tarafından Roma şehri kuruldu. Küçük bir şehir devleti olarak başlayan Roma, yüzyıllar içinde Akdeniz havzasının tamamına hükmeden dev bir imparatorluğa dönüştü."
+    },
+    {
+      "date": "22 Nisan",
+      "year": 1970,
+      "event_title": "İlk Dünya Günü",
+      "description": "Çevre sorunlarına dikkat çekmek amacıyla ABD'de ilk kez 'Dünya Günü' kutlamaları yapıldı. Milyonlarca kişinin katıldığı etkinlikler, modern çevre hareketinin başlangıcı olarak kabul edildi."
+    },
+    {
+      "date": "23 Nisan",
+      "year": 1920,
+      "event_title": "TBMM'nin Açılışı",
+      "description": "Ankara'da Büyük Millet Meclisi dualarla açıldı. 'Egemenlik kayıtsız şartsız milletindir' ilkesinin hayata geçtiği bu gün, Türk halkının kendi kaderini eline aldığı en büyük bayramdır."
+    },
+    {
+      "date": "24 Nisan",
+      "year": 1184,
+      "event_title": "Truva Savaşı Efsanesi",
+      "description": "Geleneksel tarihçilere göre Truva Savaşı'nın sona erdiği ve şehrin düştüğü tarih (MÖ 1184). Tahta at hilesiyle ele geçirilen şehir, Homeros'un İlyada destanıyla ölümsüzleşti."
+    },
+    {
+      "date": "25 Nisan",
+      "year": 1915,
+      "event_title": "Çanakkale Kara Savaşları",
+      "description": "İtilaf Devletleri, Gelibolu Yarımadası'na asker çıkararak kara savaşlarını başlattı. 57. Alay ve Mustafa Kemal'in 'Ben size taarruzu değil ölmeyi emrediyorum' emriyle tarih yazılan gündür."
+    },
+    {
+      "date": "26 Nisan",
+      "year": 1986,
+      "event_title": "Çernobil Faciası",
+      "description": "Sovyetler Birliği'ndeki Çernobil Nükleer Santrali'nde patlama meydana geldi. Yayılan radyasyon bulutları Avrupa'nın büyük kısmını etkiledi ve nükleer enerjinin güvenliği tartışmalarını başlattı."
+    },
+    {
+      "date": "27 Nisan",
+      "year": 1521,
+      "event_title": "Macellan'ın Ölümü",
+      "description": "Dünya turunu tamamlaMayısa çalışan kaşif Ferdinand Macellan, Filipinler'de yerlilerle girdiği çatışmada öldürüldü. Seferi, yardımcısı Elcano tamamlayarak Dünya'nın yuvarlak olduğunu kanıtladı."
+    },
+    {
+      "date": "28 Nisan",
+      "year": 1945,
+      "event_title": "Mussolini'nin İdamı",
+      "description": "İtalyan faşist diktatör Benito Mussolini, İsviçre'ye kaçMayısa çalışırken partizanlar tarafından yakalandı ve idam edildi. Cesedi Milano meydanında teşhir edildi, bu olay faşizmin sonunu simgeliyordu."
+    },
+    {
+      "date": "29 Nisan",
+      "year": 1916,
+      "event_title": "Kut'ül Amare Zaferi",
+      "description": "Halil Paşa komutasındaki Osmanlı ordusu, İngiliz kuvvetlerini Irak cephesinde kuşatarak teslim aldı. General Townshend dahil binlerce İngiliz askeri esir alındı; bu, Çanakkale'den sonraki en büyük zaferdi."
+    },
+    {
+      "date": "30 Nisan",
+      "year": 1945,
+      "event_title": "Hitler'in İntiharı",
+      "description": "Sovyet askerlerinin Berlin'e girmesi üzerine Adolf Hitler, sığınağında intihar etti. Nazi Almanyası'nın liderinin ölümü, II. Dünya Savaşı'nın Avrupa cephesindeki sonunu getiren en önemli olaydı."
+    },
+    {
+      "date": "01 Mayıs",
+      "year": 1886,
+      "event_title": "1 Mayısıs İşçi Bayramı",
+      "description": "Chicago'da işçilerin 8 saatlik iş günü talebiyle başlattığı grevler, küresel bir işçi hareketine dönüştü. Bu olay, emeğin ve dayanışmanın sembolü olarak tüm dünyada 1 Mayısıs İşçi Bayramı'nın doğuşunu sağladı."
+    },
+    {
+      "date": "02 Mayıs",
+      "year": 1519,
+      "event_title": "Da Vinci'nin Ölümü",
+      "description": "Rönesans'ın dahi sanatçısı ve mucidi Leonardo da Vinci, Fransa'da hayata veda etti. Mona Lisa ve Son Akşam Yemeği gibi eserlerinin yanı sıra, uçan makinelerden anatomiye kadar yaptığı çizimler yüzyıllar ötesine ışık tuttu."
+    },
+    {
+      "date": "03 Mayıs",
+      "year": 1469,
+      "event_title": "Makyevelizm'in Doğuşu",
+      "description": "Siyaset biliminin babası sayılan Niccolò Machiavelli doğdu. 'Prens' adlı eseriyle devlet yönetimi ve güç ilişkileri üzerine yazdığı gerçekçi analizler, yüzyıllar boyunca liderlerin başucu kitabı oldu."
+    },
+    {
+      "date": "04 Mayıs",
+      "year": 1979,
+      "event_title": "Demir Leydi'nin Zaferi",
+      "description": "Margaret Thatcher, İngiltere'nin ilk kadın başbakanı seçildi. 'Demir Leydi' lakabıyla tanınan Thatcher, uyguladığı sert ekonomik politikalar ve Soğuk Savaş dönemindeki duruşuyla İngiliz siyasetine damga vurdu."
+    },
+    {
+      "date": "05 Mayıs",
+      "year": 1821,
+      "event_title": "Napolyon'un Ölümü",
+      "description": "Fransız İmparatoru Napolyon Bonapart, sürgüne gönderildiği Saint Helena Adası'nda hayatını kaybetti. Avrupa haritasını değiştiren askeri dehası ve hukuk sistemine getirdiği yenilikler (Napolyon Kanunları) modern dünyayı şekillendirdi."
+    },
+    {
+      "date": "06 Mayıs",
+      "year": 1937,
+      "event_title": "Hindenburg Faciası",
+      "description": "Alman yapımı dev zeplin Hindenburg, New Jersey'de iniş yaparken alev alarak düştü. 36 kişinin öldüğü bu kaza, zeplinle yolcu taşımacılığı devrinin sonunu getirdi ve havacılık güvenliği kurallarını değiştirdi."
+    },
+    {
+      "date": "07 Mayıs",
+      "year": 1824,
+      "event_title": "9. Senfoni'nin Prömiyeri",
+      "description": "Ludwig van Beethoven, tamamen sağır olmasına rağmen bestelediği 9. Senfoni'yi Viyana'da ilk kez yönetti. Eserin finalindeki 'Neşeye Övgü' bölümü, bugün Avrupa Birliği'nin resmi marşı olarak kullanılmaktadır."
+    },
+    {
+      "date": "08 Mayıs",
+      "year": 1945,
+      "event_title": "Avrupa'da Zafer Günü (VE Day)",
+      "description": "Nazi Almanyası'nın Müttefiklere kayıtsız şartsız teslim olmasıyla II. Dünya Savaşı Avrupa cephesinde resmen sona erdi. Milyonlarca insanın öldüğü savaşın bitişi, tüm dünyada büyük kutlamalarla karşılandı."
+    },
+    {
+      "date": "09 Mayıs",
+      "year": 1950,
+      "event_title": "Schuman Bildirgesi",
+      "description": "Fransa Dışişleri Bakanı Robert Schuman, Avrupa'da barışı sağlamak için kömür ve çelik üretiminin birleştirilmesini önerdi. Bu bildirge, bugünkü Avrupa Birliği'nin temelini atan ilk adım kabul edilir."
+    },
+    {
+      "date": "10 Mayıs",
+      "year": 1994,
+      "event_title": "Nelson Mandela Başkan Oldu",
+      "description": "Güney Afrika'daki ırkçı Apartheid rejiminin sona ermesinin ardından yapılan ilk demokratik seçimlerde Nelson Mandela devlet başkanı oldu. Yıllarca hapis yatan Mandela, barışın ve uzlaşının küresel sembolü haline geldi."
+    },
+    {
+      "date": "11 Mayıs",
+      "year": 330,
+      "event_title": "Konstantinopolis Başkent Oldu",
+      "description": "İmparator I. Konstantin, Roma İmparatorluğu'nun başkentini Roma'dan Byzantium'a taşıdı ve şehre 'Nova Roma' (Yeni Roma) adını verdi. Şehir daha sonra Konstantinopolis olarak anılacak ve 1000 yıl boyunca imparatorluğun kalbi olacaktı."
+    },
+    {
+      "date": "12 Mayıs",
+      "year": 1820,
+      "event_title": "Hemşireliğin Doğuşu",
+      "description": "Modern hemşireliğin kurucusu Florence Nightingale doğdu. Kırım Savaşı'ndaki fedakarlıklarıyla 'Lambalı Kadın' olarak tanınan Nightingale, sağlık hizmetlerinde hijyen ve bakım standartlarını belirledi."
+    },
+    {
+      "date": "13 Mayıs",
+      "year": 1277,
+      "event_title": "Türkçe Resmi Dil Oldu",
+      "description": "Karamanoğlu Mehmet Bey, yayımladığı fermanla 'Bugünden sonra divanda, dergahta, bargahda, mecliste ve meydanda Türkçeden başka dil kullanılMayısacaktır' diyerek Türkçeyi resmi dil ilan etti."
+    },
+    {
+      "date": "14 Mayıs",
+      "year": 1950,
+      "event_title": "Türkiye'de İlk Demokratik Değişim",
+      "description": "Türkiye'de yapılan genel seçimlerde Demokrat Parti ezici bir çoğunlukla iktidara geldi. Bu olay, tek parti döneminin sona erdiği ve çok partili demokrasinin işlerlik kazandığı tarihi bir dönüm noktasıydı."
+    },
+    {
+      "date": "15 Mayıs",
+      "year": 1919,
+      "event_title": "İzmir'in İşgali ve İlk Kurşun",
+      "description": "Yunan ordusunun İzmir'e çıkması üzerine Gazeteci Hasan Tahsin, işgalcilere ilk kurşunu sıkarak şehit oldu. Bu olay, Türk milletinin işgallere karşı direniş azmini ateşleyen kıvılcımlardan biriydi."
+    },
+    {
+      "date": "16 Mayıs",
+      "year": 1919,
+      "event_title": "Bandırma Vapuru Yola Çıktı",
+      "description": "Mustafa Kemal Paşa ve silah arkadaşları, Milli Mücadele'yi başlatmak üzere Bandırma Vapuru ile İstanbul'dan Samsun'a hareket etti. Bu yolculuk, bağımsız Türkiye Cumhuriyeti'ne giden yolun başlangıcıydı."
+    },
+    {
+      "date": "17 Mayıs",
+      "year": 2000,
+      "event_title": "Galatasaray UEFA Şampiyonu",
+      "description": "Galatasaray, Kopenhag'daki finalde İngiliz devi Arsenal'i penaltılarla yenerek UEFA Kupası'nı kazandı. Bu zafer, Türk futbol tarihinin kulüpler düzeyindeki en büyük başarısı olarak kayıtlara geçti."
+    },
+    {
+      "date": "18 Mayıs",
+      "year": 1048,
+      "event_title": "Ömer Hayyam'ın Doğumu",
+      "description": "İranlı şair, matematikçi ve astronom Ömer Hayyam doğdu. Celali Takvimi'ni hazırlayan ve yazdığı rubailerle tanınan Hayyam, cebir alanındaki çalışmalarıyla da bilime büyük katkılar sağladı."
+    },
+    {
+      "date": "19 Mayıs",
+      "year": 1919,
+      "event_title": "Atatürk'ün Samsun'a Çıkışı",
+      "description": "Mustafa Kemal Paşa, Samsun'a ayak basarak Kurtuluş Savaşı'nı fiilen başlattı. Türk milletinin bağımsızlık mücadelesinin ilk adımı olan bu tarih, Gençlik ve Spor Bayramı olarak kutlanmaktadır."
+    },
+    {
+      "date": "20 Mayıs",
+      "year": 1498,
+      "event_title": "Vasco da Gama Hindistan'da",
+      "description": "Portekizli kaşif Vasco da Gama, Ümit Burnu'nu dolaşarak Hindistan'ın Kalküta limanına ulaştı. Bu keşif, Avrupa ile Asya arasında doğrudan deniz ticaretini başlatarak Baharat Yolu'nun güzergahını değiştirdi."
+    },
+    {
+      "date": "21 Mayıs",
+      "year": 1864,
+      "event_title": "Çerkes Sürgünü",
+      "description": "Çarlık Rusyası'nın Kafkasya'yı istilası sonucu yüz binlerce Çerkes, Osmanlı topraklarına sürgün edildi. Tarihin en büyük trajedilerinden biri olan bu olay, Kafkas halklarının hafızasında derin izler bıraktı."
+    },
+    {
+      "date": "22 Mayıs",
+      "year": 1960,
+      "event_title": "Büyük Şili Depremi",
+      "description": "Şili'de meydana gelen 9.5 büyüklüğündeki deprem, aletsel dönemde ölçülen en büyük deprem olarak tarihe geçti. Deprem ve ardından gelen tsunami, Pasifik Okyanusu kıyılarında büyük yıkıma yol açtı."
+    },
+    {
+      "date": "23 Mayıs",
+      "year": 1934,
+      "event_title": "Bonnie ve Clyde'ın Sonu",
+      "description": "ABD'nin Büyük Buhran dönemindeki ünlü kanun kaçakları Bonnie Parker ve Clyde Barrow, polisin kurduğu pusu sonucu öldürüldü. İkilinin hikayesi daha sonra pek çok filme ve kitaba konu oldu."
+    },
+    {
+      "date": "24 Mayıs",
+      "year": 1844,
+      "event_title": "İlk Telgraf Mesajı",
+      "description": "Samuel Morse, Washington'dan Baltimore'a 'Tanrı ne harikalar yarattı!' yazan ilk resmi telgraf mesajını gönderdi. Bu an, anlık küresel iletişimin başlangıcı kabul edilir."
+    },
+    {
+      "date": "25 Mayıs",
+      "year": 1977,
+      "event_title": "Star Wars Vizyonda",
+      "description": "George Lucas'ın yönettiği ilk Yıldız Savaşları (Star Wars) filmi gösterime girdi. Bilim kurgu sinemasında çığır açan seri, popüler kültürün en büyük fenomenlerinden biri haline geldi."
+    },
+    {
+      "date": "26 Mayıs",
+      "year": 1897,
+      "event_title": "Drakula Yayımlandı",
+      "description": "Bram Stoker'ın ünlü gotik korku romanı 'Drakula' ilk kez yayımlandı. Vampir mitini modern edebiyata ve sineMayısa taşıyan eser, korku türünün en önemli klasiklerinden biri oldu."
+    },
+    {
+      "date": "27 Mayıs",
+      "year": 1960,
+      "event_title": "27 Mayısıs Darbesi",
+      "description": "Türk Silahlı Kuvvetleri içerisindeki bir grup subay yönetime el koyarak Türkiye Cumhuriyeti tarihinin ilk askeri darbesini gerçekleştirdi. Demokrat Parti iktidarı sona erdi ve yeni bir anayasa süreci başladı."
+    },
+    {
+      "date": "28 Mayıs",
+      "year": 1918,
+      "event_title": "Azerbaycan'ın Bağımsızlığı",
+      "description": "Azerbaycan Demokratik Cumhuriyeti, Mehmet Emin Resulzade önderliğinde bağımsızlığını ilan etti. Bu, Müslüman doğu dünyasında kurulan ilk demokratik ve laik cumhuriyet olarak tarihe geçti."
+    },
+    {
+      "date": "29 Mayıs",
+      "year": 1453,
+      "event_title": "İstanbul'un Fethi",
+      "description": "Fatih Sultan Mehmet komutasındaki Osmanlı ordusu, 53 günlük kuşatmanın ardından Konstantinopolis'i fethetti. Orta Çağ'ı kapatıp Yeni Çağ'ı başlatan bu olayla şehir, İslam dünyasının başkenti oldu."
+    },
+    {
+      "date": "30 Mayıs",
+      "year": 1431,
+      "event_title": "Jeanne d'Arc'ın İdamı",
+      "description": "Yüzyıl Savaşları'nda Fransa'ya ilham veren 19 yaşındaki Jeanne d'Arc, İngilizler tarafından yakılarak idam edildi. Daha sonra azize ilan edilen Jeanne d'Arc, Fransız ulusal kahramanı oldu."
+    },
+    {
+      "date": "31 Mayıs",
+      "year": 1859,
+      "event_title": "Big Ben ÇalışMayısa Başladı",
+      "description": "Londra'nın simgesi olan Westminster Sarayı'ndaki ünlü saat kulesi Big Ben, ilk kez zamanı göstermeye başladı. Kule, Viktorya dönemi mühendisliğinin en zarif örneklerinden biri olarak kabul edilir."
+    },
+    {
+      "date": "01 Haziran",
+      "year": 1911,
+      "event_title": "Türk Hava Kuvvetleri",
+      "description": "Mahmut Şevket Paşa'nın girişimiyle Türk Hava Kuvvetleri'nin temeli sayılan Tayyare Komisyonu kuruldu. Osmanlı İmparatorluğu, havacılığın askeri önemini erken kavrayan devletlerden biri oldu."
+    },
+    {
+      "date": "02 Haziran",
+      "year": 1946,
+      "event_title": "İtalya Cumhuriyeti",
+      "description": "İtalya'da yapılan referandum sonucunda halk monarşinin kaldırılmasına ve cumhuriyetin kurulmasına karar verdi. Bu tarih, modern İtalya'nın doğum günü olarak kutlanmaktadır."
+    },
+    {
+      "date": "03 Haziran",
+      "year": 1963,
+      "event_title": "Nazım Hikmet'in Vefatı",
+      "description": "Türk şiirinin dünya çapındaki ismi Nazım Hikmet Ran, Moskova'da hayata veda etti. 'Mavi Gözlü Dev', eserleriyle sadece edebiyatı değil, toplumsal düşünceyi de derinden etkiledi."
+    },
+    {
+      "date": "04 Haziran",
+      "year": 1942,
+      "event_title": "Midway Muharebesi",
+      "description": "II. Dünya Savaşı'nın Pasifik cephesinde ABD donanması, Japon donanmasını Midway'de ağır bir yenilgiye uğrattı. Bu zafer, savaşın seyrini değiştiren ve Japon ilerleyişini durduran kırılma noktasıydı."
+    },
+    {
+      "date": "05 Haziran",
+      "year": 1972,
+      "event_title": "Dünya Çevre Günü",
+      "description": "Birleşmiş Milletler Çevre Konferansı Stockholm'de toplandı. Çevre sorunlarına küresel dikkat çekmek amacıyla konferansın başlangıç tarihi olan 5 Haziran, Dünya Çevre Günü ilan edildi."
+    },
+    {
+      "date": "06 Haziran",
+      "year": 1944,
+      "event_title": "Normandiya Çıkarması (D-Day)",
+      "description": "Müttefik kuvvetleri, Nazi işgali altındaki Fransa kıyılarına tarihin en büyük amfibi harekatını düzenledi. 'Overlord Harekatı' olarak bilinen bu çıkarma, Avrupa'nın kurtuluşunun başlangıcı oldu."
+    },
+    {
+      "date": "07 Haziran",
+      "year": 1550,
+      "event_title": "Süleymaniye'nin Temeli",
+      "description": "Mimar Sinan, 'kalfalık eserim' dediği Süleymaniye Camii'nin temelini attı. Kanuni Sultan Süleyman adına yapılan bu şaheser, Osmanlı mimarisinin zirve noktalarından biri olarak kabul edilir."
+    },
+    {
+      "date": "08 Haziran",
+      "year": 632,
+      "event_title": "Hz. Muhammed'in Vefatı",
+      "description": "İslam peygamberi Hz. Muhammed, Medine'de vefat etti. Veda Haccı'ndan kısa bir süre sonra gerçekleşen vefatı, İslam dünyasında derin bir üzüntüye ve sonrasında Dört Halife Dönemi'nin başlamasına yol açtı."
+    },
+    {
+      "date": "09 Haziran",
+      "year": 68,
+      "event_title": "İmparator Neron'un Ölümü",
+      "description": "Roma'yı yaktığı iddia edilen ve zalimliğiyle bilinen İmparator Neron, senatonun idam kararı üzerine intihar etti. Onun ölümüyle Roma'da Julio-Claudian hanedanı sona erdi."
+    },
+    {
+      "date": "10 Haziran",
+      "year": 1916,
+      "event_title": "Arap İsyanı",
+      "description": "Mekke Şerifi Hüseyin, Osmanlı İmparatorluğu'na karşı isyan başlattı. İngilizlerin desteğiyle büyüyen bu hareket, Osmanlı'nın Ortadoğu topraklarını kaybetmesinde önemli rol oynadı."
+    },
+    {
+      "date": "11 Haziran",
+      "year": 1868,
+      "event_title": "Kızılay'ın Kuruluşu",
+      "description": "Savaş alanındaki yaralılara yardım etmek amacıyla 'Hilal-i Ahmer Cemiyeti' (Kızılay) kuruldu. Dünyanın en köklü insani yardım kuruluşlarından biri olan Kızılay, afetlerde ve savaşlarda umudun sembolü oldu."
+    },
+    {
+      "date": "12 Haziran",
+      "year": 1898,
+      "event_title": "Filipinler'in Bağımsızlığı",
+      "description": "Filipinli devrimciler, 300 yıllık İspanyol sömürgesinin ardından bağımsızlıklarını ilan etti. Bu olay, Asya'da sömürgeciliğe karşı kazanılan ilk büyük zaferlerden biriydi."
+    },
+    {
+      "date": "13 Haziran",
+      "year": 1983,
+      "event_title": "Pioneer 10'un Yolculuğu",
+      "description": "NASA'nın Pioneer 10 uzay aracı, Neptün'ün yörüngesini geçerek Güneş Sistemi'ni terk eden insan yapımı ilk nesne oldu. Araç, uzaylılar için Dünya'nın yerini gösteren bir altın plaka taşıyordu."
+    },
+    {
+      "date": "14 Haziran",
+      "year": 1839,
+      "event_title": "Jandarma Teşkilatı",
+      "description": "Osmanlı İmparatorluğu'nda güvenliği sağlamak amacıyla bugünkü Jandarma Genel Komutanlığı'nın temeli sayılan Asakir-i Zaptiye teşkilatı kuruldu. Teşkilat, kırsal güvenliğin temel taşı oldu."
+    },
+    {
+      "date": "15 Haziran",
+      "year": 1215,
+      "event_title": "Magna Carta",
+      "description": "İngiltere Kralı John, soyluların baskısıyla Magna Carta'yı imzalayarak kralın yetkilerini ilk kez sınırlandırdı. Bu belge, anayasal düzene geçişin ve hukukun üstünlüğünün ilk adımı kabul edilir."
+    },
+    {
+      "date": "16 Haziran",
+      "year": 1963,
+      "event_title": "Uzayda İlk Kadın",
+      "description": "Sovyet kozmonot Valentina Tereşkova, Vostok 6 aracıyla uzaya çıkan ilk kadın oldu. Dünya yörüngesinde 48 tur atan Tereşkova, kadınların uzay çağındaki yerini kanıtladı."
+    },
+    {
+      "date": "17 Haziran",
+      "year": 1885,
+      "event_title": "Özgürlük Heykeli",
+      "description": "Fransız halkının ABD'ye hediyesi olan Özgürlük Heykeli, parçalar halinde New York limanına ulaştı. Heykel, Amerika'ya gelen göçmenler için özgürlüğün ve yeni bir hayatın simgesi oldu."
+    },
+    {
+      "date": "18 Haziran",
+      "year": 1815,
+      "event_title": "Waterloo Savaşı",
+      "description": "Napolyon Bonapart, Waterloo'da İngiliz ve Prusya ordularına karşı kesin bir yenilgiye uğradı. Bu savaş, Napolyon Savaşları'nı bitirdi ve Avrupa'da uzun sürecek bir siyasi düzenin başlangıcı oldu."
+    },
+    {
+      "date": "19 Haziran",
+      "year": 1910,
+      "event_title": "Babalar Günü",
+      "description": "ABD'de Sonora Smart Dodd'un girişimiyle ilk kez Babalar Günü kutlandı. İç Savaş gazisi babasının 6 çocuğunu tek başına büyütmesinden etkilenen Dodd, bu günün tüm dünyada kutlanmasını sağladı."
+    },
+    {
+      "date": "20 Haziran",
+      "year": 451,
+      "event_title": "Katalon Savaşı",
+      "description": "Roma İmparatorluğu ve Vizigotlar, Avrupa'yı istila eden Hun İmparatoru Atilla'yı Katalon Ovası'nda durdurdu. Batı dünyası için büyük bir tehdit olan Hun ilerleyişinin kırıldığı en kanlı savaşlardan biriydi."
+    },
+    {
+      "date": "21 Haziran",
+      "year": 1934,
+      "event_title": "Soyadı Kanunu",
+      "description": "TBMM'de kabul edilen kanunla, her Türk vatandaşına bir soyadı taşıma zorunluluğu getirildi. Ağa, hacı, hafız gibi unvanların kaldırılmasıyla toplumsal eşitlik ve resmi işlerde düzen hedeflendi."
+    },
+    {
+      "date": "22 Haziran",
+      "year": 1941,
+      "event_title": "Barbarossa Harekatı",
+      "description": "Nazi Almanyası, saldırmazlık paktını ihlal ederek Sovyetler Birliği'ne tarihin en geniş kapsamlı kara harekatını başlattı. Bu hamle, II. Dünya Savaşı'nın Doğu Cephesi'ni açtı ve Nazilerin sonunu hazırladı."
+    },
+    {
+      "date": "23 Haziran",
+      "year": 1912,
+      "event_title": "Alan Turing'in Doğumu",
+      "description": "Bilgisayar biliminin babası Alan Turing doğdu. II. Dünya Savaşı'nda Alman Enigma şifresini kırarak milyonlarca hayat kurtaran Turing, yapay zeka kavramının da temellerini attı."
+    },
+    {
+      "date": "24 Haziran",
+      "year": 1901,
+      "event_title": "Picasso'nun İlk Sergisi",
+      "description": "Modern sanatın en etkili ismi Pablo Picasso, 19 yaşında ilk sergisini Paris'te açtı. Kübizm akımının öncüsü olan sanatçı, kendine has tarzıyla 20. yüzyıl sanatını kökten değiştirdi."
+    },
+    {
+      "date": "25 Haziran",
+      "year": 1950,
+      "event_title": "Kore Savaşı Başladı",
+      "description": "Kuzey Kore birliklerinin 38. paraleli geçmesiyle Kore Savaşı başladı. Türkiye'nin de asker gönderdiği bu savaş, Soğuk Savaş'ın ilk büyük sıcak çatışması olarak tarihe geçti."
+    },
+    {
+      "date": "26 Haziran",
+      "year": 1945,
+      "event_title": "BM Antlaşması",
+      "description": "San Francisco Konferansı sonunda 50 ülke Birleşmiş Milletler Antlaşması'nı imzaladı. II. Dünya Savaşı'nın yıkımından sonra uluslararası barışı ve güvenliği korumak amacıyla küresel bir örgüt kuruldu."
+    },
+    {
+      "date": "27 Haziran",
+      "year": 1967,
+      "event_title": "İlk ATM",
+      "description": "Dünyanın ilk otomatik vezne makinesi (ATM), Londra'daki Barclays Bankası şubesinde hizmete girdi. Bu icat, bankacılık işlemlerini mesai saatlerinden bağımsız hale getirerek finans dünyasını değiştirdi."
+    },
+    {
+      "date": "28 Haziran",
+      "year": 1914,
+      "event_title": "Saraybosna Suikastı",
+      "description": "Avusturya-Macaristan Veliahtı Franz Ferdinand, Saraybosna'da bir Sırp milliyetçisi tarafından öldürüldü. Bu suikast, I. Dünya Savaşı'nı başlatan diplomatik krizin fitilini ateşledi."
+    },
+    {
+      "date": "29 Haziran",
+      "year": 2007,
+      "event_title": "iPhone Piyasada",
+      "description": "Apple, dokunmatik ekranlı ilk iPhone modelini satışa sundu. Tuşlu telefon devrini kapatan bu cihaz, mobil internet ve uygulama ekosistemiyle modern akıllı telefon çağını başlattı."
+    },
+    {
+      "date": "30 Haziran",
+      "year": 1908,
+      "event_title": "Tunguska Olayı",
+      "description": "Sibirya'nın Tunguska bölgesinde büyük bir patlama meydana geldi. Bir göktaşının havada patlamasıyla oluştuğu düşünülen olay, 2000 kilometrekarelik orman alanını yerle bir etti."
+    },
+    {
+      "date": "01 Temmuz",
+      "year": 1926,
+      "event_title": "Kabotaj Bayramı",
+      "description": "Türk karasularında yolcu ve yük taşıma hakkını sadece Türk gemilerine tanıyan Kabotaj Kanunu yürürlüğe girdi. Bu kanun, kapitülasyonların yarattığı ekonomik bağımlılığa son veren en büyük adımdı."
+    },
+    {
+      "date": "02 Temmuz",
+      "year": 1964,
+      "event_title": "ABD'de Yurttaşlık Hakları",
+      "description": "ABD Başkanı Lyndon B. Johnson, ırk, renk, din, cinsiyet veya ulusal kökene dayalı ayrımcılığı yasaklayan Yurttaşlık Hakları Yasası'nı imzaladı. Bu, Martin Luther King'in mücadelesinin en büyük zaferiydi."
+    },
+    {
+      "date": "03 Temmuz",
+      "year": 1938,
+      "event_title": "Buharlı Tren Hız Rekoru",
+      "description": "İngiliz yapımı 'Mallard' adlı lokomotif, saatte 203 km hıza ulaşarak buharla çalışan trenler arasında dünya hız rekorunu kırdı. Bu rekor bugün bile kırılamamıştır."
+    },
+    {
+      "date": "04 Temmuz",
+      "year": 1776,
+      "event_title": "ABD Bağımsızlık Günü",
+      "description": "Amerikan Kongresi, Thomas Jefferson tarafından kaleme alınan Bağımsızlık Bildirgesi'ni onayladı. 13 koloni, Büyük Britanya Krallığı'ndan ayrılarak bağımsızlığını ilan etti."
+    },
+    {
+      "date": "05 Temmuz",
+      "year": 1996,
+      "event_title": "Klon Koyun Dolly",
+      "description": "Yetişkin bir somatik hücreden klonlanan ilk memeli hayvan olan koyun Dolly dünyaya geldi. Bilim dünyasında etik tartışmalara yol açan bu başarı, genetik mühendisliğinde yeni bir çağ başlattı."
+    },
+    {
+      "date": "06 Temmuz",
+      "year": 1885,
+      "event_title": "Kuduz Aşısı",
+      "description": "Louis Pasteur, kuduz bir köpek tarafından ısırılan 9 yaşındaki Joseph Meister'e ilk kez kuduz aşısını uyguladı. Çocuğun hayatta kalması, modern immünolojinin (bağışıklık bilimi) zaferi oldu."
+    },
+    {
+      "date": "07 Temmuz",
+      "year": 1974,
+      "event_title": "Dünya Kupası'nda Batı Almanya",
+      "description": "Münih Olimpiyat Stadı'nda oynanan finalde Batı Almanya, Johan Cruyff'lu Hollanda'yı 2-1 yenerek Dünya Kupası'nı kazandı. 'Total Futbol' anlayışının sahaya yansıdığı unutulmaz bir maçtı."
+    },
+    {
+      "date": "08 Temmuz",
+      "year": 1497,
+      "event_title": "Vasco da Gama'nın Yolculuğu",
+      "description": "Portekizli kaşif Vasco da Gama, Hindistan'a deniz yoluyla ulaşmak üzere Lizbon'dan yola çıktı. 4 gemiyle başlayan bu sefer, Avrupa ticaretinin rotasını Akdeniz'den okyanuslara çevirdi."
+    },
+    {
+      "date": "09 Temmuz",
+      "year": 1932,
+      "event_title": "Türkiye Milletler Cemiyeti'nde",
+      "description": "Türkiye Cumhuriyeti, dünya barışını koruMayısı amaçlayan Milletler Cemiyeti'ne (Cemiyet-i Akvam) davet üzerine üye oldu. Bu, genç cumhuriyetin uluslararası saygınlığının bir göstergesiydi."
+    },
+    {
+      "date": "10 Temmuz",
+      "year": 1913,
+      "event_title": "Dünyanın En Yüksek Sıcaklığı",
+      "description": "California'daki Ölüm Vadisi'nde (Death Valley) hava sıcaklığı 56.7°C olarak ölçüldü. Bu değer, dünya üzerinde kaydedilen en yüksek hava sıcaklığı rekoru olarak hala geçerliliğini korumaktadır."
+    },
+    {
+      "date": "11 Temmuz",
+      "year": 1995,
+      "event_title": "Srebrenitsa Katliamı",
+      "description": "Bosna Savaşı sırasında Sırp güçleri, BM'nin güvenli bölge ilan ettiği Srebrenitsa'ya girerek 8 binden fazla Boşnak sivili katletti. Bu olay, II. Dünya Savaşı'ndan sonra Avrupa'daki en büyük soykırımdır."
+    },
+    {
+      "date": "12 Temmuz",
+      "year": 1932,
+      "event_title": "Türk Dil Kurumu",
+      "description": "Atatürk'ün talimatıyla Türk Dili Tetkik Cemiyeti (bugünkü Türk Dil Kurumu) kuruldu. Kurumun amacı, Türkçeyi yabancı dillerin boyunduruğundan kurtarmak ve zenginliğini ortaya çıkarmaktı."
+    },
+    {
+      "date": "13 Temmuz",
+      "year": 1930,
+      "event_title": "İlk Dünya Kupası",
+      "description": "Futbol tarihinin ilk FIFA Dünya Kupası, Uruguay'da başladı. Fransa ve Meksika arasındaki açılış maçıyla start alan turnuvayı ev sahibi Uruguay kazandı."
+    },
+    {
+      "date": "14 Temmuz",
+      "year": 1789,
+      "event_title": "Bastille Baskını",
+      "description": "Fransız halkı, kraliyet baskısının sembolü olan Bastille Hapishanesi'ni basarak ele geçirdi. Fransız İhtilali'nin başlangıcı kabul edilen bu gün, Fransa'nın ulusal bayramıdır."
+    },
+    {
+      "date": "15 Temmuz",
+      "year": 2016,
+      "event_title": "15 Temmuz Demokrasi Zaferi",
+      "description": "FETÖ terör örgütü tarafından gerçekleştirilen darbe girişimi, Türk halkının sokaklara dökülerek tankların önüne geçmesiyle engellendi. Millet iradesinin galip geldiği tarihi bir direniş günü oldu."
+    },
+    {
+      "date": "16 Temmuz",
+      "year": 1969,
+      "event_title": "Apollo 11 Fırlatıldı",
+      "description": "İnsanoğlunu Ay'a taşıyacak olan Apollo 11 uzay aracı, Florida'daki Kennedy Uzay Merkezi'nden fırlatıldı. Neil Armstrong, Buzz Aldrin ve Michael Collins'in tarihi yolculuğu başlamış oldu."
+    },
+    {
+      "date": "17 Temmuz",
+      "year": 1918,
+      "event_title": "Romanov Ailesinin Sonu",
+      "description": "Son Rus Çarı II. Nikolay ve ailesi, Bolşevikler tarafından Yekaterinburg'da kurşuna dizilerek öldürüldü. Bu olay, 300 yıllık Romanov Hanedanı'nın sonunu getirdi."
+    },
+    {
+      "date": "18 Temmuz",
+      "year": 1932,
+      "event_title": "Ezanın Türkçe Okunması",
+      "description": "Diyanet İşleri Başkanlığı'nın genelgesiyle Türkiye'de ezan Türkçe okunMayısa başlandı. 18 yıl süren bu uygulama, 1950 yılında Demokrat Parti iktidarında tekrar Arapça aslına döndürüldü."
+    },
+    {
+      "date": "19 Temmuz",
+      "year": 1870,
+      "event_title": "Fransa-Prusya Savaşı",
+      "description": "Fransa'nın Prusya'ya savaş ilan etmesiyle Avrupa dengelerini değiştiren çatışma başladı. Savaşın sonunda Alman birliği sağlandı ve Fransa imparatorluktan cumhuriyete geçti."
+    },
+    {
+      "date": "20 Temmuz",
+      "year": 1969,
+      "event_title": "İnsan Ay'da",
+      "description": "Apollo 11 Ay yüzeyine indi. Neil Armstrong, 'Benim için küçük, insanlık için dev bir adım' diyerek Ay'a ayak basan ilk insan oldu."
+    },
+    {
+      "date": "21 Temmuz",
+      "year": 1946,
+      "event_title": "Türkiye'de İlk Çok Partili Seçim",
+      "description": "Türkiye Cumhuriyeti tarihinde ilk kez birden fazla partinin katıldığı genel seçimler yapıldı. 'Açık oy, gizli tasnif' sistemiyle yapılan seçimleri CHP kazandı ancak sistem tartışmalara yol açtı."
+    },
+    {
+      "date": "22 Temmuz",
+      "year": 1456,
+      "event_title": "Belgrad Kuşatması",
+      "description": "Fatih Sultan Mehmet komutasındaki Osmanlı ordusunun Belgrad kuşatması başarısız oldu. Macar komutan Hünyadi Yanoş'un savunması, Osmanlı'nın Avrupa içlerine ilerleyişini 70 yıl geciktirdi."
+    },
+    {
+      "date": "23 Temmuz",
+      "year": 1939,
+      "event_title": "Hatay'ın Anavatana Katılması",
+      "description": "Hatay Meclisi'nin aldığı kararla Hatay Devleti, Türkiye Cumhuriyeti'ne katıldı. Fransız mandasının sona ermesiyle Türkiye, Misak-ı Milli sınırları içindeki önemli bir toprağını geri kazandı."
+    },
+    {
+      "date": "24 Temmuz",
+      "year": 1923,
+      "event_title": "Lozan Barış Antlaşması",
+      "description": "İsviçre'nin Lozan kentinde imzalanan antlaşma ile Türkiye Cumhuriyeti'nin bağımsızlığı ve sınırları tüm dünya tarafından resmen tanındı. Sevr Antlaşması tarihe gömüldü."
+    },
+    {
+      "date": "25 Temmuz",
+      "year": 1978,
+      "event_title": "İlk Tüp Bebek",
+      "description": "Dünyanın ilk tüp bebeği Louise Brown İngiltere'de doğdu. İn vitro fertilizasyon (IVF) yöntemiyle gerçekleşen bu doğum, kısırlık tedavisinde milyonlarca aileye umut oldu."
+    },
+    {
+      "date": "26 Temmuz",
+      "year": 1956,
+      "event_title": "Süveyş Kanalı Krizi",
+      "description": "Mısır Lideri Cemal Abdünnasır, Süveyş Kanalı'nı millileştirdiğini açıkladı. İngiltere ve Fransa'nın tepkisiyle başlayan kriz, bölgede savaşa ve güç dengelerinin değişmesine yol açtı."
+    },
+    {
+      "date": "27 Temmuz",
+      "year": 1953,
+      "event_title": "Kore Savaşı Ateşkesi",
+      "description": "3 yıl süren kanlı çatışmaların ardından Panmunjom Ateşkes Antlaşması imzalandı. Savaş resmen bitmese de silahlar sustu ve Kore Yarımadası 38. paralele göre Kuzey ve Güney olarak ikiye bölündü."
+    },
+    {
+      "date": "28 Temmuz",
+      "year": 1914,
+      "event_title": "I. Dünya Savaşı Başladı",
+      "description": "Avusturya-Macaristan'ın Sırbistan'a savaş ilan etmesiyle I. Dünya Savaşı resmen başladı. Dört yıl sürecek bu küresel yıkım, imparatorlukları çökertecek ve dünya haritasını yeniden çizecekti."
+    },
+    {
+      "date": "29 Temmuz",
+      "year": 1958,
+      "event_title": "NASA Kuruldu",
+      "description": "ABD Başkanı Eisenhower, Sovyetler Birliği ile girilen uzay yarışında öne geçmek amacıyla Ulusal Havacılık ve Uzay Dairesi'nin (NASA) kurulmasını onayladı."
+    },
+    {
+      "date": "30 Temmuz",
+      "year": 1930,
+      "event_title": "İlk Dünya Kupası Şampiyonu",
+      "description": "Uruguay'da düzenlenen ilk Dünya Kupası'nın finalinde ev sahibi Uruguay, Arjantin'i 4-2 yenerek kupayı kaldıran ilk ülke oldu."
+    },
+    {
+      "date": "31 Temmuz",
+      "year": 1959,
+      "event_title": "Türkiye AET Başvurusu",
+      "description": "Türkiye, bugünkü Avrupa Birliği'nin temeli olan Avrupa Ekonomik Topluluğu'na (AET) ortaklık başvurusunda bulundu. Bu başvuru, Türkiye-AB ilişkilerinin uzun ve inişli çıkışlı serüvenini başlattı."
+    },
+    {
+      "date": "01 Ağustos",
+      "year": 1936,
+      "event_title": "Berlin Olimpiyatları",
+      "description": "Nazi Almanyası'nın gövde gösterisine dönüşen 1936 Yaz Olimpiyatları, Hitler'in açılış konuşmasıyla başladı. Siyahi atlet Jesse Owens'ın kazandığı madalyalar, Nazilerin ırkçı tezlerine büyük darbe vurdu."
+    },
+    {
+      "date": "02 Ağustos",
+      "year": 1990,
+      "event_title": "Körfez Savaşı Başlangıcı",
+      "description": "Saddam Hüseyin liderliğindeki Irak ordusu, komşusu Kuveyt'i işgal etti. Petrol fiyatlarını altüst eden bu hamle, ABD öncülüğündeki koalisyonun müdahalesine ve Körfez Savaşı'na yol açtı."
+    },
+    {
+      "date": "03 Ağustos",
+      "year": 1492,
+      "event_title": "Kristof Kolomb Yola Çıktı",
+      "description": "Cenevizli kaşif Kristof Kolomb, İspanya kraliçesinin desteğiyle Hindistan'a ulaşmak amacıyla Palos limanından 3 gemiyle yola çıktı. Rotası onu bilinen dünyanın ötesine, Amerika kıtasına götürecekti."
+    },
+    {
+      "date": "04 Ağustos",
+      "year": 1914,
+      "event_title": "İngiltere Savaşa Girdi",
+      "description": "Almanya'nın tarafsız Belçika'yı işgal etmesi üzerine İngiltere, Almanya'ya savaş ilan etti. Bu hamleyle I. Dünya Savaşı, sadece Avrupa'nın değil sömürgeler üzerinden tüm dünyanın savaşına dönüştü."
+    },
+    {
+      "date": "05 Ağustos",
+      "year": 1962,
+      "event_title": "Marilyn Monroe'nun Ölümü",
+      "description": "Hollywood'un efsanevi yıldızı Marilyn Monroe, Los Angeles'taki evinde ölü bulundu. 36 yaşındaki ikonun ölümü, intihar mı yoksa cinayet mi olduğu yönündeki komplo teorileriyle yıllarca konuşuldu."
+    },
+    {
+      "date": "06 Ağustos",
+      "year": 1945,
+      "event_title": "Hiroşima'ya Atom Bombası",
+      "description": "ABD, 'Little Boy' adını verdiği uranyum tipi atom bombasını Japonya'nın Hiroşima kentine attı. Tarihte ilk kez nükleer silahın kullanıldığı saldırıda on binlerce sivil saniyeler içinde hayatını kaybetti."
+    },
+    {
+      "date": "07 Ağustos",
+      "year": 1919,
+      "event_title": "Erzurum Kongresi Kapanışı",
+      "description": "Mustafa Kemal Paşa başkanlığında toplanan Erzurum Kongresi çalışmalarını tamamladı. 'Milli sınırlar içinde vatan bir bütündür, bölünemez' kararı, Kurtuluş Savaşı'nın temel ilkesi oldu."
+    },
+    {
+      "date": "08 Ağustos",
+      "year": 1928,
+      "event_title": "Taksim Cumhuriyet Anıtı",
+      "description": "İstanbul Taksim Meydanı'ndaki Cumhuriyet Anıtı törenle açıldı. İtalyan heykeltıraş Pietro Canonica'nın eseri olan anıt, Kurtuluş Savaşı'nı ve Cumhuriyetin kuruluşunu simgeler."
+    },
+    {
+      "date": "09 Ağustos",
+      "year": 1945,
+      "event_title": "Nagasaki'ye Atom Bombası",
+      "description": "Hiroşima'dan 3 gün sonra ABD, Japonya'nın Nagasaki kentine 'Fat Man' adlı plütonyum bombasını attı. Bu ikinci yıkım, Japonya'nın teslim olmasını ve II. Dünya Savaşı'nın bitişini kesinleştirdi."
+    },
+    {
+      "date": "10 Ağustos",
+      "year": 1920,
+      "event_title": "Sevr Antlaşması",
+      "description": "Osmanlı İmparatorluğu ile İtilaf Devletleri arasında, imparatorluğu parçalayan Sevr Antlaşması imzalandı. Ankara Hükümeti bu antlaşMayısı 'ölü doğmuş' kabul ederek tanımadı ve Milli Mücadele'yi şiddetlendirdi."
+    },
+    {
+      "date": "11 Ağustos",
+      "year": 1952,
+      "event_title": "Ürdün'de Kral Hüseyin",
+      "description": "Babasının tahttan çekilmesiyle Prens Hüseyin Ürdün Kralı ilan edildi. Ortadoğu'nun en uzun süre görev yapan ve en etkili liderlerinden biri olacak olan Hüseyin'in dönemi başladı."
+    },
+    {
+      "date": "12 Ağustos",
+      "year": 1964,
+      "event_title": "Irkçılık Karşıtı Mücadele",
+      "description": "Güney Afrika, ırk ayrımcılığı (Apartheid) politikaları nedeniyle Olimpiyat Oyunları'ndan men edildi. Bu karar, spor dünyasının insan hakları konusundaki en net tavırlarından biriydi."
+    },
+    {
+      "date": "13 Ağustos",
+      "year": 1961,
+      "event_title": "Berlin Duvarı",
+      "description": "Doğu Almanya yönetimi, vatandaşlarının Batı'ya kaçışını önlemek için Berlin'i ikiye bölen duvarın inşasına başladı. 'Utanç Duvarı' olarak bilinen yapı, Soğuk Savaş'ın en somut sembolü oldu."
+    },
+    {
+      "date": "14 Ağustos",
+      "year": 1974,
+      "event_title": "II. Kıbrıs Barış Harekatı",
+      "description": "Cenevre görüşmelerinden sonuç alınamaması üzerine Türk Silahlı Kuvvetleri Kıbrıs'ta ikinci harekatı başlattı. 'Ayşe tatile çıksın' parolasıyla başlayan operasyonla bugünkü KKTC sınırları çizildi."
+    },
+    {
+      "date": "15 Ağustos",
+      "year": 1914,
+      "event_title": "Panama Kanalı Açıldı",
+      "description": "Atlantik ile Pasifik Okyanusu'nu birbirine bağlayan Panama Kanalı gemi trafiğine açıldı. Mühendislik harikası sayılan kanal, deniz ticaretinin rotasını kısaltarak dünya ekonomisine büyük katkı sağladı."
+    },
+    {
+      "date": "16 Ağustos",
+      "year": 1977,
+      "event_title": "Elvis Presley'nin Ölümü",
+      "description": "Rock and Roll'un kralı Elvis Presley, Memphis'teki malikanesinde hayatını kaybetti. Müzik dünyasını kökten değiştiren sanatçının ölümü, hayranlarını yasa boğdu."
+    },
+    {
+      "date": "17 Ağustos",
+      "year": 1999,
+      "event_title": "Gölcük Depremi",
+      "description": "Marmara Bölgesi'nde meydana gelen 7.4 büyüklüğündeki deprem, Kocaeli, Sakarya ve İstanbul'da büyük yıkıma neden oldu. Binlerce vatandaşın hayatını kaybettiği felaket, Türkiye'nin deprem gerçeğiyle yüzleşmesini sağladı."
+    },
+    {
+      "date": "18 Ağustos",
+      "year": 1227,
+      "event_title": "Cengiz Han'ın Ölümü",
+      "description": "Tarihin en büyük bitişik imparatorluğunu kuran Moğol hükümdarı Cengiz Han hayatını kaybetti. Askeri dehası ve acımasızlığıyla tanınan Cengiz Han, Asya ve Avrupa tarihini derinden etkiledi."
+    },
+    {
+      "date": "19 Ağustos",
+      "year": 1953,
+      "event_title": "İran'da Darbe (Ajax Operasyonu)",
+      "description": "İran Başbakanı Muhammed Musaddık, petrolü millileştirdiği gerekçesiyle CIA destekli bir darbeyle devrildi. Şah Rıza Pehlevi'nin iktidarını sağlamlaştıran bu olay, İran devrimine giden yolu döşedi."
+    },
+    {
+      "date": "20 Ağustos",
+      "year": 636,
+      "event_title": "Yermük Savaşı",
+      "description": "Halid bin Velid komutasındaki İslam ordusu, Bizans ordusunu Yermük'te kesin bir yenilgiye uğrattı. Bu zafer, Suriye ve Filistin kapılarını Müslümanlara açarak bölgenin kaderini değiştirdi."
+    },
+    {
+      "date": "21 Ağustos",
+      "year": 1911,
+      "event_title": "Mona Lisa Çalındı",
+      "description": "Leonardo da Vinci'nin ünlü tablosu Mona Lisa, Louvre Müzesi'nden çalındı. Tablonun yokluğu onu daha da meşhur etti; 2 yıl sonra bulunduğunda dünyanın en tanınan sanat eseri haline gelmişti."
+    },
+    {
+      "date": "22 Ağustos",
+      "year": 1965,
+      "event_title": "Türkiye'de Makas Değişimi",
+      "description": "Gazeteci Çetin Altan, Türkiye İşçi Partisi (TİP) listesinden milletvekili seçilerek meclise girdi. Türk siyasetinde solun mecliste temsili açısından tarihi bir ilkti."
+    },
+    {
+      "date": "23 Ağustos",
+      "year": 1921,
+      "event_title": "Sakarya Meydan Muharebesi",
+      "description": "Yunan ordusunun Ankara'ya ilerleyişini durduran Sakarya Meydan Muharebesi başladı. 22 gün 22 gece süren bu kanlı savaş, Türk ordusunun savunmadan taarruza geçişinin dönüm noktası oldu."
+    },
+    {
+      "date": "24 Ağustos",
+      "year": 1516,
+      "event_title": "Mercidabık Savaşı",
+      "description": "Yavuz Sultan Selim komutasındaki Osmanlı ordusu, Memlük ordusunu yendi. Bu zaferle Suriye, Lübnan ve Filistin Osmanlı topraklarına katıldı ve Mısır yolu açıldı."
+    },
+    {
+      "date": "25 Ağustos",
+      "year": 1944,
+      "event_title": "Paris'in Kurtuluşu",
+      "description": "Müttefik güçleri ve Fransız Direnişçileri, 4 yıllık Nazi işgalinin ardından Paris'i kurtardı. General Charles de Gaulle, Champs-Élysées'de zafer yürüyüşü yaparak özgür Fransa'yı selamladı."
+    },
+    {
+      "date": "26 Ağustos",
+      "year": 1071,
+      "event_title": "Malazgirt Zaferi",
+      "description": "Sultan Alparslan komutasındaki Selçuklu ordusu, Bizans ordusunu mağlup ederek Anadolu'nun kapılarını Türklere açtı. Bu tarih, Türklerin Anadolu'yu yurt edinmesinin başlangıcı kabul edilir."
+    },
+    {
+      "date": "27 Ağustos",
+      "year": 1883,
+      "event_title": "Krakatoa Yanardağı",
+      "description": "Endonezya'daki Krakatoa Yanardağı tarihin en büyük patlamalarından biriyle infilak etti. Patlamanın sesi 4800 km öteden duyuldu ve oluşan tsunamiler on binlerce insanın ölümüne neden oldu."
+    },
+    {
+      "date": "28 Ağustos",
+      "year": 1963,
+      "event_title": "Bir Hayalim Var",
+      "description": "Martin Luther King, Washington'da 200 bin kişiye hitaben ünlü 'I Have a Dream' konuşmasını yaptı. Bu konuşma, ABD'deki sivil haklar hareketinin en güçlü manifestosu olarak tarihe geçti."
+    },
+    {
+      "date": "29 Ağustos",
+      "year": 1526,
+      "event_title": "Mohaç Meydan Muharebesi",
+      "description": "Kanuni Sultan Süleyman, Macar ordusunu Mohaç Ovası'nda sadece 2 saat süren bir savaşla yendi. Bu zafer, Macaristan Krallığı'nın sonunu getirdi ve Osmanlı'nın Orta Avrupa hakimiyetini pekiştirdi."
+    },
+    {
+      "date": "30 Ağustos",
+      "year": 1922,
+      "event_title": "Büyük Taarruz Zaferi",
+      "description": "Başkomutanlık Meydan Muharebesi, Türk ordusunun kesin zaferiyle sonuçlandı. Yunan ordusunun imha edildiği bu gün, Türkiye Cumhuriyeti'nin temellerinin atıldığı Zafer Bayramı olarak kutlanmaktadır."
+    },
+    {
+      "date": "31 Ağustos",
+      "year": 1997,
+      "event_title": "Prenses Diana'nın Ölümü",
+      "description": "Galler Prensesi Diana, Paris'te geçirdiği trafik kazası sonucu hayatını kaybetti. Halkın Prensesi olarak sevilen Diana'nın cenazesi, dünya genelinde milyonlarca insanı yasa boğdu."
+    },
+    {
+      "date": "01 Eylül",
+      "year": 1939,
+      "event_title": "II. Dünya Savaşı Başladı",
+      "description": "Nazi Almanyası'nın Polonya'yı işgal etmesiyle insanlık tarihinin en kanlı savaşı olan II. Dünya Savaşı başladı. Bu tarih, günümüzde Dünya Barış Günü olarak anılmaktadır."
+    },
+    {
+      "date": "02 Eylül",
+      "year": 1666,
+      "event_title": "Büyük Londra Yangını",
+      "description": "Londra'da bir fırında başlayan yangın, 3 gün boyunca sürerek şehrin büyük bir kısmını kül etti. Bu felaket, modern şehircilik ve sigortacılık sistemlerinin gelişmesine öncülük etti."
+    },
+    {
+      "date": "03 Eylül",
+      "year": 1922,
+      "event_title": "Emet'in Kurtuluşu",
+      "description": "Kurtuluş Savaşı'nda Yunan işgali altındaki Kütahya'nın Emet ilçesi, yerel halkın ve düzenli ordunun mücadelesiyle özgürlüğüne kavuştu."
+    },
+    {
+      "date": "04 Eylül",
+      "year": 1919,
+      "event_title": "Sivas Kongresi",
+      "description": "Mustafa Kemal Paşa başkanlığında toplanan Sivas Kongresi, 'Ya istiklal ya ölüm' parolasıyla ulusal direnişin yol haritasını çizdi. Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyetleri burada birleştirildi."
+    },
+    {
+      "date": "05 Eylül",
+      "year": 1972,
+      "event_title": "Münih Katliamı",
+      "description": "Münih Olimpiyatları sırasında Filistinli Kara Eylül örgütü, İsrailli sporcuları rehin aldı. Başarısız kurtarma operasyonu sonucunda 11 sporcu hayatını kaybetti, olimpiyat ruhu gölgelendi."
+    },
+    {
+      "date": "06 Eylül",
+      "year": 1980,
+      "event_title": "Kudüs Yürüyüşü",
+      "description": "Milli Selamet Partisi'nin Konya'da düzenlediği Kudüs Mitingi, Türkiye'nin siyasi atmosferinde gerilimi artıran olaylardan biri oldu ve 12 Eylül darbesine giden süreçte gerekçelerden biri sayıldı."
+    },
+    {
+      "date": "07 Eylül",
+      "year": 1927,
+      "event_title": "Televizyonun İcadı",
+      "description": "Philo Farnsworth, ilk tamamen elektronik televizyon sistemini başarıyla gösterdi. Görüntünün elektrik sinyalleriyle aktarılması, kitle iletişiminde devrim yaratan bir dönüm noktasıydı."
+    },
+    {
+      "date": "08 Eylül",
+      "year": 1504,
+      "event_title": "Davut Heykeli",
+      "description": "Michelangelo'nun Rönesans şaheseri Davut Heykeli, Floransa'da halka açıldı. İnsan anatomisinin mükemmel bir tasviri olan heykel, sanat tarihinin en tanınmış eserlerinden biridir."
+    },
+    {
+      "date": "09 Eylül",
+      "year": 1922,
+      "event_title": "İzmir'in Kurtuluşu",
+      "description": "Türk süvarileri İzmir'e girerek şehri Yunan işgalinden kurtardı. Hükümet Konağı'na Türk bayrağının çekilmesiyle Kurtuluş Savaşı'nın askeri safhası fiilen sona erdi."
+    },
+    {
+      "date": "10 Eylül",
+      "year": 2008,
+      "event_title": "CERN Deneyi",
+      "description": "İsviçre'deki CERN laboratuvarında Büyük Hadron Çarpıştırıcısı (LHC) çalıştırıldı. Evrenin oluşum sırlarını ve Büyük Patlama'yı (Big Bang) araştırMayısı amaçlayan yüzyılın deneyi başladı."
+    },
+    {
+      "date": "11 Eylül",
+      "year": 2001,
+      "event_title": "11 Eylül Saldırıları",
+      "description": "El-Kaide terör örgütü, kaçırdığı uçaklarla ABD'deki İkiz Kuleler ve Pentagon'a saldırdı. Dünya tarihini değiştiren bu olay, terörle mücadele konseptini ve uluslararası güvenliği kökten değiştirdi."
+    },
+    {
+      "date": "12 Eylül",
+      "year": 1980,
+      "event_title": "12 Eylül Darbesi",
+      "description": "Türk Silahlı Kuvvetleri, emir-komuta zinciri içinde yönetime el koydu. TBMM kapatıldı, anayasa askıya alındı ve Türkiye demokrasisi uzun yıllar sürecek bir ara döneme girdi."
+    },
+    {
+      "date": "13 Eylül",
+      "year": 1921,
+      "event_title": "Sakarya Zaferi",
+      "description": "Yunan ordusunun geri çekilmesiyle Sakarya Meydan Muharebesi Türk zaferiyle sonuçlandı. TBMM, bu zaferin ardından Mustafa Kemal Paşa'ya 'Mareşal' rütbesi ve 'Gazi' unvanını verdi."
+    },
+    {
+      "date": "14 Eylül",
+      "year": 1829,
+      "event_title": "Edirne Antlaşması",
+      "description": "Osmanlı-Rus Savaşı'nı bitiren antlaşma imzalandı. Bu antlaşMayısla Yunanistan bağımsızlığını kazanırken, Sırbistan özerk hale geldi; Osmanlı'nın Balkanlardaki hakimiyeti zayıflaMayısa başladı."
+    },
+    {
+      "date": "15 Eylül",
+      "year": 1918,
+      "event_title": "Bakü'nün Kurtuluşu",
+      "description": "Nuri Paşa komutasındaki Kafkas İslam Ordusu, Bakü'yü Ermeni ve Bolşevik işgalinden kurtardı. Bu zafer, Azerbaycan Türkleri ile Anadolu Türkleri arasındaki kardeşliğin en güçlü nişanesidir."
+    },
+    {
+      "date": "16 Eylül",
+      "year": 1961,
+      "event_title": "Polatkan ve Zorlu'nun İdamı",
+      "description": "Yassıada yargılamaları sonucunda idama mahkum edilen eski Maliye Bakanı Hasan Polatkan ve Dışişleri Bakanı Fatin Rüştü Zorlu'nun cezaları infaz edildi. Demokrasi tarihimizin kara günlerinden biridir."
+    },
+    {
+      "date": "17 Eylül",
+      "year": 1961,
+      "event_title": "Adnan Menderes'in İdamı",
+      "description": "Türkiye'nin seçimle gelen ilk Başbakanı Adnan Menderes, İmralı Adası'nda idam edildi. Menderes'in idamı, Türk siyasi tarihinde derin bir yara ve demokrasi ayıbı olarak hafızalara kazındı."
+    },
+    {
+      "date": "18 Eylül",
+      "year": 324,
+      "event_title": "Hrisopolis Muharebesi",
+      "description": "Büyük Konstantin, rakibi Licinius'u Üsküdar (Hrisopolis) yakınlarında yenerek Roma İmparatorluğu'nun tek hakimi oldu. Bu zafer, Hristiyanlığın imparatorluğun resmi dini olma sürecini hızlandırdı."
+    },
+    {
+      "date": "19 Eylül",
+      "year": 1921,
+      "event_title": "Gaziler Günü",
+      "description": "TBMM tarafından Mustafa Kemal Paşa'ya 'Gazi' unvanının verildiği bu tarih, Türkiye'de her yıl Gaziler Günü olarak kutlanmakta ve vatan savunmasında yaralanan kahramanlar onurlandırılmaktadır."
+    },
+    {
+      "date": "20 Eylül",
+      "year": 1519,
+      "event_title": "Macellan'ın Dünya Turu",
+      "description": "Ferdinand Macellan, 5 gemi ve 270 mürettebatla dünya turuna çıktı. Zorlu yolculuk tamamlandığında, Dünya'nın yuvarlak olduğu ve tüm okyanusların birbirine bağlı olduğu kesin olarak kanıtlandı."
+    },
+    {
+      "date": "21 Eylül",
+      "year": 1858,
+      "event_title": "Babür İmparatorluğu'nun Sonu",
+      "description": "İngilizler, son Babür Şahı II. Bahadır'ı tahttan indirerek Hindistan'daki 300 yıllık Türk-Moğol hakimiyetine son verdi. Hindistan resmen İngiliz sömürgesi (British Raj) haline geldi."
+    },
+    {
+      "date": "22 Eylül",
+      "year": 1980,
+      "event_title": "İran-Irak Savaşı",
+      "description": "Saddam Hüseyin'in İran havaalanlarını bombalamasıyla 8 yıl sürecek İran-Irak Savaşı başladı. Milyonlarca insanın öldüğü savaş, her iki ülkenin ekonomisini de çökertti."
+    },
+    {
+      "date": "23 Eylül",
+      "year": 1846,
+      "event_title": "Neptün'ün Keşfi",
+      "description": "Matematiksel hesaplamalarla yeri tahmin edilen Neptün gezegeni, Alman astronom Johann Galle tarafından teleskopla gözlemlendi. Bu, matematiğin astronomideki zaferi olarak kabul edildi."
+    },
+    {
+      "date": "24 Eylül",
+      "year": 622,
+      "event_title": "Hicret",
+      "description": "Hz. Muhammed ve Müslümanlar, Mekke'den Medine'ye göçlerini tamamladı. Hicret, İslam takviminin (Hicri Takvim) başlangıcı ve ilk İslam devletinin kuruluş temeli kabul edilir."
+    },
+    {
+      "date": "25 Eylül",
+      "year": 1396,
+      "event_title": "Niğbolu Zaferi",
+      "description": "Yıldırım Bayezid komutasındaki Osmanlı ordusu, Haçlı ordusunu Niğbolu'da ağır bir yenilgiye uğrattı. Bu zafer, Osmanlı'nın Balkanlardaki hakimiyetini kesinleştirdi ve Bayezid'e 'Sultan-ı İklim-i Rum' unvanını getirdi."
+    },
+    {
+      "date": "26 Eylül",
+      "year": 1932,
+      "event_title": "Dil Bayramı",
+      "description": "I. Türk Dili Kurultayı Dolmabahçe Sarayı'nda toplandı. Türkçenin kökenlerini araştırmak ve geliştirmek amacıyla yapılan bu toplantının yıl dönümü, Dil Bayramı olarak kutlanmaktadır."
+    },
+    {
+      "date": "27 Eylül",
+      "year": 1538,
+      "event_title": "Preveze Deniz Zaferi",
+      "description": "Barbaros Hayrettin Paşa komutasındaki Osmanlı donanması, Haçlı donanmasını mağlup etti. Akdeniz'in bir Türk gölü haline geldiği bu zafer, Deniz Kuvvetleri Günü olarak kutlanmaktadır."
+    },
+    {
+      "date": "28 Eylül",
+      "year": 1928,
+      "event_title": "Penisilin Keşfi",
+      "description": "Alexander Fleming, laboratuvarındaki küf mantarının bakterileri öldürdüğünü fark ederek penisilini keşfetti. Bu buluş, antibiyotik çağını başlatarak milyonlarca insanın hayatını kurtardı."
+    },
+    {
+      "date": "29 Eylül",
+      "year": 1911,
+      "event_title": "Trablusgarp Savaşı",
+      "description": "İtalya'nın Osmanlı toprağı olan Trablusgarp'a (Libya) saldırmasıyla savaş başladı. Mustafa Kemal ve Enver Paşa gibi subayların yerel halkı örgütleyerek direniş gösterdiği ilk modern savaştır."
+    },
+    {
+      "date": "30 Eylül",
+      "year": 2005,
+      "event_title": "Hz. Muhammed Karikatür Krizi",
+      "description": "Danimarka'da bir gazetenin Hz. Muhammed karikatürleri yayımlaması, İslam dünyasında büyük tepkilere ve protestolara yol açtı. Olay, ifade özgürlüğü ve dini değerler tartışmasını küresel boyuta taşıdı."
+    },
+    {
+      "date": "01 Temmuz",
+      "year": 1926,
+      "event_title": "Kabotaj Bayramı",
+      "description": "Türk karasularında yolcu ve yük taşıma hakkını sadece Türk gemilerine tanıyan Kabotaj Kanunu yürürlüğe girdi. Bu kanun, kapitülasyonların yarattığı ekonomik bağımlılığa son veren en büyük adımdı."
+    },
+    {
+      "date": "02 Temmuz",
+      "year": 1964,
+      "event_title": "ABD'de Yurttaşlık Hakları",
+      "description": "ABD Başkanı Lyndon B. Johnson, ırk, renk, din, cinsiyet veya ulusal kökene dayalı ayrımcılığı yasaklayan Yurttaşlık Hakları Yasası'nı imzaladı. Bu, Martin Luther King'in mücadelesinin en büyük zaferiydi."
+    },
+    {
+      "date": "03 Temmuz",
+      "year": 1938,
+      "event_title": "Buharlı Tren Hız Rekoru",
+      "description": "İngiliz yapımı 'Mallard' adlı lokomotif, saatte 203 km hıza ulaşarak buharla çalışan trenler arasında dünya hız rekorunu kırdı. Bu rekor bugün bile kırılamamıştır."
+    },
+    {
+      "date": "04 Temmuz",
+      "year": 1776,
+      "event_title": "ABD Bağımsızlık Günü",
+      "description": "Amerikan Kongresi, Thomas Jefferson tarafından kaleme alınan Bağımsızlık Bildirgesi'ni onayladı. 13 koloni, Büyük Britanya Krallığı'ndan ayrılarak bağımsızlığını ilan etti."
+    },
+    {
+      "date": "05 Temmuz",
+      "year": 1996,
+      "event_title": "Klon Koyun Dolly",
+      "description": "Yetişkin bir somatik hücreden klonlanan ilk memeli hayvan olan koyun Dolly dünyaya geldi. Bilim dünyasında etik tartışmalara yol açan bu başarı, genetik mühendisliğinde yeni bir çağ başlattı."
+    },
+    {
+      "date": "06 Temmuz",
+      "year": 1885,
+      "event_title": "Kuduz Aşısı",
+      "description": "Louis Pasteur, kuduz bir köpek tarafından ısırılan 9 yaşındaki Joseph Meister'e ilk kez kuduz aşısını uyguladı. Çocuğun hayatta kalması, modern immünolojinin (bağışıklık bilimi) zaferi oldu."
+    },
+    {
+      "date": "07 Temmuz",
+      "year": 1974,
+      "event_title": "Dünya Kupası'nda Batı Almanya",
+      "description": "Münih Olimpiyat Stadı'nda oynanan finalde Batı Almanya, Johan Cruyff'lu Hollanda'yı 2-1 yenerek Dünya Kupası'nı kazandı. 'Total Futbol' anlayışının sahaya yansıdığı unutulmaz bir maçtı."
+    },
+    {
+      "date": "08 Temmuz",
+      "year": 1497,
+      "event_title": "Vasco da Gama'nın Yolculuğu",
+      "description": "Portekizli kaşif Vasco da Gama, Hindistan'a deniz yoluyla ulaşmak üzere Lizbon'dan yola çıktı. 4 gemiyle başlayan bu sefer, Avrupa ticaretinin rotasını Akdeniz'den okyanuslara çevirdi."
+    },
+    {
+      "date": "09 Temmuz",
+      "year": 1932,
+      "event_title": "Türkiye Milletler Cemiyeti'nde",
+      "description": "Türkiye Cumhuriyeti, dünya barışını koruMayısı amaçlayan Milletler Cemiyeti'ne (Cemiyet-i Akvam) davet üzerine üye oldu. Bu, genç cumhuriyetin uluslararası saygınlığının bir göstergesiydi."
+    },
+    {
+      "date": "10 Temmuz",
+      "year": 1913,
+      "event_title": "Dünyanın En Yüksek Sıcaklığı",
+      "description": "California'daki Ölüm Vadisi'nde (Death Valley) hava sıcaklığı 56.7°C olarak ölçüldü. Bu değer, dünya üzerinde kaydedilen en yüksek hava sıcaklığı rekoru olarak hala geçerliliğini korumaktadır."
+    },
+    {
+      "date": "11 Temmuz",
+      "year": 1995,
+      "event_title": "Srebrenitsa Katliamı",
+      "description": "Bosna Savaşı sırasında Sırp güçleri, BM'nin güvenli bölge ilan ettiği Srebrenitsa'ya girerek 8 binden fazla Boşnak sivili katletti. Bu olay, II. Dünya Savaşı'ndan sonra Avrupa'daki en büyük soykırımdır."
+    },
+    {
+      "date": "12 Temmuz",
+      "year": 1932,
+      "event_title": "Türk Dil Kurumu",
+      "description": "Atatürk'ün talimatıyla Türk Dili Tetkik Cemiyeti (bugünkü Türk Dil Kurumu) kuruldu. Kurumun amacı, Türkçeyi yabancı dillerin boyunduruğundan kurtarmak ve zenginliğini ortaya çıkarmaktı."
+    },
+    {
+      "date": "13 Temmuz",
+      "year": 1930,
+      "event_title": "İlk Dünya Kupası",
+      "description": "Futbol tarihinin ilk FIFA Dünya Kupası, Uruguay'da başladı. Fransa ve Meksika arasındaki açılış maçıyla start alan turnuvayı ev sahibi Uruguay kazandı."
+    },
+    {
+      "date": "14 Temmuz",
+      "year": 1789,
+      "event_title": "Bastille Baskını",
+      "description": "Fransız halkı, kraliyet baskısının sembolü olan Bastille Hapishanesi'ni basarak ele geçirdi. Fransız İhtilali'nin başlangıcı kabul edilen bu gün, Fransa'nın ulusal bayramıdır."
+    },
+    {
+      "date": "15 Temmuz",
+      "year": 2016,
+      "event_title": "15 Temmuz Demokrasi Zaferi",
+      "description": "FETÖ terör örgütü tarafından gerçekleştirilen darbe girişimi, Türk halkının sokaklara dökülerek tankların önüne geçmesiyle engellendi. Millet iradesinin galip geldiği tarihi bir direniş günü oldu."
+    },
+    {
+      "date": "16 Temmuz",
+      "year": 1969,
+      "event_title": "Apollo 11 Fırlatıldı",
+      "description": "İnsanoğlunu Ay'a taşıyacak olan Apollo 11 uzay aracı, Florida'daki Kennedy Uzay Merkezi'nden fırlatıldı. Neil Armstrong, Buzz Aldrin ve Michael Collins'in tarihi yolculuğu başlamış oldu."
+    },
+    {
+      "date": "17 Temmuz",
+      "year": 1918,
+      "event_title": "Romanov Ailesinin Sonu",
+      "description": "Son Rus Çarı II. Nikolay ve ailesi, Bolşevikler tarafından Yekaterinburg'da kurşuna dizilerek öldürüldü. Bu olay, 300 yıllık Romanov Hanedanı'nın sonunu getirdi."
+    },
+    {
+      "date": "18 Temmuz",
+      "year": 1932,
+      "event_title": "Ezanın Türkçe Okunması",
+      "description": "Diyanet İşleri Başkanlığı'nın genelgesiyle Türkiye'de ezan Türkçe okunMayısa başlandı. 18 yıl süren bu uygulama, 1950 yılında Demokrat Parti iktidarında tekrar Arapça aslına döndürüldü."
+    },
+    {
+      "date": "19 Temmuz",
+      "year": 1870,
+      "event_title": "Fransa-Prusya Savaşı",
+      "description": "Fransa'nın Prusya'ya savaş ilan etmesiyle Avrupa dengelerini değiştiren çatışma başladı. Savaşın sonunda Alman birliği sağlandı ve Fransa imparatorluktan cumhuriyete geçti."
+    },
+    {
+      "date": "20 Temmuz",
+      "year": 1969,
+      "event_title": "İnsan Ay'da",
+      "description": "Apollo 11 Ay yüzeyine indi. Neil Armstrong, 'Benim için küçük, insanlık için dev bir adım' diyerek Ay'a ayak basan ilk insan oldu."
+    },
+    {
+      "date": "21 Temmuz",
+      "year": 1946,
+      "event_title": "Türkiye'de İlk Çok Partili Seçim",
+      "description": "Türkiye Cumhuriyeti tarihinde ilk kez birden fazla partinin katıldığı genel seçimler yapıldı. 'Açık oy, gizli tasnif' sistemiyle yapılan seçimleri CHP kazandı ancak sistem tartışmalara yol açtı."
+    },
+    {
+      "date": "22 Temmuz",
+      "year": 1456,
+      "event_title": "Belgrad Kuşatması",
+      "description": "Fatih Sultan Mehmet komutasındaki Osmanlı ordusunun Belgrad kuşatması başarısız oldu. Macar komutan Hünyadi Yanoş'un savunması, Osmanlı'nın Avrupa içlerine ilerleyişini 70 yıl geciktirdi."
+    },
+    {
+      "date": "23 Temmuz",
+      "year": 1939,
+      "event_title": "Hatay'ın Anavatana Katılması",
+      "description": "Hatay Meclisi'nin aldığı kararla Hatay Devleti, Türkiye Cumhuriyeti'ne katıldı. Fransız mandasının sona ermesiyle Türkiye, Misak-ı Milli sınırları içindeki önemli bir toprağını geri kazandı."
+    },
+    {
+      "date": "24 Temmuz",
+      "year": 1923,
+      "event_title": "Lozan Barış Antlaşması",
+      "description": "İsviçre'nin Lozan kentinde imzalanan antlaşma ile Türkiye Cumhuriyeti'nin bağımsızlığı ve sınırları tüm dünya tarafından resmen tanındı. Sevr Antlaşması tarihe gömüldü."
+    },
+    {
+      "date": "25 Temmuz",
+      "year": 1978,
+      "event_title": "İlk Tüp Bebek",
+      "description": "Dünyanın ilk tüp bebeği Louise Brown İngiltere'de doğdu. İn vitro fertilizasyon (IVF) yöntemiyle gerçekleşen bu doğum, kısırlık tedavisinde milyonlarca aileye umut oldu."
+    },
+    {
+      "date": "26 Temmuz",
+      "year": 1956,
+      "event_title": "Süveyş Kanalı Krizi",
+      "description": "Mısır Lideri Cemal Abdünnasır, Süveyş Kanalı'nı millileştirdiğini açıkladı. İngiltere ve Fransa'nın tepkisiyle başlayan kriz, bölgede savaşa ve güç dengelerinin değişmesine yol açtı."
+    },
+    {
+      "date": "27 Temmuz",
+      "year": 1953,
+      "event_title": "Kore Savaşı Ateşkesi",
+      "description": "3 yıl süren kanlı çatışmaların ardından Panmunjom Ateşkes Antlaşması imzalandı. Savaş resmen bitmese de silahlar sustu ve Kore Yarımadası 38. paralele göre Kuzey ve Güney olarak ikiye bölündü."
+    },
+    {
+      "date": "28 Temmuz",
+      "year": 1914,
+      "event_title": "I. Dünya Savaşı Başladı",
+      "description": "Avusturya-Macaristan'ın Sırbistan'a savaş ilan etmesiyle I. Dünya Savaşı resmen başladı. Dört yıl sürecek bu küresel yıkım, imparatorlukları çökertecek ve dünya haritasını yeniden çizecekti."
+    },
+    {
+      "date": "29 Temmuz",
+      "year": 1958,
+      "event_title": "NASA Kuruldu",
+      "description": "ABD Başkanı Eisenhower, Sovyetler Birliği ile girilen uzay yarışında öne geçmek amacıyla Ulusal Havacılık ve Uzay Dairesi'nin (NASA) kurulmasını onayladı."
+    },
+    {
+      "date": "30 Temmuz",
+      "year": 1930,
+      "event_title": "İlk Dünya Kupası Şampiyonu",
+      "description": "Uruguay'da düzenlenen ilk Dünya Kupası'nın finalinde ev sahibi Uruguay, Arjantin'i 4-2 yenerek kupayı kaldıran ilk ülke oldu."
+    },
+    {
+      "date": "31 Temmuz",
+      "year": 1959,
+      "event_title": "Türkiye AET Başvurusu",
+      "description": "Türkiye, bugünkü Avrupa Birliği'nin temeli olan Avrupa Ekonomik Topluluğu'na (AET) ortaklık başvurusunda bulundu. Bu başvuru, Türkiye-AB ilişkilerinin uzun ve inişli çıkışlı serüvenini başlattı."
+    },
+    {
+      "date": "01 Ağustos",
+      "year": 1936,
+      "event_title": "Berlin Olimpiyatları",
+      "description": "Nazi Almanyası'nın gövde gösterisine dönüşen 1936 Yaz Olimpiyatları, Hitler'in açılış konuşmasıyla başladı. Siyahi atlet Jesse Owens'ın kazandığı madalyalar, Nazilerin ırkçı tezlerine büyük darbe vurdu."
+    },
+    {
+      "date": "02 Ağustos",
+      "year": 1990,
+      "event_title": "Körfez Savaşı Başlangıcı",
+      "description": "Saddam Hüseyin liderliğindeki Irak ordusu, komşusu Kuveyt'i işgal etti. Petrol fiyatlarını altüst eden bu hamle, ABD öncülüğündeki koalisyonun müdahalesine ve Körfez Savaşı'na yol açtı."
+    },
+    {
+      "date": "03 Ağustos",
+      "year": 1492,
+      "event_title": "Kristof Kolomb Yola Çıktı",
+      "description": "Cenevizli kaşif Kristof Kolomb, İspanya kraliçesinin desteğiyle Hindistan'a ulaşmak amacıyla Palos limanından 3 gemiyle yola çıktı. Rotası onu bilinen dünyanın ötesine, Amerika kıtasına götürecekti."
+    },
+    {
+      "date": "04 Ağustos",
+      "year": 1914,
+      "event_title": "İngiltere Savaşa Girdi",
+      "description": "Almanya'nın tarafsız Belçika'yı işgal etmesi üzerine İngiltere, Almanya'ya savaş ilan etti. Bu hamleyle I. Dünya Savaşı, sadece Avrupa'nın değil sömürgeler üzerinden tüm dünyanın savaşına dönüştü."
+    },
+    {
+      "date": "05 Ağustos",
+      "year": 1962,
+      "event_title": "Marilyn Monroe'nun Ölümü",
+      "description": "Hollywood'un efsanevi yıldızı Marilyn Monroe, Los Angeles'taki evinde ölü bulundu. 36 yaşındaki ikonun ölümü, intihar mı yoksa cinayet mi olduğu yönündeki komplo teorileriyle yıllarca konuşuldu."
+    },
+    {
+      "date": "06 Ağustos",
+      "year": 1945,
+      "event_title": "Hiroşima'ya Atom Bombası",
+      "description": "ABD, 'Little Boy' adını verdiği uranyum tipi atom bombasını Japonya'nın Hiroşima kentine attı. Tarihte ilk kez nükleer silahın kullanıldığı saldırıda on binlerce sivil saniyeler içinde hayatını kaybetti."
+    },
+    {
+      "date": "07 Ağustos",
+      "year": 1919,
+      "event_title": "Erzurum Kongresi Kapanışı",
+      "description": "Mustafa Kemal Paşa başkanlığında toplanan Erzurum Kongresi çalışmalarını tamamladı. 'Milli sınırlar içinde vatan bir bütündür, bölünemez' kararı, Kurtuluş Savaşı'nın temel ilkesi oldu."
+    },
+    {
+      "date": "08 Ağustos",
+      "year": 1928,
+      "event_title": "Taksim Cumhuriyet Anıtı",
+      "description": "İstanbul Taksim Meydanı'ndaki Cumhuriyet Anıtı törenle açıldı. İtalyan heykeltıraş Pietro Canonica'nın eseri olan anıt, Kurtuluş Savaşı'nı ve Cumhuriyetin kuruluşunu simgeler."
+    },
+    {
+      "date": "09 Ağustos",
+      "year": 1945,
+      "event_title": "Nagasaki'ye Atom Bombası",
+      "description": "Hiroşima'dan 3 gün sonra ABD, Japonya'nın Nagasaki kentine 'Fat Man' adlı plütonyum bombasını attı. Bu ikinci yıkım, Japonya'nın teslim olmasını ve II. Dünya Savaşı'nın bitişini kesinleştirdi."
+    },
+    {
+      "date": "10 Ağustos",
+      "year": 1920,
+      "event_title": "Sevr Antlaşması",
+      "description": "Osmanlı İmparatorluğu ile İtilaf Devletleri arasında, imparatorluğu parçalayan Sevr Antlaşması imzalandı. Ankara Hükümeti bu antlaşMayısı 'ölü doğmuş' kabul ederek tanımadı ve Milli Mücadele'yi şiddetlendirdi."
+    },
+    {
+      "date": "11 Ağustos",
+      "year": 1952,
+      "event_title": "Ürdün'de Kral Hüseyin",
+      "description": "Babasının tahttan çekilmesiyle Prens Hüseyin Ürdün Kralı ilan edildi. Ortadoğu'nun en uzun süre görev yapan ve en etkili liderlerinden biri olacak olan Hüseyin'in dönemi başladı."
+    },
+    {
+      "date": "12 Ağustos",
+      "year": 1964,
+      "event_title": "Irkçılık Karşıtı Mücadele",
+      "description": "Güney Afrika, ırk ayrımcılığı (Apartheid) politikaları nedeniyle Olimpiyat Oyunları'ndan men edildi. Bu karar, spor dünyasının insan hakları konusundaki en net tavırlarından biriydi."
+    },
+    {
+      "date": "13 Ağustos",
+      "year": 1961,
+      "event_title": "Berlin Duvarı",
+      "description": "Doğu Almanya yönetimi, vatandaşlarının Batı'ya kaçışını önlemek için Berlin'i ikiye bölen duvarın inşasına başladı. 'Utanç Duvarı' olarak bilinen yapı, Soğuk Savaş'ın en somut sembolü oldu."
+    },
+    {
+      "date": "14 Ağustos",
+      "year": 1974,
+      "event_title": "II. Kıbrıs Barış Harekatı",
+      "description": "Cenevre görüşmelerinden sonuç alınamaması üzerine Türk Silahlı Kuvvetleri Kıbrıs'ta ikinci harekatı başlattı. 'Ayşe tatile çıksın' parolasıyla başlayan operasyonla bugünkü KKTC sınırları çizildi."
+    },
+    {
+      "date": "15 Ağustos",
+      "year": 1914,
+      "event_title": "Panama Kanalı Açıldı",
+      "description": "Atlantik ile Pasifik Okyanusu'nu birbirine bağlayan Panama Kanalı gemi trafiğine açıldı. Mühendislik harikası sayılan kanal, deniz ticaretinin rotasını kısaltarak dünya ekonomisine büyük katkı sağladı."
+    },
+    {
+      "date": "16 Ağustos",
+      "year": 1977,
+      "event_title": "Elvis Presley'nin Ölümü",
+      "description": "Rock and Roll'un kralı Elvis Presley, Memphis'teki malikanesinde hayatını kaybetti. Müzik dünyasını kökten değiştiren sanatçının ölümü, hayranlarını yasa boğdu."
+    },
+    {
+      "date": "17 Ağustos",
+      "year": 1999,
+      "event_title": "Gölcük Depremi",
+      "description": "Marmara Bölgesi'nde meydana gelen 7.4 büyüklüğündeki deprem, Kocaeli, Sakarya ve İstanbul'da büyük yıkıma neden oldu. Binlerce vatandaşın hayatını kaybettiği felaket, Türkiye'nin deprem gerçeğiyle yüzleşmesini sağladı."
+    },
+    {
+      "date": "18 Ağustos",
+      "year": 1227,
+      "event_title": "Cengiz Han'ın Ölümü",
+      "description": "Tarihin en büyük bitişik imparatorluğunu kuran Moğol hükümdarı Cengiz Han hayatını kaybetti. Askeri dehası ve acımasızlığıyla tanınan Cengiz Han, Asya ve Avrupa tarihini derinden etkiledi."
+    },
+    {
+      "date": "19 Ağustos",
+      "year": 1953,
+      "event_title": "İran'da Darbe (Ajax Operasyonu)",
+      "description": "İran Başbakanı Muhammed Musaddık, petrolü millileştirdiği gerekçesiyle CIA destekli bir darbeyle devrildi. Şah Rıza Pehlevi'nin iktidarını sağlamlaştıran bu olay, İran devrimine giden yolu döşedi."
+    },
+    {
+      "date": "20 Ağustos",
+      "year": 636,
+      "event_title": "Yermük Savaşı",
+      "description": "Halid bin Velid komutasındaki İslam ordusu, Bizans ordusunu Yermük'te kesin bir yenilgiye uğrattı. Bu zafer, Suriye ve Filistin kapılarını Müslümanlara açarak bölgenin kaderini değiştirdi."
+    },
+    {
+      "date": "21 Ağustos",
+      "year": 1911,
+      "event_title": "Mona Lisa Çalındı",
+      "description": "Leonardo da Vinci'nin ünlü tablosu Mona Lisa, Louvre Müzesi'nden çalındı. Tablonun yokluğu onu daha da meşhur etti; 2 yıl sonra bulunduğunda dünyanın en tanınan sanat eseri haline gelmişti."
+    },
+    {
+      "date": "22 Ağustos",
+      "year": 1965,
+      "event_title": "Türkiye'de Makas Değişimi",
+      "description": "Gazeteci Çetin Altan, Türkiye İşçi Partisi (TİP) listesinden milletvekili seçilerek meclise girdi. Türk siyasetinde solun mecliste temsili açısından tarihi bir ilkti."
+    },
+    {
+      "date": "23 Ağustos",
+      "year": 1921,
+      "event_title": "Sakarya Meydan Muharebesi",
+      "description": "Yunan ordusunun Ankara'ya ilerleyişini durduran Sakarya Meydan Muharebesi başladı. 22 gün 22 gece süren bu kanlı savaş, Türk ordusunun savunmadan taarruza geçişinin dönüm noktası oldu."
+    },
+    {
+      "date": "24 Ağustos",
+      "year": 1516,
+      "event_title": "Mercidabık Savaşı",
+      "description": "Yavuz Sultan Selim komutasındaki Osmanlı ordusu, Memlük ordusunu yendi. Bu zaferle Suriye, Lübnan ve Filistin Osmanlı topraklarına katıldı ve Mısır yolu açıldı."
+    },
+    {
+      "date": "25 Ağustos",
+      "year": 1944,
+      "event_title": "Paris'in Kurtuluşu",
+      "description": "Müttefik güçleri ve Fransız Direnişçileri, 4 yıllık Nazi işgalinin ardından Paris'i kurtardı. General Charles de Gaulle, Champs-Élysées'de zafer yürüyüşü yaparak özgür Fransa'yı selamladı."
+    },
+    {
+      "date": "26 Ağustos",
+      "year": 1071,
+      "event_title": "Malazgirt Zaferi",
+      "description": "Sultan Alparslan komutasındaki Selçuklu ordusu, Bizans ordusunu mağlup ederek Anadolu'nun kapılarını Türklere açtı. Bu tarih, Türklerin Anadolu'yu yurt edinmesinin başlangıcı kabul edilir."
+    },
+    {
+      "date": "27 Ağustos",
+      "year": 1883,
+      "event_title": "Krakatoa Yanardağı",
+      "description": "Endonezya'daki Krakatoa Yanardağı tarihin en büyük patlamalarından biriyle infilak etti. Patlamanın sesi 4800 km öteden duyuldu ve oluşan tsunamiler on binlerce insanın ölümüne neden oldu."
+    },
+    {
+      "date": "28 Ağustos",
+      "year": 1963,
+      "event_title": "Bir Hayalim Var",
+      "description": "Martin Luther King, Washington'da 200 bin kişiye hitaben ünlü 'I Have a Dream' konuşmasını yaptı. Bu konuşma, ABD'deki sivil haklar hareketinin en güçlü manifestosu olarak tarihe geçti."
+    },
+    {
+      "date": "29 Ağustos",
+      "year": 1526,
+      "event_title": "Mohaç Meydan Muharebesi",
+      "description": "Kanuni Sultan Süleyman, Macar ordusunu Mohaç Ovası'nda sadece 2 saat süren bir savaşla yendi. Bu zafer, Macaristan Krallığı'nın sonunu getirdi ve Osmanlı'nın Orta Avrupa hakimiyetini pekiştirdi."
+    },
+    {
+      "date": "30 Ağustos",
+      "year": 1922,
+      "event_title": "Büyük Taarruz Zaferi",
+      "description": "Başkomutanlık Meydan Muharebesi, Türk ordusunun kesin zaferiyle sonuçlandı. Yunan ordusunun imha edildiği bu gün, Türkiye Cumhuriyeti'nin temellerinin atıldığı Zafer Bayramı olarak kutlanmaktadır."
+    },
+    {
+      "date": "31 Ağustos",
+      "year": 1997,
+      "event_title": "Prenses Diana'nın Ölümü",
+      "description": "Galler Prensesi Diana, Paris'te geçirdiği trafik kazası sonucu hayatını kaybetti. Halkın Prensesi olarak sevilen Diana'nın cenazesi, dünya genelinde milyonlarca insanı yasa boğdu."
+    },
+    {
+      "date": "01 Eylül",
+      "year": 1939,
+      "event_title": "II. Dünya Savaşı Başladı",
+      "description": "Nazi Almanyası'nın Polonya'yı işgal etmesiyle insanlık tarihinin en kanlı savaşı olan II. Dünya Savaşı başladı. Bu tarih, günümüzde Dünya Barış Günü olarak anılmaktadır."
+    },
+    {
+      "date": "02 Eylül",
+      "year": 1666,
+      "event_title": "Büyük Londra Yangını",
+      "description": "Londra'da bir fırında başlayan yangın, 3 gün boyunca sürerek şehrin büyük bir kısmını kül etti. Bu felaket, modern şehircilik ve sigortacılık sistemlerinin gelişmesine öncülük etti."
+    },
+    {
+      "date": "03 Eylül",
+      "year": 1922,
+      "event_title": "Emet'in Kurtuluşu",
+      "description": "Kurtuluş Savaşı'nda Yunan işgali altındaki Kütahya'nın Emet ilçesi, yerel halkın ve düzenli ordunun mücadelesiyle özgürlüğüne kavuştu."
+    },
+    {
+      "date": "04 Eylül",
+      "year": 1919,
+      "event_title": "Sivas Kongresi",
+      "description": "Mustafa Kemal Paşa başkanlığında toplanan Sivas Kongresi, 'Ya istiklal ya ölüm' parolasıyla ulusal direnişin yol haritasını çizdi. Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyetleri burada birleştirildi."
+    },
+    {
+      "date": "05 Eylül",
+      "year": 1972,
+      "event_title": "Münih Katliamı",
+      "description": "Münih Olimpiyatları sırasında Filistinli Kara Eylül örgütü, İsrailli sporcuları rehin aldı. Başarısız kurtarma operasyonu sonucunda 11 sporcu hayatını kaybetti, olimpiyat ruhu gölgelendi."
+    },
+    {
+      "date": "06 Eylül",
+      "year": 1980,
+      "event_title": "Kudüs Yürüyüşü",
+      "description": "Milli Selamet Partisi'nin Konya'da düzenlediği Kudüs Mitingi, Türkiye'nin siyasi atmosferinde gerilimi artıran olaylardan biri oldu ve 12 Eylül darbesine giden süreçte gerekçelerden biri sayıldı."
+    },
+    {
+      "date": "07 Eylül",
+      "year": 1927,
+      "event_title": "Televizyonun İcadı",
+      "description": "Philo Farnsworth, ilk tamamen elektronik televizyon sistemini başarıyla gösterdi. Görüntünün elektrik sinyalleriyle aktarılması, kitle iletişiminde devrim yaratan bir dönüm noktasıydı."
+    },
+    {
+      "date": "08 Eylül",
+      "year": 1504,
+      "event_title": "Davut Heykeli",
+      "description": "Michelangelo'nun Rönesans şaheseri Davut Heykeli, Floransa'da halka açıldı. İnsan anatomisinin mükemmel bir tasviri olan heykel, sanat tarihinin en tanınmış eserlerinden biridir."
+    },
+    {
+      "date": "09 Eylül",
+      "year": 1922,
+      "event_title": "İzmir'in Kurtuluşu",
+      "description": "Türk süvarileri İzmir'e girerek şehri Yunan işgalinden kurtardı. Hükümet Konağı'na Türk bayrağının çekilmesiyle Kurtuluş Savaşı'nın askeri safhası fiilen sona erdi."
+    },
+    {
+      "date": "10 Eylül",
+      "year": 2008,
+      "event_title": "CERN Deneyi",
+      "description": "İsviçre'deki CERN laboratuvarında Büyük Hadron Çarpıştırıcısı (LHC) çalıştırıldı. Evrenin oluşum sırlarını ve Büyük Patlama'yı (Big Bang) araştırMayısı amaçlayan yüzyılın deneyi başladı."
+    },
+    {
+      "date": "11 Eylül",
+      "year": 2001,
+      "event_title": "11 Eylül Saldırıları",
+      "description": "El-Kaide terör örgütü, kaçırdığı uçaklarla ABD'deki İkiz Kuleler ve Pentagon'a saldırdı. Dünya tarihini değiştiren bu olay, terörle mücadele konseptini ve uluslararası güvenliği kökten değiştirdi."
+    },
+    {
+      "date": "12 Eylül",
+      "year": 1980,
+      "event_title": "12 Eylül Darbesi",
+      "description": "Türk Silahlı Kuvvetleri, emir-komuta zinciri içinde yönetime el koydu. TBMM kapatıldı, anayasa askıya alındı ve Türkiye demokrasisi uzun yıllar sürecek bir ara döneme girdi."
+    },
+    {
+      "date": "13 Eylül",
+      "year": 1921,
+      "event_title": "Sakarya Zaferi",
+      "description": "Yunan ordusunun geri çekilmesiyle Sakarya Meydan Muharebesi Türk zaferiyle sonuçlandı. TBMM, bu zaferin ardından Mustafa Kemal Paşa'ya 'Mareşal' rütbesi ve 'Gazi' unvanını verdi."
+    },
+    {
+      "date": "14 Eylül",
+      "year": 1829,
+      "event_title": "Edirne Antlaşması",
+      "description": "Osmanlı-Rus Savaşı'nı bitiren antlaşma imzalandı. Bu antlaşMayısla Yunanistan bağımsızlığını kazanırken, Sırbistan özerk hale geldi; Osmanlı'nın Balkanlardaki hakimiyeti zayıflaMayısa başladı."
+    },
+    {
+      "date": "15 Eylül",
+      "year": 1918,
+      "event_title": "Bakü'nün Kurtuluşu",
+      "description": "Nuri Paşa komutasındaki Kafkas İslam Ordusu, Bakü'yü Ermeni ve Bolşevik işgalinden kurtardı. Bu zafer, Azerbaycan Türkleri ile Anadolu Türkleri arasındaki kardeşliğin en güçlü nişanesidir."
+    },
+    {
+      "date": "16 Eylül",
+      "year": 1961,
+      "event_title": "Polatkan ve Zorlu'nun İdamı",
+      "description": "Yassıada yargılamaları sonucunda idama mahkum edilen eski Maliye Bakanı Hasan Polatkan ve Dışişleri Bakanı Fatin Rüştü Zorlu'nun cezaları infaz edildi. Demokrasi tarihimizin kara günlerinden biridir."
+    },
+    {
+      "date": "17 Eylül",
+      "year": 1961,
+      "event_title": "Adnan Menderes'in İdamı",
+      "description": "Türkiye'nin seçimle gelen ilk Başbakanı Adnan Menderes, İmralı Adası'nda idam edildi. Menderes'in idamı, Türk siyasi tarihinde derin bir yara ve demokrasi ayıbı olarak hafızalara kazındı."
+    },
+    {
+      "date": "18 Eylül",
+      "year": 324,
+      "event_title": "Hrisopolis Muharebesi",
+      "description": "Büyük Konstantin, rakibi Licinius'u Üsküdar (Hrisopolis) yakınlarında yenerek Roma İmparatorluğu'nun tek hakimi oldu. Bu zafer, Hristiyanlığın imparatorluğun resmi dini olma sürecini hızlandırdı."
+    },
+    {
+      "date": "19 Eylül",
+      "year": 1921,
+      "event_title": "Gaziler Günü",
+      "description": "TBMM tarafından Mustafa Kemal Paşa'ya 'Gazi' unvanının verildiği bu tarih, Türkiye'de her yıl Gaziler Günü olarak kutlanmakta ve vatan savunmasında yaralanan kahramanlar onurlandırılmaktadır."
+    },
+    {
+      "date": "20 Eylül",
+      "year": 1519,
+      "event_title": "Macellan'ın Dünya Turu",
+      "description": "Ferdinand Macellan, 5 gemi ve 270 mürettebatla dünya turuna çıktı. Zorlu yolculuk tamamlandığında, Dünya'nın yuvarlak olduğu ve tüm okyanusların birbirine bağlı olduğu kesin olarak kanıtlandı."
+    },
+    {
+      "date": "21 Eylül",
+      "year": 1858,
+      "event_title": "Babür İmparatorluğu'nun Sonu",
+      "description": "İngilizler, son Babür Şahı II. Bahadır'ı tahttan indirerek Hindistan'daki 300 yıllık Türk-Moğol hakimiyetine son verdi. Hindistan resmen İngiliz sömürgesi (British Raj) haline geldi."
+    },
+    {
+      "date": "22 Eylül",
+      "year": 1980,
+      "event_title": "İran-Irak Savaşı",
+      "description": "Saddam Hüseyin'in İran havaalanlarını bombalamasıyla 8 yıl sürecek İran-Irak Savaşı başladı. Milyonlarca insanın öldüğü savaş, her iki ülkenin ekonomisini de çökertti."
+    },
+    {
+      "date": "23 Eylül",
+      "year": 1846,
+      "event_title": "Neptün'ün Keşfi",
+      "description": "Matematiksel hesaplamalarla yeri tahmin edilen Neptün gezegeni, Alman astronom Johann Galle tarafından teleskopla gözlemlendi. Bu, matematiğin astronomideki zaferi olarak kabul edildi."
+    },
+    {
+      "date": "24 Eylül",
+      "year": 622,
+      "event_title": "Hicret",
+      "description": "Hz. Muhammed ve Müslümanlar, Mekke'den Medine'ye göçlerini tamamladı. Hicret, İslam takviminin (Hicri Takvim) başlangıcı ve ilk İslam devletinin kuruluş temeli kabul edilir."
+    },
+    {
+      "date": "25 Eylül",
+      "year": 1396,
+      "event_title": "Niğbolu Zaferi",
+      "description": "Yıldırım Bayezid komutasındaki Osmanlı ordusu, Haçlı ordusunu Niğbolu'da ağır bir yenilgiye uğrattı. Bu zafer, Osmanlı'nın Balkanlardaki hakimiyetini kesinleştirdi ve Bayezid'e 'Sultan-ı İklim-i Rum' unvanını getirdi."
+    },
+    {
+      "date": "26 Eylül",
+      "year": 1932,
+      "event_title": "Dil Bayramı",
+      "description": "I. Türk Dili Kurultayı Dolmabahçe Sarayı'nda toplandı. Türkçenin kökenlerini araştırmak ve geliştirmek amacıyla yapılan bu toplantının yıl dönümü, Dil Bayramı olarak kutlanmaktadır."
+    },
+    {
+      "date": "27 Eylül",
+      "year": 1538,
+      "event_title": "Preveze Deniz Zaferi",
+      "description": "Barbaros Hayrettin Paşa komutasındaki Osmanlı donanması, Haçlı donanmasını mağlup etti. Akdeniz'in bir Türk gölü haline geldiği bu zafer, Deniz Kuvvetleri Günü olarak kutlanmaktadır."
+    },
+    {
+      "date": "28 Eylül",
+      "year": 1928,
+      "event_title": "Penisilin Keşfi",
+      "description": "Alexander Fleming, laboratuvarındaki küf mantarının bakterileri öldürdüğünü fark ederek penisilini keşfetti. Bu buluş, antibiyotik çağını başlatarak milyonlarca insanın hayatını kurtardı."
+    },
+    {
+      "date": "29 Eylül",
+      "year": 1911,
+      "event_title": "Trablusgarp Savaşı",
+      "description": "İtalya'nın Osmanlı toprağı olan Trablusgarp'a (Libya) saldırmasıyla savaş başladı. Mustafa Kemal ve Enver Paşa gibi subayların yerel halkı örgütleyerek direniş gösterdiği ilk modern savaştır."
+    },
+    {
+      "date": "30 Eylül",
+      "year": 2005,
+      "event_title": "Hz. Muhammed Karikatür Krizi",
+      "description": "Danimarka'da bir gazetenin Hz. Muhammed karikatürleri yayımlaması, İslam dünyasında büyük tepkilere ve protestolara yol açtı. Olay, ifade özgürlüğü ve dini değerler tartışmasını küresel boyuta taşıdı."
+    },
+    {
+      "date": "01 Ekim",
+      "year": 1908,
+      "event_title": "Ford Model T",
+      "description": "Henry Ford, seri üretim bandında üretilen ilk otomobil olan Model T'yi piyasaya sürdü. 'Herkes için otomobil' sloganıyla çıkan araç, ulaşımı lüks olmaktan çıkarıp kitlelere yaydı."
+    },
+    {
+      "date": "02 Ekim",
+      "year": 1187,
+      "event_title": "Kudüs'ün Fethi",
+      "description": "Selahaddin Eyyubi komutasındaki İslam ordusu, 88 yıllık Haçlı işgaline son vererek Kudüs'ü fethetti. Şehirde yaşayan Hristiyanlara gösterdiği hoşgörü, Selahaddin'i efsaneleştirdi."
+    },
+    {
+      "date": "03 Ekim",
+      "year": 1990,
+      "event_title": "İki Almanya'nın Birleşmesi",
+      "description": "Berlin Duvarı'nın yıkılmasından sonra Doğu ve Batı Almanya resmen birleşti. Soğuk Savaş'ın bitişini simgeleyen bu olay, Avrupa haritasını ve siyasetini yeniden şekillendirdi."
+    },
+    {
+      "date": "04 Ekim",
+      "year": 1957,
+      "event_title": "Sputnik 1 Fırlatıldı",
+      "description": "Sovyetler Birliği, dünyanın ilk yapay uydusu Sputnik 1'i uzaya fırlattı. Bu olay, ABD ile SSCB arasındaki Uzay Yarışı'nı başlatan ve teknoloji tarihini değiştiren milat oldu."
+    },
+    {
+      "date": "05 Ekim",
+      "year": 1908,
+      "event_title": "Bulgaristan'ın Bağımsızlığı",
+      "description": "Osmanlı İmparatorluğu'nun zayıflaMayısını fırsat bilen Bulgaristan Prensliği bağımsızlığını ilan etti. Aynı gün Avusturya-Macaristan da Bosna-Hersek'i ilhak ettiğini duyurdu."
+    },
+    {
+      "date": "06 Ekim",
+      "year": 1923,
+      "event_title": "İstanbul'un Kurtuluşu",
+      "description": "Şükrü Naili Paşa komutasındaki Türk ordusu, işgal kuvvetlerinin şehri terk etmesinin ardından İstanbul'a girdi. 5 yıl süren hüzünlü işgal dönemi coşkulu kutlamalarla sona erdi."
+    },
+    {
+      "date": "07 Ekim",
+      "year": 1571,
+      "event_title": "İnebahtı Deniz Savaşı",
+      "description": "Osmanlı donanması ile Haçlı donanması arasında yapılan savaşı Osmanlılar kaybetti. Bu yenilgi Akdeniz'deki Türk üstünlüğünü sarssa da, Kıbrıs'ın fethini engelleyemedi."
+    },
+    {
+      "date": "08 Ekim",
+      "year": 1912,
+      "event_title": "Balkan Savaşı Başladı",
+      "description": "Karadağ'ın Osmanlı İmparatorluğu'na savaş ilan etmesiyle I. Balkan Savaşı başladı. Kısa sürede diğer Balkan devletlerinin de katılmasıyla Osmanlı, Rumeli topraklarının büyük kısmını kaybetti."
+    },
+    {
+      "date": "09 Ekim",
+      "year": 1967,
+      "event_title": "Che Guevara'nın Ölümü",
+      "description": "Latin Amerikalı devrimci Che Guevara, Bolivya ordusu tarafından yakalanarak infaz edildi. Ölümü, onu dünya çapında bir direniş ve karşı kültür sembolü haline getirdi."
+    },
+    {
+      "date": "10 Ekim",
+      "year": 680,
+      "event_title": "Kerbela Olayı",
+      "description": "Hz. Muhammed'in torunu Hz. Hüseyin ve beraberindekiler, Kerbela'da Emevi ordusu tarafından şehit edildi. Bu acı olay, İslam dünyasındaki mezhep ayrılıklarını derinleştiren en büyük kırılma noktasıdır."
+    },
+    {
+      "date": "11 Ekim",
+      "year": 1922,
+      "event_title": "Mudanya Ateşkesi",
+      "description": "Kurtuluş Savaşı'nın askeri safhasını bitiren antlaşma imzalandı. Trakya, İstanbul ve Boğazlar savaşılmadan diplomasi masasında geri alındı; İngiltere, TBMM'yi resmen tanımak zorunda kaldı."
+    },
+    {
+      "date": "12 Ekim",
+      "year": 1492,
+      "event_title": "Amerika'nın Keşfi",
+      "description": "Kristof Kolomb, Bahamalar'daki bir adaya ayak basarak Amerika kıtasını keşfetti. Hindistan'a geldiğini sanan Kolomb, Yeni Dünya'nın kapılarını açarak dünya tarihini değiştirdi."
+    },
+    {
+      "date": "13 Ekim",
+      "year": 1923,
+      "event_title": "Ankara Başkent Oldu",
+      "description": "TBMM'de kabul edilen kanunla Ankara, Türkiye Cumhuriyeti'nin başkenti ilan edildi. Milli Mücadele'nin yönetim merkezi olan şehir, modern Türkiye'nin sembolü haline geldi."
+    },
+    {
+      "date": "14 Ekim",
+      "year": 1947,
+      "event_title": "Ses Duvarı Aşıldı",
+      "description": "Amerikan pilot Chuck Yeager, roket motorlu Bell X-1 uçağıyla ses hızını (Mach 1) aşan ilk insan oldu. Bu başarı, havacılıkta süpersonik çağın kapılarını araladı."
+    },
+    {
+      "date": "15 Ekim",
+      "year": 1927,
+      "event_title": "Nutuk OkunMayısa Başlandı",
+      "description": "Mustafa Kemal Atatürk, CHP'nin kurultayında 'Büyük Nutuk'u okuMayısa başladı. 6 gün süren bu tarihi konuşma, Milli Mücadele'nin ve Cumhuriyetin kuruluşunun birinci ağızdan belgesidir."
+    },
+    {
+      "date": "16 Ekim",
+      "year": 1962,
+      "event_title": "Küba Füze Krizi",
+      "description": "ABD uçaklarının Küba'daki Sovyet füzelerini tespit etmesiyle nükleer savaşın eşiğine gelindi. 13 gün süren gerginlik, diplomasiyle çözülse de dünya yok olmanın kıyısından döndü."
+    },
+    {
+      "date": "17 Ekim",
+      "year": 1448,
+      "event_title": "II. Kosova Zaferi",
+      "description": "II. Murat komutasındaki Osmanlı ordusu, Haçlı ordusunu Kosova'da bozguna uğrattı. Bu zafer, Türklerin Balkanlardan atılamayacağını ve bölgenin Türk yurdu olduğunu kesinleştirdi."
+    },
+    {
+      "date": "18 Ekim",
+      "year": 1867,
+      "event_title": "Alaska ABD'ye Devredildi",
+      "description": "Rusya'nın ABD'ye sattığı Alaska'da resmi devir teslim töreni yapıldı. Rus bayrağı indirilip ABD bayrağı çekildi; tarihçiler bunu 'Rusya'nın yaptığı en büyük hata' olarak nitelendirdi."
+    },
+    {
+      "date": "19 Ekim",
+      "year": 1781,
+      "event_title": "Yorktown Kuşatması",
+      "description": "Amerikan Bağımsızlık Savaşı'nın son büyük muharebesinde İngiliz ordusu teslim oldu. George Washington'ın bu zaferi, ABD'nin bağımsızlığını fiilen garantiledi."
+    },
+    {
+      "date": "20 Ekim",
+      "year": 1921,
+      "event_title": "Ankara Antlaşması",
+      "description": "TBMM ile Fransa arasında imzalanan antlaşma ile Güney Cephesi kapandı. Fransa, işgal ettiği topraklardan çekilmeyi kabul ederek TBMM'yi tanıyan ilk İtilaf Devleti oldu."
+    },
+    {
+      "date": "21 Ekim",
+      "year": 1805,
+      "event_title": "Trafalgar Savaşı",
+      "description": "Amiral Nelson komutasındaki İngiliz donanması, Fransız-İspanyol donanmasını yendi. Nelson savaşta ölse de İngiltere denizlerdeki mutlak hakimiyetini ilan etti ve Napolyon'un İngiltere'yi işgal planı suya düştü."
+    },
+    {
+      "date": "22 Ekim",
+      "year": 1964,
+      "event_title": "Jean-Paul Sartre ve Nobel",
+      "description": "Fransız varoluşçu filozof Jean-Paul Sartre, kendisine verilen Nobel Edebiyat Ödülü'nü reddetti. Sartre, 'bir yazarın kurumsallaşmaması gerektiği' gerekçesiyle ödülü geri çeviren ilk kişi oldu."
+    },
+    {
+      "date": "23 Ekim",
+      "year": 1840,
+      "event_title": "PTT'nin Kuruluşu",
+      "description": "Osmanlı'da posta hizmetlerini yürütmek üzere Posta Nezareti kuruldu. Bu tarih, bugünkü PTT'nin (Posta ve Telgraf Teşkilatı) kuruluş yıl dönümü olarak kabul edilir."
+    },
+    {
+      "date": "24 Ekim",
+      "year": 1945,
+      "event_title": "Birleşmiş Milletler Günü",
+      "description": "BM Antlaşması'nın yürürlüğe girmesiyle Birleşmiş Milletler resmen kuruldu. Türkiye'nin de kurucu üye olduğu örgüt, dünya barışını ve güvenliğini sağlamak amacıyla faaliyete geçti."
+    },
+    {
+      "date": "25 Ekim",
+      "year": 1924,
+      "event_title": "Gökalp'in Vefatı",
+      "description": "Türk milliyetçiliğinin babası sayılan sosyolog ve yazar Ziya Gökalp İstanbul'da vefat etti. 'Türkleşmek, İslamlaşmak, Muasırlaşmak' fikriyle Cumhuriyetin kuruluş ideolojisine yön verdi."
+    },
+    {
+      "date": "26 Ekim",
+      "year": 1933,
+      "event_title": "Kadınlara Muhtar Olma Hakkı",
+      "description": "Köy Kanunu'nda yapılan değişiklikle Türk kadınlarına köy muhtarı ve ihtiyar heyeti üyesi seçilme hakkı verildi. Aydın'ın Demirdere köyünde Gül Esin, Türkiye'nin ilk kadın muhtarı oldu."
+    },
+    {
+      "date": "27 Ekim",
+      "year": 1492,
+      "event_title": "Küba'nın Keşfi",
+      "description": "Kristof Kolomb, bugünkü Küba adasına ulaştı ve İspanya adına hak iddia etti. Adanın doğal güzellikleri karşısında büyülenen Kolomb, burayı 'insan gözünün görebileceği en güzel yer' olarak tanımladı."
+    },
+    {
+      "date": "28 Ekim",
+      "year": 1923,
+      "event_title": "Yarın Cumhuriyeti İlan Edeceğiz",
+      "description": "Mustafa Kemal Paşa, Çankaya Köşkü'nde verdiği akşam yemeğinde arkadaşlarına o tarihi sözü söyledi: 'Efendiler, yarın Cumhuriyeti ilan edeceğiz.' Rejimin adı artık konulacaktı."
+    },
+    {
+      "date": "29 Ekim",
+      "year": 1923,
+      "event_title": "Cumhuriyet Bayramı",
+      "description": "TBMM'de anayasa değişikliği yapılarak Türkiye Devleti'nin yönetim şekli Cumhuriyet olarak kabul edildi. Mustafa Kemal Atatürk, oy birliğiyle ilk Cumhurbaşkanı seçildi. 'Yaşasın Cumhuriyet!' sesleri mecliste yankılandı."
+    },
+    {
+      "date": "30 Ekim",
+      "year": 1918,
+      "event_title": "Mondros Ateşkesi",
+      "description": "Osmanlı İmparatorluğu ile İtilaf Devletleri arasında Limni Adası'nda Mondros Ateşkes Antlaşması imzalandı. Osmanlı'nın fiilen sona erdiği ve Anadolu işgallerinin başladığı kara bir gündür."
+    },
+    {
+      "date": "31 Ekim",
+      "year": 1517,
+      "event_title": "Martin Luther'in Tezleri",
+      "description": "Martin Luther, 95 maddelik tezini Wittenberg Kilisesi'nin kapısına asarak Protestan Reformu'nu başlattı. Katolik Kilisesi'nin otoritesine meydan okuyan bu hareket, Avrupa tarihini değiştirdi."
+    },
+    {
+      "date": "01 Kasım",
+      "year": 1928,
+      "event_title": "Harf Devrimi",
+      "description": "TBMM'de kabul edilen kanunla Arap alfabesi yerine Latin kökenli Yeni Türk Harfleri kabul edildi. Okuma yazmayı kolaylaştırMayısı ve çağdaş medeniyet seviyesine ulaşMayısı hedefleyen büyük bir kültür devrimiydi."
+    },
+    {
+      "date": "02 Kasım",
+      "year": 1914,
+      "event_title": "Rusya Savaş İlan Etti",
+      "description": "Rusya'nın Osmanlı İmparatorluğu'na savaş ilan etmesiyle Osmanlı resmen I. Dünya Savaşı'na girdi. Kafkas Cephesi'ndeki çatışmalar ve Sarıkamış'a giden süreç başlamış oldu."
+    },
+    {
+      "date": "03 Kasım",
+      "year": 1839,
+      "event_title": "Tanzimat Fermanı",
+      "description": "Gülhane Parkı'nda okunan fermanla Osmanlı'da Tanzimat Dönemi başladı. Hukukun üstünlüğü, can ve mal güvenliği gibi kavramlar ilk kez devlet güvencesine alındı; batılılaşma süreci hızlandı."
+    },
+    {
+      "date": "04 Kasım",
+      "year": 1922,
+      "event_title": "Tutankhamun'un Mezarı",
+      "description": "İngiliz arkeolog Howard Carter, Mısır'da Firavun Tutankhamun'un hiç bozulmamış mezarını keşfetti. Mezardan çıkan hazineler ve 'firavunun laneti' efsanesi, dünyada büyük bir Mısır modası başlattı."
+    },
+    {
+      "date": "05 Kasım",
+      "year": 1605,
+      "event_title": "Barut Komplosu",
+      "description": "Guy Fawkes ve arkadaşları, İngiltere Parlamento binasını havaya uçurMayısa çalışırken yakalandı. Bu olay, her yıl 5 Kasım'da İngiltere'de havai fişeklerle kutlanır ve 'V for Vendetta' filmine ilham kaynağı olmuştur."
+    },
+    {
+      "date": "06 Kasım",
+      "year": 1860,
+      "event_title": "Abraham Lincoln Başkanı",
+      "description": "Kölelik karşıtı Abraham Lincoln, ABD'nin 16. başkanı seçildi. Onun seçilmesi, Güney eyaletlerinin birlikten ayrılmasına ve Amerikan İç Savaşı'nın başlaMayısına neden oldu."
+    },
+    {
+      "date": "07 Kasım",
+      "year": 1917,
+      "event_title": "Ekim Devrimi",
+      "description": "Lenin önderliğindeki Bolşevikler, Rusya'da iktidarı ele geçirdi. Dünyanın ilk komünist devletinin kurulmasına yol açan bu devrim, 20. yüzyılın siyasi dengelerini tamamen değiştirdi."
+    },
+    {
+      "date": "08 Kasım",
+      "year": 1895,
+      "event_title": "X-Işınları Keşfi",
+      "description": "Wilhelm Röntgen, laboratuvarında çalışırken X-ışınlarını keşfetti. Tıbbi görüntülemede devrim yaratan bu buluş, ona ilk Nobel Fizik Ödülü'nü kazandırdı."
+    },
+    {
+      "date": "09 Kasım",
+      "year": 1989,
+      "event_title": "Berlin Duvarı Yıkıldı",
+      "description": "Doğu Almanya hükümetinin seyahat kısıtlamalarını kaldırmasıyla binlerce insan Berlin Duvarı'na akın etti. Soğuk Savaş'ın sembolü olan duvarın yıkılışı, Demir Perde'nin çöküşünü müjdeledi."
+    },
+    {
+      "date": "10 Kasım",
+      "year": 1938,
+      "event_title": "Atatürk'ün Vefatı",
+      "description": "Türkiye Cumhuriyeti'nin kurucusu Gazi Mustafa Kemal Atatürk, Dolmabahçe Sarayı'nda saat 09.05'te hayata gözlerini yumdu. Türk milleti, sadece liderini değil, çağın en büyük vizyonerini kaybetti."
+    },
+    {
+      "date": "11 Kasım",
+      "year": 1918,
+      "event_title": "I. Dünya Savaşı Bitti",
+      "description": "Almanya ile İtilaf Devletleri arasında ateşkes imzalandı ve I. Dünya Savaşı resmen sona erdi. Milyonlarca insanın öldüğü savaş, imparatorlukları yıktı ve yeni ulus devletlerin doğuşuna yol açtı."
+    },
+    {
+      "date": "12 Kasım",
+      "year": 1969,
+      "event_title": "Seyyid Kutub İdamı",
+      "description": "Mısırlı yazar ve düşünür Seyyid Kutub, Mısır hükümeti tarafından idam edildi. İslam dünyasında büyük yankı uyandıran Kutub, modern İslami hareketlerin önemli teorisyenlerinden biriydi."
+    },
+    {
+      "date": "13 Kasım",
+      "year": 1918,
+      "event_title": "Geldikleri Gibi Giderler",
+      "description": "İşgal donanmasını İstanbul Boğazı'nda gören Mustafa Kemal Paşa, yaveri Cevat Abbas'a o tarihi sözü söyledi: 'Geldikleri gibi giderler.' Bu söz, Milli Mücadele inancının ilk kıvılcımıydı."
+    },
+    {
+      "date": "14 Kasım",
+      "year": 1944,
+      "event_title": "Ahıska Sürgünü",
+      "description": "Stalin yönetimi, Gürcistan'ın Ahıska bölgesinde yaşayan on binlerce Ahıska Türkünü Orta Asya'ya sürgün etti. Yük vagonlarında haftalarca süren yolculukta binlerce insan hayatını kaybetti."
+    },
+    {
+      "date": "15 Kasım",
+      "year": 1983,
+      "event_title": "KKTC'nin Kuruluşu",
+      "description": "Kıbrıs Türk Federe Devleti Meclisi, Kuzey Kıbrıs Türk Cumhuriyeti'nin bağımsızlığını ilan etti. Rauf Denktaş, kurucu cumhurbaşkanı seçildi. Türkiye, yeni devleti tanıyan ilk ülke oldu."
+    },
+    {
+      "date": "16 Kasım",
+      "year": 2000,
+      "event_title": "Ahmet Kaya Vefat Etti",
+      "description": "Özgün müziğin güçlü sesi Ahmet Kaya, Paris'te geçirdiği kalp krizi sonucu hayatını kaybetti. Şarkıları ve duruşuyla Türkiye'nin yakın tarihine damga vuran sanatçı, gurbette toprağa verildi."
+    },
+    {
+      "date": "17 Kasım",
+      "year": 1869,
+      "event_title": "Süveyş Kanalı Açıldı",
+      "description": "Akdeniz'i Kızıldeniz'e bağlayan Süveyş Kanalı, görkemli bir törenle deniz trafiğine açıldı. Kanal, Avrupa ile Asya arasındaki mesafeyi kısaltarak dünya ticaretinin en önemli arteri oldu."
+    },
+    {
+      "date": "18 Kasım",
+      "year": 1967,
+      "event_title": "Lira Devalüasyonu",
+      "description": "İngiliz sterlininin değer kaybetmesi üzerine Türk lirası da devalüe edildi. Dolar 9 liradan 15 liraya çıktı; bu olay Türkiye ekonomisindeki dışa bağımlılığı ve kırılganlığı gözler önüne serdi."
+    },
+    {
+      "date": "19 Kasım",
+      "year": 1977,
+      "event_title": "Sedat İsrail'de",
+      "description": "Mısır Cumhurbaşkanı Enver Sedat, İsrail'i ziyaret eden ilk Arap lider oldu. Kudüs'teki İsrail parlamentosunda konuşan Sedat, bu hamlesiyle Nobel Barış Ödülü'ne giden yolu açtı ama Arap dünyasından tepki çekti."
+    },
+    {
+      "date": "20 Kasım",
+      "year": 1985,
+      "event_title": "Windows 1.0",
+      "description": "Microsoft, grafik arayüze sahip ilk işletim sistemi Windows 1.0'ı piyasaya sürdü. Kişisel bilgisayar kullanımını kolaylaştıran bu adım, bilişim dünyasında yeni bir çağın başlangıcıydı."
+    },
+    {
+      "date": "21 Kasım",
+      "year": 1905,
+      "event_title": "Enerji-Kütle Denklemi",
+      "description": "Albert Einstein, 'E=mc²' formülünü içeren makalesini yayımladı. Enerji ve kütlenin birbirine dönüşebileceğini gösteren bu denklem, nükleer enerjinin teorik temelini oluşturdu."
+    },
+    {
+      "date": "22 Kasım",
+      "year": 1963,
+      "event_title": "Kennedy Suikastı",
+      "description": "ABD Başkanı John F. Kennedy, Dallas'ta uğradığı silahlı saldırı sonucu hayatını kaybetti. Televizyondan duyurulan suikast, dünya genelinde şok etkisi yarattı ve sayısız komplo teorisine neden oldu."
+    },
+    {
+      "date": "23 Kasım",
+      "year": 1936,
+      "event_title": "Life Dergisi",
+      "description": "Foto muhabirliğine dayalı Life dergisi yayın hayatına başladı. Dergi, yayımladığı ikonik fotoğraflarla 20. yüzyılın görsel hafızasını oluşturdu ve habercilik anlayışını değiştirdi."
+    },
+    {
+      "date": "24 Kasım",
+      "year": 1928,
+      "event_title": "Başöğretmen Atatürk",
+      "description": "Millet Mektepleri Talimatnamesi ile Mustafa Kemal Atatürk'e 'Başöğretmen' unvanı verildi. Bu tarih, 1981 yılından itibaren Türkiye'de Öğretmenler Günü olarak kutlanmaktadır."
+    },
+    {
+      "date": "25 Kasım",
+      "year": 1960,
+      "event_title": "Mirabal Kardeşler",
+      "description": "Dominik Cumhuriyeti'nde diktatörlüğe karşı direnen üç kız kardeş (Mirabal Kardeşler) öldürüldü. BM, onların anısına bu günü 'Kadına Yönelik Şiddete Karşı Uluslararası Mücadele Günü' ilan etti."
+    },
+    {
+      "date": "26 Kasım",
+      "year": 1942,
+      "event_title": "Kazablanka Vizyonda",
+      "description": "Humphrey Bogart ve Ingrid Bergman'ın başrollerini paylaştığı efsanevi film 'Casablanca' gösterime girdi. 'Tekrar çal Sam' repliğiyle hafızalara kazınan film, sinema tarihinin en iyi aşk filmlerinden biri sayılır."
+    },
+    {
+      "date": "27 Kasım",
+      "year": 1095,
+      "event_title": "Haçlı Seferleri Çağrısı",
+      "description": "Papa II. Urbanus, Clermont Konsili'nde Hristiyanları Kutsal Toprakları kurtarmak için savaşa çağırdı. 'Tanrı bunu istiyor' sloganıyla başlayan Haçlı Seferleri, Doğu ve Batı arasında yüzyıllar sürecek savaşları başlattı."
+    },
+    {
+      "date": "28 Kasım",
+      "year": 1912,
+      "event_title": "Arnavutluk'un Bağımsızlığı",
+      "description": "İsmail Kemal Bey liderliğindeki meclis, Arnavutluk'un Osmanlı İmparatorluğu'ndan bağımsızlığını ilan etti. Böylece Osmanlı'nın Balkanlardaki hakimiyeti fiilen sona erdi."
+    },
+    {
+      "date": "29 Kasım",
+      "year": 1947,
+      "event_title": "Filistin'in Taksimi",
+      "description": "Birleşmiş Milletler, Filistin topraklarının Araplar ve Yahudiler arasında bölünmesini öngören planı kabul etti. İsrail Devleti'nin kuruluşuna giden bu karar, Ortadoğu krizinin fitilini ateşledi."
+    },
+    {
+      "date": "30 Kasım",
+      "year": 1925,
+      "event_title": "Tekke ve Zaviyeler",
+      "description": "TBMM'de kabul edilen kanunla tekke, zaviye ve türbeler kapatıldı; şeyhlik, dervişlik gibi unvanlar yasaklandı. Amaç, toplumu hurafe ve batıl inançlardan arındırarak çağdaşlaştırmaktı."
+    },
+    {
+      "date": "01 Aralık",
+      "year": 1955,
+      "event_title": "Rosa Parks Direnişi",
+      "description": "ABD'de siyah kadın Rosa Parks, otobüste beyaz bir adama yer vermeyi reddettiği için tutuklandı. Bu sivil itaatsizlik eylemi, Martin Luther King öncülüğünde Otobüs Boykotu'nu ve sivil haklar hareketini başlattı."
+    },
+    {
+      "date": "02 Aralık",
+      "year": 1804,
+      "event_title": "Napolyon İmparator Oldu",
+      "description": "Napolyon Bonapart, Notre Dame Katedrali'nde tacı Papa'nın elinden alıp kendi başına takarak kendini Fransa İmparatoru ilan etti. Cumhuriyet dönemi kapanıp imparatorluk devri başladı."
+    },
+    {
+      "date": "03 Aralık",
+      "year": 1967,
+      "event_title": "İlk Kalp Nakli",
+      "description": "Güney Afrikalı cerrah Christiaan Barnard, insandan insana ilk başarılı kalp naklini gerçekleştirdi. Tıp tarihinde devrim yaratan bu ameliyat, organ nakli konusunda çığır açtı."
+    },
+    {
+      "date": "04 Aralık",
+      "year": 1945,
+      "event_title": "Tan Gazetesi Baskını",
+      "description": "İstanbul'da sol eğilimli Tan Gazetesi, üniversite öğrencileri tarafından basılıp tahrip edildi. Basın özgürlüğüne yönelik bu saldırı, Türkiye'de çok partili hayata geçiş sancılarının bir göstergesiydi."
+    },
+    {
+      "date": "05 Aralık",
+      "year": 1934,
+      "event_title": "Kadınlara Seçme Hakkı",
+      "description": "Anayasa değişikliği ile Türk kadınlarına milletvekili seçme ve seçilme hakkı verildi. Birçok Avrupa ülkesinden önce gelen bu devrim, Atatürk'ün kadına verdiği değerin en somut kanıtıdır."
+    },
+    {
+      "date": "06 Aralık",
+      "year": 1240,
+      "event_title": "Kiev'in Düşüşü",
+      "description": "Batu Han komutasındaki Moğol ordusu, Kiev şehrini ele geçirip yıktı. Rus prensliklerinin Moğol boyunduruğuna girmesi, Rusya tarihini yüzyıllarca etkileyecek Altın Orda dönemini başlattı."
+    },
+    {
+      "date": "07 Aralık",
+      "year": 1941,
+      "event_title": "Pearl Harbor Baskını",
+      "description": "Japon İmparatorluk Donanması, ABD'nin Hawaii'deki Pearl Harbor üssüne sürpriz bir hava saldırısı düzenledi. Bu olay üzerine ABD, II. Dünya Savaşı'na resmen dahil oldu."
+    },
+    {
+      "date": "08 Aralık",
+      "year": 1980,
+      "event_title": "John Lennon Cinayeti",
+      "description": "The Beatles grubunun efsanevi üyesi John Lennon, New York'ta evinin önünde bir hayranı tarafından vurularak öldürüldü. Müzisyenin ölümü tüm dünyada şok ve yas yarattı."
+    },
+    {
+      "date": "09 Aralık",
+      "year": 1917,
+      "event_title": "Kudüs'ün Düşüşü",
+      "description": "İngiliz General Allenby komutasındaki ordu Kudüs'e girdi, böylece şehirdeki 400 yıllık Osmanlı hakimiyeti sona erdi. Bu olay, Ortadoğu'nun siyasi haritasının yeniden çizilmesinde kritik bir dönemeçti."
+    },
+    {
+      "date": "10 Aralık",
+      "year": 1948,
+      "event_title": "İnsan Hakları Bildirgesi",
+      "description": "Birleşmiş Milletler Genel Kurulu, İnsan Hakları Evrensel Bildirgesi'ni kabul etti. Temel hak ve özgürlüklerin anayasası sayılan bu belge nedeniyle 10 Aralık, Dünya İnsan Hakları Günü olarak kutlanır."
+    },
+    {
+      "date": "11 Aralık",
+      "year": 1936,
+      "event_title": "Aşk İçin Tahtı Bıraktı",
+      "description": "İngiltere Kralı VIII. Edward, Amerikalı Wallis Simpson ile evlenebilmek için tahttan feragat etti. Radyodan halka seslenen kral, 'Sevdiğim kadının desteği olmadan krallık yapamam' dedi."
+    },
+    {
+      "date": "12 Aralık",
+      "year": 1901,
+      "event_title": "İlk Radyo Sinyali",
+      "description": "Guglielmo Marconi, Atlantik Okyanusu üzerinden ilk telsiz sinyalini (S harfi) iletmeyi başardı. Bu deney, kıtalararası haberleşmenin mümkün olduğunu kanıtlayarak iletişim çağını başlattı."
+    },
+    {
+      "date": "13 Aralık",
+      "year": 1974,
+      "event_title": "Yakup Kadri'nin Vefatı",
+      "description": "Türk edebiyatının usta kalemi, 'Yaban' ve 'Kiralık Konak' romanlarının yazarı Yakup Kadri Karaosmanoğlu Ankara'da vefat etti. Eserlerinde Türk toplumunun değişim sancılarını ustalıkla işledi."
+    },
+    {
+      "date": "14 Aralık",
+      "year": 1911,
+      "event_title": "Güney Kutbu'na Ulaşıldı",
+      "description": "Norveçli kaşif Roald Amundsen, Güney Kutbu noktasına ulaşan ilk insan oldu. İngiliz rakibi Robert Scott'tan 34 gün önce hedefe varan Amundsen, kutup yarışının galibi oldu."
+    },
+    {
+      "date": "15 Aralık",
+      "year": 1055,
+      "event_title": "Bağdat'a Selçuklu Girişi",
+      "description": "Selçuklu Sultanı Tuğrul Bey, Abbasi Halifesi'nin daveti üzerine Bağdat'a girdi. Siyasi yetkiyi halifeden devralan Tuğrul Bey, İslam dünyasının koruyucusu ve lideri konumuna yükseldi."
+    },
+    {
+      "date": "16 Aralık",
+      "year": 1773,
+      "event_title": "Boston Çay Partisi",
+      "description": "İngiltere'nin çay vergisini protesto eden Amerikalı kolonistler, Boston limanındaki İngiliz gemilerini basarak çay sandıklarını denize döktü. Bu eylem, Amerikan Bağımsızlık Savaşı'nın kıvılcımı oldu."
+    },
+    {
+      "date": "17 Aralık",
+      "year": 1273,
+      "event_title": "Mevlana'nın Vuslatı",
+      "description": "Büyük mutasavvıf Mevlana Celaleddin-i Rumi, Konya'da Hakk'a yürüdü. Ölümünü 'Şeb-i Arus' (Düğün Gecesi) yani Rabbine kavuşma günü olarak nitelendiren Mevlana, hoşgörü öğretisiyle tüm dünyayı etkiledi."
+    },
+    {
+      "date": "18 Aralık",
+      "year": 2002,
+      "event_title": "Necip Hablemitoğlu Suikastı",
+      "description": "Tarihçi ve yazar Doç. Dr. Necip Hablemitoğlu, evinin önünde uğradığı suikast sonucu hayatını kaybetti. Türkiye üzerindeki istihbarat oyunlarını araştıran yazarın ölümü faili meçhul kaldı."
+    },
+    {
+      "date": "19 Aralık",
+      "year": 1915,
+      "event_title": "Çanakkale'den Tahliye",
+      "description": "İtilaf Devletleri, Çanakkale Kara Savaşları'ndaki başarısızlık üzerine Gelibolu Yarımadası'nı boşaltMayısa başladı. Türk askerinin direnişi, düşmanı çekilmeye mecbur bıraktı."
+    },
+    {
+      "date": "20 Aralık",
+      "year": 1915,
+      "event_title": "Anzaklar Çekildi",
+      "description": "Anzak ve İngiliz birlikleri, Arıburnu ve Suvla bölgelerinden tamamen çekildi. Geride binlerce ölü ve tarihin en büyük amfibi fiyaskolarından birini bırakarak Çanakkale'yi terk ettiler."
+    },
+    {
+      "date": "21 Aralık",
+      "year": 1963,
+      "event_title": "Kanlı Noel",
+      "description": "Kıbrıs'ta Rum silahlı örgütü EOKA'nın Türklere yönelik saldırıları başladı. 'Kanlı Noel' olarak anılan olaylarda yüzlerce Kıbrıs Türkü katledildi veya göçe zorlandı."
+    },
+    {
+      "date": "22 Aralık",
+      "year": 1914,
+      "event_title": "Sarıkamış Harekatı",
+      "description": "Enver Paşa komutasındaki Osmanlı ordusu, Kars'ı Ruslardan geri almak için Sarıkamış Harekatı'nı başlattı. Aşırı soğuk ve donanım eksikliği nedeniyle binlerce asker donarak şehit oldu."
+    },
+    {
+      "date": "23 Aralık",
+      "year": 1930,
+      "event_title": "Menemen Olayı",
+      "description": "İzmir'in Menemen ilçesinde gerici bir grup tarafından Yedek Subay Öğretmen Mustafa Fehmi Kubilay şehit edildi. Cumhuriyet rejimine karşı yapılan bu ayaklanma sert bir şekilde bastırıldı."
+    },
+    {
+      "date": "24 Aralık",
+      "year": 1968,
+      "event_title": "Dünya'nın Doğuşu",
+      "description": "Apollo 8 astronotları, Ay yörüngesindeyken 'Earthrise' (Dünya'nın Doğuşu) fotoğrafını çekti. Uzaydan mavi gezegenin bu görüntüsü, çevre bilincinin oluşmasında ikonik bir rol oynadı."
+    },
+    {
+      "date": "25 Aralık",
+      "year": 1989,
+      "event_title": "Çavuşesku'nun İdamı",
+      "description": "Romanya'nın devrik komünist lideri Nikolay Çavuşesku ve eşi, halk ayaklanması sonucu yargılandı ve kurşuna dizildi. Bu olay, Doğu Bloğu'ndaki rejimlerin çöküşünün en kanlı sahnesiydi."
+    },
+    {
+      "date": "26 Aralık",
+      "year": 2004,
+      "event_title": "Hint Okyanusu Tsunamisi",
+      "description": "Sumatra açıklarında meydana gelen 9.1 büyüklüğündeki deprem ve ardından oluşan dev tsunami, 14 ülkede 230 binden fazla insanın ölümüne neden oldu. Tarihin en büyük doğal felaketlerinden biridir."
+    },
+    {
+      "date": "27 Aralık",
+      "year": 1919,
+      "event_title": "Atatürk Ankara'da",
+      "description": "Mustafa Kemal Paşa ve Temsil Heyeti üyeleri Ankara'ya geldi. Şehir halkı tarafından büyük bir coşkuyla karşılanan heyet, Ankara'yı Milli Mücadele'nin merkezi haline getirdi."
+    },
+    {
+      "date": "28 Aralık",
+      "year": 1895,
+      "event_title": "Sinemanın Doğuşu",
+      "description": "Lumière Kardeşler, Paris'te tarihin ilk halka açık ticari film gösterimini yaptı. 'Trenin Gara Girişi'ni izleyen seyirciler, trenin üzerlerine geldiğini sanarak korkuyla kaçıştı."
+    },
+    {
+      "date": "29 Aralık",
+      "year": 1995,
+      "event_title": "Kardak Krizi",
+      "description": "Ege Denizi'ndeki Kardak kayalıkları nedeniyle Türkiye ve Yunanistan savaşın eşiğine geldi. Türk komandolarının kayalıklara çıkmasıyla kriz, Türkiye'nin kararlılığıyla çözüldü."
+    },
+    {
+      "date": "30 Aralık",
+      "year": 1922,
+      "event_title": "SSCB Kuruldu",
+      "description": "Rusya, Ukrayna, Belarus ve Transkafkasya cumhuriyetlerinin birleşmesiyle Sovyet Sosyalist Cumhuriyetler Birliği (SSCB) resmen kuruldu. Birlik, Soğuk Savaş boyunca dünyanın iki süper gücünden biri olacaktı."
+    },
+    {
+      "date": "31 Aralık",
+      "year": 1879,
+      "event_title": "Edison ve Ampul",
+      "description": "Thomas Edison, elektrikli ampulü ilk kez halka açık bir gösteriyle tanıttı. Menlo Park sokaklarının aydınlatılması, karanlık gecelerin sona erip elektrik çağının başladığının habercisiydi."
+    }
+  ]
+}
